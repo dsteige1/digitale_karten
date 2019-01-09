@@ -3,18 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>Slider</title>
-    <script src="https://code.jquery.com/jquery-latest.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+            padding:0;
+        }
+        #slider{
+            position: relative;
+        }
+        .canvas_slider {
+            position: absolute;
+            z-index: 10 !important;
+            background-color: #ec4637 !important;
+            top: 0;
+        }
+    </style>
+
 </head>
 <body>
 
     <div id="slider">
-        <canvas id="canvas_1"></canvas>
+        <canvas id="canvas_1" width="732" height="40"></canvas>
+        <div class="canvas_slider"></div>
     </div>
+
+    <p id="date"></p>
     <script>
+
+        var date = document.getElementById('date');
+        var slider = document.getElementsByClassName('canvas_slider')[0];
 
         var jsonObj1 = {};
 
-        for (let i = 0; i <= 100; i++){ //erstellt 100 objekte mit zufälligen werten bis eine Datenbank steht.
+        for (let i = 1; i <= 365; i++){ //erstellt 100 objekte mit zufälligen werten bis eine Datenbank steht.
             jsonObj1[i]= Math.floor((Math.random() * 150) + 1);
         }
 
@@ -27,12 +49,12 @@
         var sliderbar = function () {
             ctx.beginPath();
             ctx.strokeStyle ="#000000";
-            ctx.lineWidth = 5; //Breite der Balken
+            ctx.lineWidth = 2; //Breite der Balken
             var objHeight;
             for (let i = 0; i <= objLength; i++){
-                objHeight = jsonObj1[i]%30; //damit die Balken nicht mehr als 30px hoch sind
-                ctx.moveTo(ctx.lineWidth/2+ctx.lineWidth*i, c.height);
-                ctx.lineTo(ctx.lineWidth/2+ctx.lineWidth*i, c.height-objHeight);
+                objHeight = jsonObj1[i]%39; //damit die Balken nicht mehr als 30px hoch sind
+                ctx.moveTo(ctx.lineWidth*i, c.height);
+                ctx.lineTo(ctx.lineWidth*i, c.height-objHeight);
                 ctx.stroke();
             }
             ctx.closePath();
@@ -42,24 +64,34 @@
         //hover
 
         c.onmousemove = function(e){
-            var r = c.getBoundingClientRect(),
-                x = e.clientX - r.left, y = e.clientY - r.top;
-            hover = false;
+/*          andere Möglichkeit:
 
+            updateCanvas();
+            var r = c.getBoundingClientRect(),
+                x = e.clientX - r.left;
             ctx.beginPath();
             ctx.strokeStyle ="#ff0019";
-            ctx.lineWidth = 6;
-            ctx.moveTo(ctx.lineWidth-3, c.height)
-            ctx.lineTo(ctx.lineWidth-3, c.height-40);
+            ctx.lineWidth = 4;
+            ctx.moveTo(x, c.height)
+            ctx.lineTo(x, c.height-39);
             ctx.stroke();
+*/
+            var r = c.getBoundingClientRect(),
+                x = e.clientX - r.left;
+            slider.style.cssText = "display: inline; width: 2px; height: 40px; left: " + x + "px; ";
+            date.innerText = "Tag " + parseInt(x/2);
         }
 
-        c.onmouseleave = function () {
-            ctx.clearRect(-2, 0, ctx.canvas.width, ctx.canvas.height);
-            sliderbar();
+        slider.onmouseleave = function () {
+            //updateCanvas();
+            slider.style.cssText = "display: none;";
         }
-
-
+/*
+function updateCanvas (){
+    ctx.clearRect(-1, 0, ctx.canvas.width, ctx.canvas.height);
+    sliderbar();
+}
+*/
     </script>
 </body>
 </html>
