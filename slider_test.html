@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Slider</title>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
 </head>
 <body>
-    <canvas id="canvas_1"></canvas>
 
-
+    <div id="slider">
+        <canvas id="canvas_1"></canvas>
+    </div>
     <script>
 
         var jsonObj1 = {};
@@ -20,16 +22,43 @@
 
         var c = document.getElementById('canvas_1');
         var ctx = c.getContext('2d');
-        ctx.fillStyle = "#FFF"; //Balken werden schwarz.
-        ctx.beginPath();
-        ctx.lineWidth = 5; //Breite der Balken
-        var objHeight;
-        for (let i = 0; i <= objLength; i++){
-            objHeight = jsonObj1[i]%30; //damit die Balken nicht mehr als 30px hoch sind
-            ctx.moveTo(ctx.lineWidth*i, c.height);
-            ctx.lineTo(ctx.lineWidth*i, c.height-objHeight);
+        ctx.translate(0.5, 0.5);
+        ctx.fillStyle = "#FFF";
+        var sliderbar = function () {
+            ctx.beginPath();
+            ctx.strokeStyle ="#000000";
+            ctx.lineWidth = 5; //Breite der Balken
+            var objHeight;
+            for (let i = 0; i <= objLength; i++){
+                objHeight = jsonObj1[i]%30; //damit die Balken nicht mehr als 30px hoch sind
+                ctx.moveTo(ctx.lineWidth/2+ctx.lineWidth*i, c.height);
+                ctx.lineTo(ctx.lineWidth/2+ctx.lineWidth*i, c.height-objHeight);
+                ctx.stroke();
+            }
+            ctx.closePath();
+        }
+        sliderbar();
+
+        //hover
+
+        c.onmousemove = function(e){
+            var r = c.getBoundingClientRect(),
+                x = e.clientX - r.left, y = e.clientY - r.top;
+            hover = false;
+
+            ctx.beginPath();
+            ctx.strokeStyle ="#ff0019";
+            ctx.lineWidth = 6;
+            ctx.moveTo(ctx.lineWidth-3, c.height)
+            ctx.lineTo(ctx.lineWidth-3, c.height-40);
             ctx.stroke();
         }
+
+        c.onmouseleave = function () {
+            ctx.clearRect(-2, 0, ctx.canvas.width, ctx.canvas.height);
+            sliderbar();
+        }
+
 
     </script>
 </body>
