@@ -7,11 +7,13 @@
     <style>
         body {
             margin: 0;
-            padding:0;
+            padding: 0;
         }
-        #slider{
+
+        #slider {
             position: relative;
         }
+
         .canvas_slider {
             position: absolute;
             z-index: 10 !important;
@@ -23,75 +25,56 @@
 </head>
 <body>
 
-    <div id="slider">
-        <canvas id="canvas_1" width="732" height="40"></canvas>
-        <div class="canvas_slider"></div>
-    </div>
+<div id="slider">
+    <canvas height="40" id="canvas_1" width="732"></canvas>
+    <div class="canvas_slider"></div>
+</div>
 
-    <p id="date"></p>
-    <script>
+<p id="date"></p>
+<script>
+    var date = document.getElementById('date');
+    var slider = document.getElementsByClassName('canvas_slider')[0];
 
-        var date = document.getElementById('date');
-        var slider = document.getElementsByClassName('canvas_slider')[0];
+    var jsonObj1 = {};
 
-        var jsonObj1 = {};
+    for (let i = 1; i <= 365; i++) { //erstellt 365 Objekte mit zufälligen Werten bis eine Datenbank steht.
+        jsonObj1[i] = Math.floor((Math.random() * 150) + 1);
+    }
 
-        for (let i = 1; i <= 365; i++){ //erstellt 100 objekte mit zufälligen werten bis eine Datenbank steht.
-            jsonObj1[i]= Math.floor((Math.random() * 150) + 1);
-        }
+    var objLength = Object.keys(jsonObj1).length; //Zählt die Anzahl der Objekte
 
-        var objLength = Object.keys(jsonObj1).length; //zählt die anzahl der objekte
+    var c = document.getElementById('canvas_1');
+    var ctx = c.getContext('2d');
+    ctx.translate(0.5, 0.5);
+    ctx.fillStyle = "#FFF";
+    ctx.beginPath();
+    ctx.strokeStyle = "#000000";
+    ctx.lineWidth = 2; //Breite der Balken
+    var objHeight;
+    for (let i = 1; i <= objLength; i++) {
+        objHeight = jsonObj1[i] % 39; //damit die Balken nicht mehr als 40px hoch sind
+        ctx.moveTo(ctx.lineWidth * i, c.height);
+        ctx.lineTo(ctx.lineWidth * i, c.height - objHeight);
+        ctx.stroke();
+    }
+    ctx.closePath();
 
-        var c = document.getElementById('canvas_1');
-        var ctx = c.getContext('2d');
-        ctx.translate(0.5, 0.5);
-        ctx.fillStyle = "#FFF";
-        var sliderbar = function () {
-            ctx.beginPath();
-            ctx.strokeStyle ="#000000";
-            ctx.lineWidth = 2; //Breite der Balken
-            var objHeight;
-            for (let i = 0; i <= objLength; i++){
-                objHeight = jsonObj1[i]%39; //damit die Balken nicht mehr als 30px hoch sind
-                ctx.moveTo(ctx.lineWidth*i, c.height);
-                ctx.lineTo(ctx.lineWidth*i, c.height-objHeight);
-                ctx.stroke();
-            }
-            ctx.closePath();
-        }
-        sliderbar();
+    c.onmousemove = function (e) {
+        var r = c.getBoundingClientRect(),
+            x = e.clientX - r.left;
+        var day = parseInt(x / 2);
+        slider.style.cssText = "display: inline; width: 2px; height: 40px; left: " + x + "px; ";
+        if (day != 0)
+            date.innerText = "Tag " + day;
+        slider.onclick = function () {
+            if (day != 0)
+                location.href = '#' + day;
+        }; //öffnet link.
+    };
 
-        //hover
-
-        c.onmousemove = function(e){
-/*          andere Möglichkeit:
-
-            updateCanvas();
-            var r = c.getBoundingClientRect(),
-                x = e.clientX - r.left;
-            ctx.beginPath();
-            ctx.strokeStyle ="#ff0019";
-            ctx.lineWidth = 4;
-            ctx.moveTo(x, c.height)
-            ctx.lineTo(x, c.height-39);
-            ctx.stroke();
-*/
-            var r = c.getBoundingClientRect(),
-                x = e.clientX - r.left;
-            slider.style.cssText = "display: inline; width: 2px; height: 40px; left: " + x + "px; ";
-            date.innerText = "Tag " + parseInt(x/2);
-        }
-
-        slider.onmouseleave = function () {
-            //updateCanvas();
-            slider.style.cssText = "display: none;";
-        }
-/*
-function updateCanvas (){
-    ctx.clearRect(-1, 0, ctx.canvas.width, ctx.canvas.height);
-    sliderbar();
-}
-*/
-    </script>
+    document.getElementById('slider').onmouseleave = function () {
+        slider.style.cssText = "display: none;";
+    }
+</script>
 </body>
 </html>
