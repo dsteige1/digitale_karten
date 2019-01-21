@@ -52,6 +52,16 @@ require([
                 "name" : "Club Bahnhof Ehrenfeld",
                 "longitude": 6.916088,
                 "latitude": 50.951840
+            },
+            {
+                "name" : "Helios 37",
+                "longitude": 6.913468,
+                "latitude": 50.950294
+            },
+            {
+                "name" : "Artheater",
+                "longitude": 6.918748,
+                "latitude": 50.953241
             }
         ]
 
