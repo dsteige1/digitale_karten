@@ -1,0 +1,776 @@
+{
+  "datenbank": {
+    "event": [
+      {
+        "id": "1",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "King Kong Kicks – Das erste Mal mit Achtzehn ",
+          "daten": {
+            "datum": "2018-01-05",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "King Kong Kicks",
+          "teilnehmerzahl": {
+            "teilgenommen": "172",
+            "interessiert": "216"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "2",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Drop That! 4th Anniversary at Heinz Gaul ",
+          "daten": {
+            "datum": "2018-01-06",
+            "uhrzeit": "23:30",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Drop That Cologne",
+          "teilnehmerzahl": {
+            "teilgenommen": "452",
+            "interessiert": "898"
+          },
+          "eintritt": "13"
+        }
+      },
+      {
+        "id": "3",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Weird Sounds w/ Giorgia Angiuli",
+          "daten": {
+            "datum": "2018-01-12",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "196",
+            "interessiert": "757"
+          },
+          "eintritt": "13"
+        }
+      },
+      {
+        "id": "4",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Trash Island ",
+          "daten": {
+            "datum": "2018-01-13",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Trash Island Party",
+          "teilnehmerzahl": {
+            "teilgenommen": "368",
+            "interessiert": "1198"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "5",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Hip Hop Evolution",
+          "daten": {
+            "datum": "2018-01-19",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Beatsmart",
+          "teilnehmerzahl": {
+            "teilgenommen": "54",
+            "interessiert": "679"
+          },
+          "eintritt": "13"
+        }
+      },
+      {
+        "id": "6",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Festival d’electronique",
+          "daten": {
+            "datum": "2018-01-20",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Lichtblick",
+          "teilnehmerzahl": {
+            "teilgenommen": "733",
+            "interessiert": "5889"
+          },
+          "eintritt": "18"
+        }
+      },
+      {
+        "id": "7",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "ZIRKUS BEATZARR",
+          "daten": {
+            "datum": "2018-01-26",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Zirkus Beatzarr",
+          "teilnehmerzahl": {
+            "teilgenommen": "264",
+            "interessiert": "684"
+          },
+          "eintritt": "12"
+        }
+      },
+      {
+        "id": "8",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": " Kitball Showcase w/ Tube & Berger, Hanne & Lore, Juliet Sikora ",
+          "daten": {
+            "datum": "2018-01-27",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "210",
+            "interessiert": "1315"
+          },
+          "eintritt": "12"
+        }
+      },
+      {
+        "id": "9",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Trashpop im Club Bahnhof Ehrenfeld",
+          "daten": {
+            "datum": "2018-01-05",
+            "uhrzeit": "22:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Trashpop",
+          "teilnehmerzahl": {
+            "teilgenommen": "123",
+            "interessiert": "808"
+          },
+          "eintritt": "8"
+        }
+      },
+      {
+        "id": "10",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Liebemachen. + HIP HOP Area",
+          "daten": {
+            "datum": "2018-01-06",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Trashpop",
+          "teilnehmerzahl": {
+            "teilgenommen": "122",
+            "interessiert": "781"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "11",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "ONE MORE TIME - Die hits von 2000-2010",
+          "daten": {
+            "datum": "2018-01-12",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "ONE MORE TIME",
+          "teilnehmerzahl": {
+            "teilgenommen": "78",
+            "interessiert": "682"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "12",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "HUSH HUSH - DIE Hip-Hop Party",
+          "daten": {
+            "datum": "2018-01-13",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "HUSH HUSH",
+          "teilnehmerzahl": {
+            "teilgenommen": "99",
+            "interessiert": "633"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "13",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Herz and Herz - das Jahrhundertmixtape",
+          "daten": {
+            "datum": "2018-01-19",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "HERZ an HERZ",
+          "teilnehmerzahl": {
+            "teilgenommen": "74",
+            "interessiert": "381"
+          },
+          "eintritt": "8"
+        }
+      },
+      {
+        "id": "14",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "RADIO SABOR - LATIN CLUB",
+          "daten": {
+            "datum": "2018-01-20",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "HERZ an HERZ",
+          "teilnehmerzahl": {
+            "teilgenommen": "437",
+            "interessiert": "1243"
+          },
+          "eintritt": "12"
+        }
+      },
+      {
+        "id": "15",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "BEATZ&BOYZ - No. 43",
+          "daten": {
+            "datum": "2018-01-26",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "BEATZ&BOYZ",
+          "teilnehmerzahl": {
+            "teilgenommen": "112",
+            "interessiert": "233"
+          },
+          "eintritt": "8"
+        }
+      },
+      {
+        "id": "16",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Don't tell Dad! Party",
+          "daten": {
+            "datum": "2018-01-27",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Underdog Recordstore",
+          "teilnehmerzahl": {
+            "teilgenommen": "49",
+            "interessiert": "525"
+          },
+          "eintritt": "8"
+        }
+      },
+      {
+        "id": "17",
+        "location": {
+          "gaststaette": "Artheater",
+          "lat": "50.9531961",
+          "long": "6.9184983"
+        },
+        "veranstaltung": {
+          "name": "Zwischenmiete Club Edition Resident Night #2",
+          "daten": {
+            "datum": "2018-01-05",
+            "uhrzeit": "23:59",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Zwischenmiete",
+          "teilnehmerzahl": {
+            "teilgenommen": "30",
+            "interessiert": "112"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "18",
+        "location": {
+          "gaststaette": "Artheater",
+          "lat": "50.9531961",
+          "long": "6.9184983"
+        },
+        "veranstaltung": {
+          "name": "BergWacht mit Alessandro Diga (Manual Music/BergWacht)",
+          "daten": {
+            "datum": "2018-01-06",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "BergWacht",
+          "teilnehmerzahl": {
+            "teilgenommen": "73",
+            "interessiert": "334"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "19",
+        "location": {
+          "gaststaette": "Artheater",
+          "lat": "50.9531961",
+          "long": "6.9184983"
+        },
+        "veranstaltung": {
+          "name": "Karl Bartos: Der Klang der Maschine/Moderation: Klaus Fiehe",
+          "daten": {
+            "datum": "2018-01-12",
+            "uhrzeit": "20:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Trocadero",
+          "teilnehmerzahl": {
+            "teilgenommen": "97",
+            "interessiert": "210"
+          },
+          "eintritt": "14"
+        }
+      },
+      {
+        "id": "20",
+        "location": {
+          "gaststaette": "Artheater",
+          "lat": "50.9531961",
+          "long": "6.9184983"
+        },
+        "veranstaltung": {
+          "name": "Animado at Artheater w/Wehbba",
+          "daten": {
+            "datum": "2018-01-12",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "ANIMADO",
+          "teilnehmerzahl": {
+            "teilgenommen": "206",
+            "interessiert": "755"
+          },
+          "eintritt": "11"
+        }
+      },
+      {
+        "id": "21",
+        "location": {
+          "gaststaette": "Artheater",
+          "lat": "50.9531961",
+          "long": "6.9184983"
+        },
+        "veranstaltung": {
+          "name": "BACKSTAGE DiARiES",
+          "daten": {
+            "datum": "2018-01-13",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "BACKSTAGE DiARiES",
+          "teilnehmerzahl": {
+            "teilgenommen": "155",
+            "interessiert": "594"
+          },
+          "eintritt": "8"
+        }
+      },
+      {
+        "id": "22",
+        "location": {
+          "gaststaette": "Artheater",
+          "lat": "50.9531961",
+          "long": "6.9184983"
+        },
+        "veranstaltung": {
+          "name": "Woken w/ KNOBS & Lukas Freudenberger",
+          "daten": {
+            "datum": "2018-01-19",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Technopuls.",
+          "teilnehmerzahl": {
+            "teilgenommen": "112",
+            "interessiert": "418"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "23",
+        "location": {
+          "gaststaette": "Artheater",
+          "lat": "50.9531961",
+          "long": "6.9184983"
+        },
+        "veranstaltung": {
+          "name": "Festival d'electronique in Ehrenfeld",
+          "daten": {
+            "datum": "2018-01-20",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Lichtblick",
+          "teilnehmerzahl": {
+            "teilgenommen": "732",
+            "interessiert": "5882"
+          },
+          "eintritt": "18"
+        }
+      },
+      {
+        "id": "24",
+        "location": {
+          "gaststaette": "Artheater",
+          "lat": "50.9531961",
+          "long": "6.9184983"
+        },
+        "veranstaltung": {
+          "name": "Obsession X Sturm&Klang present Hybris +Techno Floor",
+          "daten": {
+            "datum": "2018-01-26",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Obsession CGN",
+          "teilnehmerzahl": {
+            "teilgenommen": "155",
+            "interessiert": "619"
+          },
+          "eintritt": "8"
+        }
+      },
+      {
+        "id": "25",
+        "location": {
+          "gaststaette": "Artheater",
+          "lat": "50.9531961",
+          "long": "6.9184983"
+        },
+        "veranstaltung": {
+          "name": "HEEN & Sophia Wahnschaffe Live im Artheater",
+          "daten": {
+            "datum": "2018-01-27",
+            "uhrzeit": "20:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "HEEN",
+          "teilnehmerzahl": {
+            "teilgenommen": "42",
+            "interessiert": "88"
+          },
+          "eintritt": "5"
+        }
+      },
+      {
+        "id": "26",
+        "location": {
+          "gaststaette": "Artheater",
+          "lat": "50.9531961",
+          "long": "6.9184983"
+        },
+        "veranstaltung": {
+          "name": "Hasenbau x Artheater w/Julian Jeweil (Drumcode)",
+          "daten": {
+            "datum": "2018-01-27",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Hasenbau",
+          "teilnehmerzahl": {
+            "teilgenommen": "421",
+            "interessiert": "1725"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "27",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Underground Freitag",
+          "daten": {
+            "datum": "2018-01-05",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "55",
+            "interessiert": "755"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "28",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "CON TACTO & DANi VEGAS B-DAY ",
+          "daten": {
+            "datum": "2018-01-06",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Pirates of Cologne",
+          "teilnehmerzahl": {
+            "teilgenommen": "102",
+            "interessiert": "273"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "29",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "AERA with Marla Singer",
+          "daten": {
+            "datum": "2018-01-12",
+            "uhrzeit": "23:30",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Daniel Kötter, Mirco Curtis Mack, Andy Kern",
+          "teilnehmerzahl": {
+            "teilgenommen": "107",
+            "interessiert": "393"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "30",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "9 Jahre Indie Fresse Birthday Bash",
+          "daten": {
+            "datum": "2018-01-13",
+            "uhrzeit": "23:30",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Indie Fresse Party",
+          "teilnehmerzahl": {
+            "teilgenommen": "96",
+            "interessiert": "493"
+          },
+          "eintritt": "9"
+        }
+      },
+      {
+        "id": "31",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Underground Freitag",
+          "daten": {
+            "datum": "2018-01-19",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "36",
+            "interessiert": "659"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "32",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Festival d'electronique in Ehrenfeld",
+          "daten": {
+            "datum": "2018-01-20",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Lichtblick",
+          "teilnehmerzahl": {
+            "teilgenommen": "732",
+            "interessiert": "5.882"
+          },
+          "eintritt": "18"
+        }
+      },
+      {
+        "id": "33",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "YUM YUM l Good Vibes Only at Helios37",
+          "daten": {
+            "datum": "2018-01-26",
+            "uhrzeit": "23:59",
+            "tag": "Freitag"
+          },
+          "gastgeber": "YUM YUM",
+          "teilnehmerzahl": {
+            "teilgenommen": "0",
+            "interessiert": "365"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "34",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "SuSu - Music, Food & Art // Cologne ",
+          "daten": {
+            "datum": "2018-01-27",
+            "uhrzeit": "19:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Super Sunday",
+          "teilnehmerzahl": {
+            "teilgenommen": "84",
+            "interessiert": "421"
+          },
+          "eintritt": "29"
+        }
+      },
+      {
+        "id": "35",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "COSMO Club: SuSu After-Show-Party",
+          "daten": {
+            "datum": "2018-01-27",
+            "uhrzeit": "19:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Cosmo",
+          "teilnehmerzahl": {
+            "teilgenommen": "53",
+            "interessiert": "401"
+          },
+          "eintritt": "0"
+        }
+      }
+    ]
+  }
+}
