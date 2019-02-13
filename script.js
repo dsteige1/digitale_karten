@@ -41,7 +41,6 @@ require([
 
         //map.add(transportationLayer);
 
-
         var point = [
             {
                 "name" : "Heinz Gaul",
