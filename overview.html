@@ -5,43 +5,31 @@
     <title>Slider</title>
 
     <style>
-
-
     </style>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="connector.js"></script>
 </head>
 <body>
 
 <div id="overview"></div>
 
-<p id="date"></p>
 <script>
     var overview = document.getElementById("overview");
 
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            showResult(xhttp.responseXML);
-        }
-    };
-    xhttp.open("GET", "data/datensatz.xml", true);
-    xhttp.send();
 
-    function showResult(xml) {
-        var txt = "";
-        path = "//gaststaette";
-        if (xml.evaluate) {
-            var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
-            var result = nodes.iterateNext();
-            while (result) {
-                txt += result.childNodes[0].nodeValue + "<br>";
-                result = nodes.iterateNext();
+    var result = [];
+    loop1: for (var i = 0; i < data.datenbank.event.length; i++) {
+        var name = data.datenbank.event[i].location.gaststaette;
+        for (var i2 = 0; i2 < result.length; i2++) {
+            if (result[i2] == name) {
+                continue loop1;
             }
         }
-        overview.innerHTML = txt;
+        result.push(name);
     }
 
-    //Letzte id: descendant::id[last()]
+        overview.innerHTML = result.length;
 
 </script>
 </body>

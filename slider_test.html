@@ -22,6 +22,8 @@
         }
     </style>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="connector.js"></script>
 </head>
 <body>
 
@@ -35,10 +37,20 @@
     var date = document.getElementById('date');
     var slider = document.getElementsByClassName('canvas_slider')[0];
 
-    var jsonObj1 = {};
+    var jsonObj1 = filldata();
 
-    for (let i = 1; i <= 365; i++) { //erstellt 365 Objekte mit zufälligen Werten bis eine Datenbank steht.
-        jsonObj1[i] = Math.floor((Math.random() * 150) + 1);
+    function filldata() {
+        var json = {};
+        for (let i = 1; i <= 365; i++) { //erstellt 365 Objekte mit zufälligen Werten bis eine Datenbank steht.
+            json[i] = 0 /*Math.floor((Math.random() * 150) + 1)*/;
+        }
+
+        for (let i = 0; i < data.datenbank.event.length; i++){
+            var datum = new Date(data.datenbank.event[i].veranstaltung.daten.datum);
+            json[getDayOfYear(datum)]+=5;
+        }
+
+        return json;
     }
 
     var objLength = Object.keys(jsonObj1).length; //Zählt die Anzahl der Objekte
@@ -71,6 +83,15 @@
                 location.href = '#' + day;
         }; //öffnet link.
     };
+
+    function getDayOfYear(date){
+        var now = date;
+        var start = new Date(now.getFullYear(), 0, 0);
+        var diff = (now - start) + ((start.getTimezoneOffset() - now.getTimezoneOffset()) * 60 * 1000);
+        var oneDay = 1000 * 60 * 60 * 24;
+        var day = Math.floor(diff / oneDay);
+        return day;
+    } //Quelle https://stackoverflow.com/questions/8619879/javascript-calculate-the-day-of-the-year-1-366
 
     document.getElementById('slider').onmouseleave = function () {
         slider.style.cssText = "display: none;";
