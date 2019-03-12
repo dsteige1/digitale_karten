@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slider</title>
+
+    <style>
+
+
+    </style>
+
+</head>
+<body>
+
+<div id="overview"></div>
+
+<p id="date"></p>
+<script>
+    var overview = document.getElementById("overview");
+
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            showResult(xhttp.responseXML);
+        }
+    };
+            xhttp.open("GET", "data/datensatz.xml", true);
+            xhttp.send();
+
+    function showResult(xml) {
+        var txt = "";
+        path = "/event"
+        if (xml.evaluate) {
+            var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
+            var result = nodes.iterateNext();
+            while (result) {
+                txt += result.childNodes[0].nodeValue + "<br>";
+                result = nodes.iterateNext();
+            }
+        }
+        overview.innerHTML = txt;
+    }
+
+</script>
+</body>
+</html>
