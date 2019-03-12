@@ -24,12 +24,12 @@
             showResult(xhttp.responseXML);
         }
     };
-            xhttp.open("GET", "data/datensatz.xml", true);
-            xhttp.send();
+    xhttp.open("GET", "data/datensatz.xml", true);
+    xhttp.send();
 
     function showResult(xml) {
         var txt = "";
-        path = "/event"
+        path = "/datenbank/event/location/gaststaette";
         if (xml.evaluate) {
             var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
             var result = nodes.iterateNext();
