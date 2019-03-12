@@ -32,7 +32,7 @@ require([
         Graphic = GraphicClass;    //enable for outer drawPoint()
 
         map = new Map({
-            basemap: "topo",
+            basemap: "dark-gray",
             //layers: [housingLayer]
         });
 
@@ -116,6 +116,7 @@ require([
 
         //Basemaps
 
+        /*
         var basemapGallery = new BasemapGallery({
             view: view,
             source: {
@@ -130,9 +131,10 @@ require([
             view: view,
             secondMap: "satellite"
         });
+        */
 
         // Add to the view
-        view.ui.add(basemapToggle, "bottom-right");
+        //view.ui.add(basemapToggle, "bottom-right");
 
         // Add to the view. BUT: If enabled throws error:
         //"TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'."
