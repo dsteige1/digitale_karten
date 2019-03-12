@@ -1,6 +1,9 @@
 //var require;
 let Graphic;
 let view;
+let map;
+let graphic;
+let MarkerLayer;
 
 require([
         "esri/Map",
@@ -8,6 +11,7 @@ require([
         "esri/widgets/BasemapToggle",
         "esri/widgets/BasemapGallery",
         "esri/layers/TileLayer",
+        "esri/layers/GraphicsLayer",
         "esri/Graphic",
         "esri/geometry/Point",
         "esri/symbols/SimpleMarkerSymbol",
@@ -19,6 +23,7 @@ require([
         TileLayer,
         BasemapToggle,
         BasemapGallery,
+        GraphicsLayer,
         //Graphic,      //disable for outer drawPoint()
         GraphicClass, //enable for outer drawPoint()
         Point,
@@ -26,8 +31,7 @@ require([
     ) {
         Graphic = GraphicClass;    //enable for outer drawPoint()
 
-
-        var map = new Map({
+        map = new Map({
             basemap: "topo",
             //layers: [housingLayer]
         });
@@ -38,8 +42,6 @@ require([
             zoom: 15,
             map: map
         });
-
-        //map.add(transportationLayer);
 
         var point = [
             {
@@ -63,6 +65,12 @@ require([
                 "latitude": 50.953241
             }
         ]
+
+        MarkerLayer = new GraphicsLayer({
+            //graphics: [graphic]
+        })
+
+        map.add(MarkerLayer);           //Add Layer to Map
 
         for (let i=0; i < point.length; i++){
             //console.log(point[i].longitude);
@@ -123,13 +131,19 @@ require([
             secondMap: "satellite"
         });
 
-        view.ui.add(basemapToggle, "bottom-right"); // Add to the view
-        view.ui.add(basemapGallery, "top-right"); // Add to the view#
+        // Add to the view
+        view.ui.add(basemapToggle, "bottom-right");
 
+        // Add to the view. BUT: If enabled throws error:
+        //"TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'."
+        //view.ui.add(basemapGallery, "top-right"); 
     });
 
-function drawPoint(x,y,n){
 
+//Function to add Markers to the Layer
+
+function drawPoint(x,y,n)
+{
     let p = {
         type: "point",
         longitude   : x,
@@ -151,9 +165,26 @@ function drawPoint(x,y,n){
         //content: "I am a <strong>{Type}</strong> in the city of <strong>{City}</strong>."
     };
 
-    let graphic = new Graphic({geometry: p, symbol: s, popupTemplate: popupTemplate})
+    graphic = new Graphic({
+        geometry: p, 
+        symbol: s, 
+        popupTemplate: 
+        popupTemplate
+    })
+    
+    MarkerLayer.graphics.add(graphic);      //Adds graphics (markers) to Layer
+    //MarkerLayer.add(graphic);
 
-    view.graphics.add(graphic);
+    //view.graphics.add(graphic);           //Would add graphics directly to the view (we don't want that)
 
     return;
+}
+
+setTimeout(clearGraphics,5000);             //Just for demonstration
+
+function clearGraphics()
+{
+        console.log("Timeout.");
+        MarkerLayer.removeAll();            //Removes all graphics from Layer
+        console.log("MarkerLayer cleared.");
 }
