@@ -201,3 +201,30 @@ function getClubs(){
     }
     return point;
 }
+
+function getDayOfYear(date){
+    var now = date;
+    var start = new Date(now.getFullYear(), 0, 0);
+    var diff = (now - start) + ((start.getTimezoneOffset() - now.getTimezoneOffset()) * 60 * 1000);
+    var oneDay = 1000 * 60 * 60 * 24;
+    var day = Math.floor(diff / oneDay);
+    return day;
+} //Quelle: https://stackoverflow.com/questions/8619879/javascript-calculate-the-day-of-the-year-1-366
+
+function dateFromDay(year, day){
+    var date = new Date(year, 0); // initialize a date in `year-01-01`
+    return new Date(date.setDate(day)); // add the number of days
+} // Quelle: https://stackoverflow.com/questions/4048688/how-can-i-convert-day-of-year-to-date-in-javascript
+
+function getEventsOfDay (day) {
+
+    var date = dateFromDay(2018, day)
+    var result = [];
+    for (let i = 0; i < data.datenbank.event.length; i++){
+        var date2 = new Date(data.datenbank.event[i].veranstaltung.daten.datum);
+        if (date.toDateString() == date2.toDateString()){
+            result.push(data.datenbank.event[i]);
+        }
+    }
+    return result;
+}

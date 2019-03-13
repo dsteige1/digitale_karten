@@ -103,3 +103,15 @@ a {
 a:-webkit-any-link {
 color: white;
 }
+
+#slider {
+    position: relative;
+    background-color: aliceblue;
+}
+
+.canvas_slider {
+    position: absolute;
+    z-index: 10 !important;
+    background-color: #ec4637 !important;
+    top: 0;
+}
