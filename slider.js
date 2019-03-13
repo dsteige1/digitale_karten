@@ -19,7 +19,7 @@ for (let i = 1; i <= objLength; i++) {
     ctx.stroke();
 }
 ctx.closePath();
-var bla = [];
+var point = [];
 c.onmousemove = function (e) {
     var r = c.getBoundingClientRect(),
         x = e.clientX - r.left;
@@ -27,12 +27,16 @@ c.onmousemove = function (e) {
     slider.style.cssText = "display: inline; width: 2px; height: 40px; left: " + x + "px; ";
     if (day != 0)
         //date.innerText = dateFromDay(2018, day).toLocaleDateString();
-    bla = getEventsOfDay(day);
 
     slider.onclick = function () {
         if (day != 0)
-            location.href = '#' + day;
-    }; //öffnet link.
+            clearGraphics();
+        point = getEventsOfDay(day);
+        for (let i=0; i < point.length; i++){
+            //console.log(point[i].longitude);
+            drawPoint(point[i].location.long, point[i].location.lat, point[i].veranstaltung.name);
+        }
+    };
 };
 
 document.getElementById('slider').onmouseleave = function () {

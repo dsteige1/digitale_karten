@@ -43,7 +43,7 @@ require([
             map: map
         });
 
-        var point = getClubs();
+        //var point = getClubs();
 
         MarkerLayer = new GraphicsLayer({
             //graphics: [graphic]
@@ -52,10 +52,12 @@ require([
         map.add(MarkerLayer);           //Add Layer to Map
 
 
-        for (let i=0; i < point.length; i++){
+ /*       for (let i=0; i < point.length; i++){
             //console.log(point[i].longitude);
             drawPoint(point[i].longitude, point[i].latitude, point[i].name);
         }
+ */
+
 
 
         /*
@@ -168,8 +170,7 @@ function drawPoint(x,y,n)
 
 //setTimeout(clearGraphics,5000);             //Just for demonstration
 
-function clearGraphics()
-{
+function clearGraphics() {
     console.log("Timeout.");
     MarkerLayer.removeAll();            //Removes all graphics from Layer
     console.log("MarkerLayer cleared.");
