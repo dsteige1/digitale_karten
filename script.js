@@ -168,11 +168,9 @@ function drawPoint(x,y,n)
     return;
 }
 
-//setTimeout(clearGraphics,5000);             //Just for demonstration
-
 function clearGraphics() {
-    console.log("Timeout.");
-    MarkerLayer.removeAll();            //Removes all graphics from Layer
+
+    MarkerLayer.removeAll();                //Removes all graphics from Layer
     console.log("MarkerLayer cleared.");
 }
 

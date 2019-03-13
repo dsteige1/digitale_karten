@@ -24,7 +24,20 @@ html, body {
       background-color: white;
       border-radius: 8px;
       padding: 10px;
-      opacity: 0.75;
+      opacity: 0.5;
+}
+
+#infobox {
+    bottom: 250px;
+    right: 20px;
+    position: absolute;
+    width: 200px;
+    z-index: 99;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    opacity: 0.5;
+    font-size: 10pt;
 }
 
 #popup {
@@ -107,6 +120,7 @@ color: white;
 #slider {
     position: relative;
     background-color: aliceblue;
+
 }
 
 .canvas_slider {
