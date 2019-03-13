@@ -45,25 +45,6 @@ require([
 
         var point = getClubs();
 
-  /*      var point = [
-
-            {
-                "name" : "Club Bahnhof Ehrenfeld",
-                "longitude": 6.916088,
-                "latitude": 50.951840
-            },
-            {
-                "name" : "Helios 37",
-                "longitude": 6.913468,
-                "latitude": 50.950294
-            },
-            {
-                "name" : "Artheater",
-                "longitude": 6.918748,
-                "latitude": 50.953241
-            }
-        ]*/
-
         MarkerLayer = new GraphicsLayer({
             //graphics: [graphic]
         })
@@ -82,7 +63,6 @@ require([
                 latitude: 50.951840
             }
         );
-
         var markerSymbol = new SimpleMarkerSymbol({
             color: [226, 119, 40],
             outline: {
@@ -90,31 +70,33 @@ require([
                 width: 1
             }
         });
-
         var attributes = {
             Name: "Ich bin Heinz Gaul",
             Type: "Club",
             City: "Ehrenfeld"
         };
-
         var popupTemplate = {
             title: "{Name}",
             content: "I am a <strong>{Type}</strong> in the city of <strong>{City}</strong>."
         };
-
         var pointGraphic = new Graphic({
             geometry: point,
             symbol: markerSymbol,
             attributes: attributes,
             popupTemplate: popupTemplate
         });
-
         view.graphics.add(pointGraphic);
         */
 
         //Basemaps
 
-        /*
+
+        var basemapToggle = new BasemapToggle({
+            view: view,
+            secondMap: "satellite"
+        });
+
+
         var basemapGallery = new BasemapGallery({
             view: view,
             source: {
@@ -125,18 +107,15 @@ require([
             }
         });
 
-        var basemapToggle = new BasemapToggle({
-            view: view,
-            secondMap: "satellite"
-        });
-        */
+
 
         // Add to the view
         //view.ui.add(basemapToggle, "bottom-right");
 
         // Add to the view. BUT: If enabled throws error:
         //"TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'."
-        //view.ui.add(basemapGallery, "top-right"); 
+        //view.ui.add(basemapGallery, "top-right");
+
     });
 
 
@@ -166,12 +145,12 @@ function drawPoint(x,y,n)
     };
 
     graphic = new Graphic({
-        geometry: p, 
-        symbol: s, 
-        popupTemplate: 
+        geometry: p,
+        symbol: s,
+        popupTemplate:
         popupTemplate
     })
-    
+
     MarkerLayer.graphics.add(graphic);      //Adds graphics (markers) to Layer
     //MarkerLayer.add(graphic);
 
@@ -180,12 +159,13 @@ function drawPoint(x,y,n)
     return;
 }
 
+//setTimeout(clearGraphics,5000);             //Just for demonstration
 
 function clearGraphics()
 {
-        console.log("Timeout.");
-        MarkerLayer.removeAll();            //Removes all graphics from Layer
-        console.log("MarkerLayer cleared.");
+    console.log("Timeout.");
+    MarkerLayer.removeAll();            //Removes all graphics from Layer
+    console.log("MarkerLayer cleared.");
 }
 
 function getClubs(){
