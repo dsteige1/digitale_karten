@@ -180,6 +180,2008 @@
       {
         "id": "9",
         "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "RAW Night w/ I Hate Models, Tim Tama & Rezystor",
+          "daten": {
+            "datum": "2018-02-02",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Electronic Love",
+          "teilnehmerzahl": {
+            "teilgenommen": "303",
+            "interessiert": "1558"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "10",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Schwerelos 2000er & Wir singen 90er",
+          "daten": {
+            "datum": "2018-02-03",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Trash Island Party",
+          "teilnehmerzahl": {
+            "teilgenommen": "89",
+            "interessiert": "688"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "11",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Trash Island at Heinz Gaul am Karnevalsfreitag",
+          "daten": {
+            "datum": "2018-02-09",
+            "uhrzeit": "20:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Trash Island Party",
+          "teilnehmerzahl": {
+            "teilgenommen": "365",
+            "interessiert": "1962"
+          },
+          "eintritt": "12"
+        }
+      },
+      {
+        "id": "12",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Advanced Karneval mit Extrawelt live & Freunden",
+          "daten": {
+            "datum": "2018-02-10",
+            "uhrzeit": "23:30",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Advanced Cologne",
+          "teilnehmerzahl": {
+            "teilgenommen": "291",
+            "interessiert": "2047"
+          },
+          "eintritt": "12"
+        }
+      },
+      {
+        "id": "13",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Art of House w/ Kotelett & Zadak (Katermukke), Heinz Gaul",
+          "daten": {
+            "datum": "17.02.2018",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "234",
+            "interessiert": "1411"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "14",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Beats x Bass x Gaul • Weekender: Sascha Cawa (Katermukke) + TC (OWSLA, UK)",
+          "daten": {
+            "datum": "2018-02-23",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "177",
+            "interessiert": "1175"
+          },
+          "eintritt": "12"
+        }
+      },
+      {
+        "id": "15",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Ohne Vorspiel Jahresauftakt mit SIS, Khaan & uvm.",
+          "daten": {
+            "datum": "2018-02-24",
+            "uhrzeit": "23:30",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "154",
+            "interessiert": "1060"
+          },
+          "eintritt": "11"
+        }
+      },
+      {
+        "id": "16",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Eastnears X Fake Society",
+          "daten": {
+            "datum": "2018-03-02",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "44",
+            "interessiert": "293"
+          },
+          "eintritt": "12"
+        }
+      },
+      {
+        "id": "16",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Trash Island pres. Retro Klub #4",
+          "daten": {
+            "datum": "2018-03-03",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Trash Island Party",
+          "teilnehmerzahl": {
+            "teilgenommen": "152",
+            "interessiert": "1107"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "17",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Drop That w/ Fred V & Grafix + Deep Floor at Heinz Gaul",
+          "daten": {
+            "datum": "2018-03-09",
+            "uhrzeit": "23:30",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Drop That Cologne",
+          "teilnehmerzahl": {
+            "teilgenommen": "298",
+            "interessiert": "767"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "18",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Oldschool (ab 18+) mit DJ Cem & Pete Hair & Guest at Heinz Gaul",
+          "daten": {
+            "datum": "2018-03-10",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": " DJ CEM / BEATPACKERS",
+          "teilnehmerzahl": {
+            "teilgenommen": "61",
+            "interessiert": "457"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "19",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Trash Island at Heinz Gaul",
+          "daten": {
+            "datum": "2018-03-16",
+            "uhrzeit": "22:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Trash Island Party",
+          "teilnehmerzahl": {
+            "teilgenommen": "272",
+            "interessiert": "1208"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "20",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Advanced im Gaul mit Dominik Eulberg & Freunden",
+          "daten": {
+            "datum": "2018-03-17",
+            "uhrzeit": "23:30",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Advanced Cologne",
+          "teilnehmerzahl": {
+            "teilgenommen": "333",
+            "interessiert": "2651"
+          },
+          "eintritt": "12"
+        }
+      },
+      {
+        "id": "21",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "ZIRKUS BEATZARR | 23.03. @ Heinz Gaul",
+          "daten": {
+            "datum": "2018-03-23",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Zirkus Beatzarr",
+          "teilnehmerzahl": {
+            "teilgenommen": "220",
+            "interessiert": "565"
+          },
+          "eintritt": "7"
+        }
+      },
+      {
+        "id": "22",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Ehrenfeld XL - 10 Clubs 1 Nacht 1 Veedel",
+          "daten": {
+            "datum": "2018-03-24",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Ehrenfeld XL",
+          "teilnehmerzahl": {
+            "teilgenommen": "1962",
+            "interessiert": "8763"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "23",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Tonight! Osterbreakz XL ft. State Of Mind & Yousef",
+          "daten": {
+            "datum": "2018-03-31",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Pathfinder",
+          "teilnehmerzahl": {
+            "teilgenommen": "285",
+            "interessiert": "992"
+          },
+          "eintritt": "12"
+        }
+      },
+      {
+        "id": "24",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Schwerelos 2000er & Wir singen 90er",
+          "daten": {
+            "datum": "2018-04-06",
+            "uhrzeit": "22:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Trash Island Party",
+          "teilnehmerzahl": {
+            "teilgenommen": "140",
+            "interessiert": "1256"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "25",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Ohne Vorspiel \"Frühling\" w/ Marcus Meinhardt (Katermukke/Heinz)",
+          "daten": {
+            "datum": "2018-04-07",
+            "uhrzeit": "22:30",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Ohne Vorspiel",
+          "teilnehmerzahl": {
+            "teilgenommen": "132",
+            "interessiert": "1210"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "26",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Nakadia, Apriori & Hasenbau Floor at Heinz Gaul",
+          "daten": {
+            "datum": "2018-04-13",
+            "uhrzeit": "23:30",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "89",
+            "interessiert": "546"
+          },
+          "eintritt": "8"
+        }
+      },
+      {
+        "id": "27",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Hopping-Party im Helios 37 & Heinz Gaul",
+          "daten": {
+            "datum": "2018-04-14",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Ehrenfeld-Hopping",
+          "teilnehmerzahl": {
+            "teilgenommen": "79",
+            "interessiert": "756"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "28",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Rudi Rockt Ihrefeld Spring Break & Afterdinnerparty",
+          "daten": {
+            "datum": "2018-04-20",
+            "uhrzeit": "18:30",
+            "tag": "Freitag"
+          },
+          "gastgeber": "rudirockt köln",
+          "teilnehmerzahl": {
+            "teilgenommen": "272",
+            "interessiert": "639"
+          },
+          "eintritt": "8"
+        }
+      },
+      {
+        "id": "29",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Trash Island at Heinz Gaul",
+          "daten": {
+            "datum": "2018-04-21",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Trash Island Party",
+          "teilnehmerzahl": {
+            "teilgenommen": "256",
+            "interessiert": "1266"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "30",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Apparat DJ Set (Mute Rec.) at Heinz Gaul",
+          "daten": {
+            "datum": "2018-04-27",
+            "uhrzeit": "23:30",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Apparat",
+          "teilnehmerzahl": {
+            "teilgenommen": "196",
+            "interessiert": "1780"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "31",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Art of House & Techno w/ Monkey Safari & Cuban Spirit ",
+          "daten": {
+            "datum": "2018-04-28",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "248",
+            "interessiert": "1276"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "32",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Mat.Joe & Nhan Solo (Mother, Berlin) + Sector Floor • Heinz Gaul",
+          "daten": {
+            "datum": "2018-05-04",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "68",
+            "interessiert": "591"
+          },
+          "eintritt": "12"
+        }
+      },
+      {
+        "id": "33",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Trash Island pres. Retro Klub #5",
+          "daten": {
+            "datum": "2018-05-05",
+            "uhrzeit": "22:00",
+            "tag": "Samtag"
+          },
+          "gastgeber": "Trash Island Party",
+          "teilnehmerzahl": {
+            "teilgenommen": "106",
+            "interessiert": "1107"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "34",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Roberto Capuano (Drumcode) im Gaul",
+          "daten": {
+            "datum": "2018-05-11",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Lichtblick",
+          "teilnehmerzahl": {
+            "teilgenommen": "155",
+            "interessiert": "1196"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "35",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Ram : Cologne w/ Andy C feat. Tonn Piper & Bensley at Heinz Gaul",
+          "daten": {
+            "datum": "2018-05-12",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Drop That Cologne",
+          "teilnehmerzahl": {
+            "teilgenommen": "415",
+            "interessiert": "1120"
+          },
+          "eintritt": "17,50"
+        }
+      },
+      {
+        "id": "36",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "ZIRKUS BEATZARR | 18.05. @ Heinz Gaul",
+          "daten": {
+            "datum": "2018-05-18",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Zirkus Beatzarr",
+          "teilnehmerzahl": {
+            "teilgenommen": "141",
+            "interessiert": "652"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "37",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Art of House & Techno w/ Emanuel Satie",
+          "daten": {
+            "datum": "2018-05-19",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "123",
+            "interessiert": "805"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "38",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Hip Hop meets Reggaeton on 2 Floors • Heinz Gaul • Ehrenfeld",
+          "daten": {
+            "datum": "2018-05-25",
+            "uhrzeit": "23:30",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Above The Rim Cologne",
+          "teilnehmerzahl": {
+            "teilgenommen": "81",
+            "interessiert": "117"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "39",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Victor Ruiz · Arado · Liho · Heinz Gaul",
+          "daten": {
+            "datum": "2018-05-26",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Heinz Gaul ",
+          "teilnehmerzahl": {
+            "teilgenommen": "374",
+            "interessiert": "2061"
+          },
+          "eintritt": "14"
+        }
+      },
+      {
+        "id": "40",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Spieltrieb Showcase & Friends w/ The Glitz, Teenage Mutants uvm.",
+          "daten": {
+            "datum": "2018-06-01",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Spieltrieb Recordings",
+          "teilnehmerzahl": {
+            "teilgenommen": "81",
+            "interessiert": "291"
+          },
+          "eintritt": "12"
+        }
+      },
+      {
+        "id": "41",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Schwerelos 2000er & Wir singen 90er",
+          "daten": {
+            "datum": "2018-06-02",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Trash Island Party",
+          "teilnehmerzahl": {
+            "teilgenommen": "72",
+            "interessiert": "897"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "42",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Hip Hop meets Reggaeton on 2 Floors • Heinz Gaul • Ehrenfeld",
+          "daten": {
+            "datum": "2018-06-08",
+            "uhrzeit": "23:30",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Above The Rim Cologne",
+          "teilnehmerzahl": {
+            "teilgenommen": "58",
+            "interessiert": "638"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "43",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Ohne Vorspiel \"Techno\" w / Joel Mull (Drumcode I Parabel) uvm.",
+          "daten": {
+            "datum": "2018-06-09",
+            "uhrzeit": "23:30",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "123",
+            "interessiert": "1311"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "44",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Electronic Love w/ Cosmin TRG",
+          "daten": {
+            "datum": "2018-06-15",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Electronic Love",
+          "teilnehmerzahl": {
+            "teilgenommen": "nicht bekannt",
+            "interessiert": "nicht bekannt"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "45",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Trash Island at Heinz Gaul",
+          "daten": {
+            "datum": "2018-06-16",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Trash Island at Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "142",
+            "interessiert": "864"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "46",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Red Hood Squad pres: The Four Horsemen",
+          "daten": {
+            "datum": "2018-06-22",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Red Hood Squad",
+          "teilnehmerzahl": {
+            "teilgenommen": "366",
+            "interessiert": "573"
+          },
+          "eintritt": "12"
+        }
+      },
+      {
+        "id": "47",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Art of House & Techno w/ Doctor Dru & Kinetic + Fabian Stange",
+          "daten": {
+            "datum": "2018-06-23",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "210",
+            "interessiert": "1365"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "48",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Drop That! w/ NCT b2b T&Sugah, Nakadia and more at Heinz Gaul",
+          "daten": {
+            "datum": "2018-06-29",
+            "uhrzeit": "23:30",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Drop That Cologne",
+          "teilnehmerzahl": {
+            "teilgenommen": "241",
+            "interessiert": "949"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "49",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Reggaeton City XXL // 2 Clubs // Heinz Gaul & Helios 37",
+          "daten": {
+            "datum": "2018-06-30",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Ponte Loca",
+          "teilnehmerzahl": {
+            "teilgenommen": "308",
+            "interessiert": "2608"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "50",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Trash Island pres. Retro Klub #6",
+          "daten": {
+            "datum": "2018-07-06",
+            "uhrzeit": "22:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Trash Island Party",
+          "teilnehmerzahl": {
+            "teilgenommen": "104",
+            "interessiert": "1169"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "51",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Discokid Loves Uniqorn Presents Pride Party Cologne 07/07/18",
+          "daten": {
+            "datum": "2018-07-07",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Discokid",
+          "teilnehmerzahl": {
+            "teilgenommen": "78",
+            "interessiert": "478"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "52",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "All You Can Dance - Mittanzgelegenheit Endless Summer",
+          "daten": {
+            "datum": "2018-07-13",
+            "uhrzeit": "22:30",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Mittanzgelegenheit",
+          "teilnehmerzahl": {
+            "teilgenommen": "83",
+            "interessiert": "1004"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "53",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Art of House & Techno w/ Ray Okpara (Mobilee Records / Berlin)",
+          "daten": {
+            "datum": "2018-07-14",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "109",
+            "interessiert": "743"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "54",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Interstate 94 w/ COEO • Heinz Gaul",
+          "daten": {
+            "datum": "2018-07-20",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Interstate 94l",
+          "teilnehmerzahl": {
+            "teilgenommen": "52",
+            "interessiert": "266"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "55",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "HUSH HUSH goes HEINZ GAUL • Die Hip-Hop Party in Ehrenfeld",
+          "daten": {
+            "datum": "2018-07-21",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "HUSH HUSH",
+          "teilnehmerzahl": {
+            "teilgenommen": "99",
+            "interessiert": "998"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "56",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Hiphop im Heinz - BO goes Gaul",
+          "daten": {
+            "datum": "2018-07-27",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Bewegungsoffensive",
+          "teilnehmerzahl": {
+            "teilgenommen": "76",
+            "interessiert": "707"
+          },
+          "eintritt": "8"
+        }
+      },
+      {
+        "id": "57",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Reggaeton City XXL parte 2 // Heinz Gaul // 2 Areas",
+          "daten": {
+            "datum": "2018-07-28",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "BLa Latina",
+          "teilnehmerzahl": {
+            "teilgenommen": "156",
+            "interessiert": "1148"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "58",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Schwerelos 2000er & Wir singen 90er",
+          "daten": {
+            "datum": "2018-08-04",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "La Latina",
+          "teilnehmerzahl": {
+            "teilgenommen": "77",
+            "interessiert": "914"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "59",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Jay Lumen (Drumcode) im Heinz Gaul",
+          "daten": {
+            "datum": "2018-08-10",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Lichtblick",
+          "teilnehmerzahl": {
+            "teilgenommen": "148",
+            "interessiert": "1317"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "60",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Art of House & Techno w/ Adana Twins (Watergate) X Hasenbau",
+          "daten": {
+            "datum": "2018-08-11",
+            "uhrzeit": "23:30",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "207",
+            "interessiert": "1304"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "61",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Trash Island at Heinz Gaul",
+          "daten": {
+            "datum": "2018-08-17",
+            "uhrzeit": "22:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Trash Island Party",
+          "teilnehmerzahl": {
+            "teilgenommen": "146",
+            "interessiert": "819"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "62",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Ohne Vorspiel w/ Technasia at Heinz Gaul",
+          "daten": {
+            "datum": "2018-08-18",
+            "uhrzeit": "23:30",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "144",
+            "interessiert": "1109"
+          },
+          "eintritt": "13"
+        }
+      },
+      {
+        "id": "63",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Cologne Club Night mit Tiefschwarz",
+          "daten": {
+            "datum": "2018-08-25",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "48",
+            "interessiert": "421"
+          },
+          "eintritt": "13"
+        }
+      },
+      {
+        "id": "64",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "BEATZ&BOYZ - Circus Edition XXL - Heinz Gaul",
+          "daten": {
+            "datum": "2018-08-31",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "BEATZ&BOYZ",
+          "teilnehmerzahl": {
+            "teilgenommen": "199",
+            "interessiert": "658"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "65",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Trash Island at Jeck im Sunnesching",
+          "daten": {
+            "datum": "2018-09-01",
+            "uhrzeit": "21:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Trash Island Party",
+          "teilnehmerzahl": {
+            "teilgenommen": "146",
+            "interessiert": "1078"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "66",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Advanced night w/ Dominik Eulberg & friends",
+          "daten": {
+            "datum": "2018-09-07",
+            "uhrzeit": "23:30",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Advanced Cologne",
+          "teilnehmerzahl": {
+            "teilgenommen": "255",
+            "interessiert": "2696"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "67",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Trash Island pres. Retro Klub #7",
+          "daten": {
+            "datum": "2018-09-08",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Trash Island Party",
+          "teilnehmerzahl": {
+            "teilgenommen": "74",
+            "interessiert": "868"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "68",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Reggaeton City XXL // Summer Closing // 14.09",
+          "daten": {
+            "datum": "2018-09-14",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "La Latina",
+          "teilnehmerzahl": {
+            "teilgenommen": "250",
+            "interessiert": "862"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "69",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Art of House & Techno w/ Magdalena (Diynamic) X Kinetic",
+          "daten": {
+            "datum": "2018-09-15",
+            "uhrzeit": "23:30",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "197",
+            "interessiert": "1360"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "70",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Drop That pres. Friction \"Connections\" Album Tour at Heinz Gaul",
+          "daten": {
+            "datum": "2018-09-21",
+            "uhrzeit": "23:30",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Drop That Cologne",
+          "teilnehmerzahl": {
+            "teilgenommen": "233",
+            "interessiert": "701"
+          },
+          "eintritt": "13"
+        }
+      },
+      {
+        "id": "71",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Trash Island at Heinz Gaul",
+          "daten": {
+            "datum": "2018-09-22",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Trash Island Party",
+          "teilnehmerzahl": {
+            "teilgenommen": "162",
+            "interessiert": "1065"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "72",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Beatpackers SummerClosing BBQ w/ DJ Cem* Bleibtreuboy* Pete Hair",
+          "daten": {
+            "datum": "2018-09-28",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "DJ CEM",
+          "teilnehmerzahl": {
+            "teilgenommen": "36",
+            "interessiert": "520"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "73",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Ehrenfeld XL - Jubiläums Ausgabe",
+          "daten": {
+            "datum": "2018-09-29",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Ehrenfeld XL",
+          "teilnehmerzahl": {
+            "teilgenommen": "1905",
+            "interessiert": "10719"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "74",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Falscher Hase all night long im Heinz Gaul",
+          "daten": {
+            "datum": "2018-10-05",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "460",
+            "interessiert": "5700"
+          },
+          "eintritt": "12"
+        }
+      },
+      {
+        "id": "75",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Oliver Hess 50 B-Day • Hajdar Berisha 40 B-Day • Andrè Galluzzi",
+          "daten": {
+            "datum": "2018-10-06",
+            "uhrzeit": "23:30",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "262",
+            "interessiert": "749"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "76",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Drop That! w/ Metrik Ft. Daxta MC + Deep Floor at Heinz Gaul",
+          "daten": {
+            "datum": "2018-10-12",
+            "uhrzeit": "23:30",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Drop That Cologne",
+          "teilnehmerzahl": {
+            "teilgenommen": "238",
+            "interessiert": "834"
+          },
+          "eintritt": "11"
+        }
+      },
+      {
+        "id": "77",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Trash Island at Heinz Gaul",
+          "daten": {
+            "datum": "2018-10-13",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Trash Island Party",
+          "teilnehmerzahl": {
+            "teilgenommen": "115",
+            "interessiert": "855"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "78",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Hip Hop Evolution x 1995-2005 Edition",
+          "daten": {
+            "datum": "2018-10-19",
+            "uhrzeit": "23:59",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Beatsmart",
+          "teilnehmerzahl": {
+            "teilgenommen": "48",
+            "interessiert": "507"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "79",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Ohne Vorspiel w/ Hector (Vatos Locos) at Heinz Gaul",
+          "daten": {
+            "datum": "2018-10-20",
+            "uhrzeit": "23:30",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "101",
+            "interessiert": "884"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "80",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Aka Aka Showcase im Gaul",
+          "daten": {
+            "datum": "2018-10-26",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "171",
+            "interessiert": "2260"
+          },
+          "eintritt": "12"
+        }
+      },
+      {
+        "id": "81",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Art of House & Techno w/ Kollektiv Ost (Katermukke / Berlin)",
+          "daten": {
+            "datum": "2018-10-27",
+            "uhrzeit": "23:30",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "225",
+            "interessiert": "2305"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "82",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "2 Years of Red Hood Squad w/ Hekler, Mastadon, Rico Act & More",
+          "daten": {
+            "datum": "2018-11-02",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Red Hood Squad",
+          "teilnehmerzahl": {
+            "teilgenommen": "507",
+            "interessiert": "761"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "82",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Kisses and Lies am 03. November im Heinz Gaul (One Last Kiss)",
+          "daten": {
+            "datum": "2018-11-03",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Kisses and Lies",
+          "teilnehmerzahl": {
+            "teilgenommen": "173",
+            "interessiert": "596"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "83",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Rave in den 11.11 w/ Carlo Ruetz & Clio (Drumcode)",
+          "daten": {
+            "datum": "2018-11-10",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Lichtblick",
+          "teilnehmerzahl": {
+            "teilgenommen": "150",
+            "interessiert": "1956"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "84",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Marek Hemmann live im Heinz Gaul",
+          "daten": {
+            "datum": "2018-11-16",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "264",
+            "interessiert": "2875"
+          },
+          "eintritt": "14"
+        }
+      },
+      {
+        "id": "85",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Trash Island at Heinz Gaul",
+          "daten": {
+            "datum": "2018-11-17",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Trash Island Party",
+          "teilnehmerzahl": {
+            "teilgenommen": "73",
+            "interessiert": "644"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "86",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Drop That! w/ Wilkinson Ft. Ad-Apt + Dubstep Floor at Heinz Gaul",
+          "daten": {
+            "datum": "2018-11-23",
+            "uhrzeit": "23:30",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Drop That Cologne",
+          "teilnehmerzahl": {
+            "teilgenommen": "519",
+            "interessiert": "1116"
+          },
+          "eintritt": "14"
+        }
+      },
+      {
+        "id": "87",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Art of House & Techno w/ Jonas Rathsman (Diynamic) X Synoid Berlin",
+          "daten": {
+            "datum": "2018-11-24",
+            "uhrzeit": "23:30",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "130",
+            "interessiert": "1046"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "88",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Festival d'electronique in Ehrenfeld",
+          "daten": {
+            "datum": "2018-11-30",
+            "uhrzeit": "22:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Lichtblick",
+          "teilnehmerzahl": {
+            "teilgenommen": "760",
+            "interessiert": "8461"
+          },
+          "eintritt": "18"
+        }
+      },
+      {
+        "id": "89",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "ADVENTure ft. Enei - Zardonic - Josh Butler",
+          "daten": {
+            "datum": "2018-12-01",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Pathfinder",
+          "teilnehmerzahl": {
+            "teilgenommen": "262",
+            "interessiert": "916"
+          },
+          "eintritt": "13"
+        }
+      },
+      {
+        "id": "90",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Beatpackers & Friends : Love 4 ALL",
+          "daten": {
+            "datum": "2018-12-07",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "DJ CEM",
+          "teilnehmerzahl": {
+            "teilgenommen": "42",
+            "interessiert": "416"
+          },
+          "eintritt": "Spende 5-10"
+        }
+      },
+      {
+        "id": "91",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "7 Jahre OV | Julian Wassermann | Gorje Hewek & Izhevski uvm.",
+          "daten": {
+            "datum": "2018-12-08",
+            "uhrzeit": "23:30",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "154",
+            "interessiert": "948"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "92",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Drop That! Christmas Edition at Heinz Gaul",
+          "daten": {
+            "datum": "2018-12-14",
+            "uhrzeit": "23:30",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Drop That Cologne",
+          "teilnehmerzahl": {
+            "teilgenommen": "192",
+            "interessiert": "768"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "93",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "BEATZ&BOYZ - Konfetti Edition XXL - Heinz Gaul",
+          "daten": {
+            "datum": "2018-12-15",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "BEATZ & BOYZ",
+          "teilnehmerzahl": {
+            "teilgenommen": "153",
+            "interessiert": "654"
+          },
+          "eintritt": "12"
+        }
+      },
+      {
+        "id": "94",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Neelix im Gaul",
+          "daten": {
+            "datum": "2018-12-21",
+            "uhrzeit": "23:30",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "316",
+            "interessiert": "2436"
+          },
+          "eintritt": "20"
+        }
+      },
+      {
+        "id": "95",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Art of House & Techno w/ Nico Stojan (Ouïe / Berlin) X Kinetic",
+          "daten": {
+            "datum": "2018-12-22",
+            "uhrzeit": "23:30",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "116",
+            "interessiert": "1088"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "96",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Sonderlü mit Pan-Pot",
+          "daten": {
+            "datum": "2018-12-28",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Heinz Gaul",
+          "teilnehmerzahl": {
+            "teilgenommen": "521",
+            "interessiert": "13776"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "97",
+        "location": {
+          "gaststaette": "Heinz Gaul",
+          "lat": "50.9496813",
+          "long": "6.9120946"
+        },
+        "veranstaltung": {
+          "name": "Trash Island at Heinz Gaul",
+          "daten": {
+            "datum": "2018-12-29",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Trash Island Party",
+          "teilnehmerzahl": {
+            "teilgenommen": "201",
+            "interessiert": "1073"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "98",
+        "location": {
           "gaststaette": "Club Bahnhof Ehrenfeld",
           "lat": "50.9517153",
           "long": "6.9161618"
@@ -200,7 +2202,7 @@
         }
       },
       {
-        "id": "10",
+        "id": "99",
         "location": {
           "gaststaette": "Club Bahnhof Ehrenfeld",
           "lat": "50.9517153",
@@ -222,7 +2224,7 @@
         }
       },
       {
-        "id": "11",
+        "id": "100",
         "location": {
           "gaststaette": "Club Bahnhof Ehrenfeld",
           "lat": "50.9517153",
@@ -244,7 +2246,7 @@
         }
       },
       {
-        "id": "12",
+        "id": "101",
         "location": {
           "gaststaette": "Club Bahnhof Ehrenfeld",
           "lat": "50.9517153",
@@ -266,7 +2268,7 @@
         }
       },
       {
-        "id": "13",
+        "id": "102",
         "location": {
           "gaststaette": "Club Bahnhof Ehrenfeld",
           "lat": "50.9517153",
@@ -288,7 +2290,7 @@
         }
       },
       {
-        "id": "14",
+        "id": "103",
         "location": {
           "gaststaette": "Club Bahnhof Ehrenfeld",
           "lat": "50.9517153",
@@ -310,7 +2312,7 @@
         }
       },
       {
-        "id": "15",
+        "id": "104",
         "location": {
           "gaststaette": "Club Bahnhof Ehrenfeld",
           "lat": "50.9517153",
@@ -332,7 +2334,7 @@
         }
       },
       {
-        "id": "16",
+        "id": "105",
         "location": {
           "gaststaette": "Club Bahnhof Ehrenfeld",
           "lat": "50.9517153",
@@ -354,421 +2356,1719 @@
         }
       },
       {
-        "id": "17",
+        "id": "106",
         "location": {
-          "gaststaette": "Artheater",
-          "lat": "50.9531961",
-          "long": "6.9184983"
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
         },
         "veranstaltung": {
-          "name": "Zwischenmiete Club Edition Resident Night #2",
+          "name": "Trashpop im Club Bahnhof Ehrenfeld",
           "daten": {
-            "datum": "2018-01-05",
-            "uhrzeit": "23:59",
+            "datum": "2018-02-02",
+            "uhrzeit": "23:00",
             "tag": "Freitag"
           },
-          "gastgeber": "Zwischenmiete",
+          "gastgeber": "Trashpop",
           "teilnehmerzahl": {
-            "teilgenommen": "30",
-            "interessiert": "112"
+            "teilgenommen": "79",
+            "interessiert": "938"
           },
           "eintritt": "10"
         }
       },
       {
-        "id": "18",
+        "id": "107",
         "location": {
-          "gaststaette": "Artheater",
-          "lat": "50.9531961",
-          "long": "6.9184983"
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
         },
         "veranstaltung": {
-          "name": "BergWacht mit Alessandro Diga (Manual Music/BergWacht)",
+          "name": "Liebemachen. + HIP HOP Area • CBE Köln • 03.Februar",
           "daten": {
-            "datum": "2018-01-06",
+            "datum": "2018-02-03",
             "uhrzeit": "23:00",
             "tag": "Samstag"
           },
-          "gastgeber": "BergWacht",
+          "gastgeber": "liebemachen",
           "teilnehmerzahl": {
-            "teilgenommen": "73",
-            "interessiert": "334"
+            "teilgenommen": "103",
+            "interessiert": "607"
           },
           "eintritt": "10"
         }
       },
       {
-        "id": "19",
+        "id": "108",
         "location": {
-          "gaststaette": "Artheater",
-          "lat": "50.9531961",
-          "long": "6.9184983"
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
         },
         "veranstaltung": {
-          "name": "Karl Bartos: Der Klang der Maschine/Moderation: Klaus Fiehe",
+          "name": "Die Karnevalssause der Mittanzgelegenheit: Tschingderassabum!",
           "daten": {
-            "datum": "2018-01-12",
-            "uhrzeit": "20:00",
+            "datum": "2018-02-09",
+            "uhrzeit": "19:00",
             "tag": "Freitag"
           },
-          "gastgeber": "Trocadero",
+          "gastgeber": "Mittanzgelegenheit Köln",
           "teilnehmerzahl": {
-            "teilgenommen": "97",
-            "interessiert": "210"
-          },
-          "eintritt": "14"
-        }
-      },
-      {
-        "id": "20",
-        "location": {
-          "gaststaette": "Artheater",
-          "lat": "50.9531961",
-          "long": "6.9184983"
-        },
-        "veranstaltung": {
-          "name": "Animado at Artheater w/Wehbba",
-          "daten": {
-            "datum": "2018-01-12",
-            "uhrzeit": "23:00",
-            "tag": "Freitag"
-          },
-          "gastgeber": "ANIMADO",
-          "teilnehmerzahl": {
-            "teilgenommen": "206",
-            "interessiert": "755"
-          },
-          "eintritt": "11"
-        }
-      },
-      {
-        "id": "21",
-        "location": {
-          "gaststaette": "Artheater",
-          "lat": "50.9531961",
-          "long": "6.9184983"
-        },
-        "veranstaltung": {
-          "name": "BACKSTAGE DiARiES",
-          "daten": {
-            "datum": "2018-01-13",
-            "uhrzeit": "23:00",
-            "tag": "Samstag"
-          },
-          "gastgeber": "BACKSTAGE DiARiES",
-          "teilnehmerzahl": {
-            "teilgenommen": "155",
-            "interessiert": "594"
-          },
-          "eintritt": "8"
-        }
-      },
-      {
-        "id": "22",
-        "location": {
-          "gaststaette": "Artheater",
-          "lat": "50.9531961",
-          "long": "6.9184983"
-        },
-        "veranstaltung": {
-          "name": "Woken w/ KNOBS & Lukas Freudenberger",
-          "daten": {
-            "datum": "2018-01-19",
-            "uhrzeit": "23:00",
-            "tag": "Freitag"
-          },
-          "gastgeber": "Technopuls.",
-          "teilnehmerzahl": {
-            "teilgenommen": "112",
-            "interessiert": "418"
+            "teilgenommen": "308",
+            "interessiert": "1768"
           },
           "eintritt": "10"
         }
       },
       {
-        "id": "23",
+        "id": "109",
         "location": {
-          "gaststaette": "Artheater",
-          "lat": "50.9531961",
-          "long": "6.9184983"
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
         },
         "veranstaltung": {
-          "name": "Festival d'electronique in Ehrenfeld",
+          "name": "RADIO SABOR Karneval • SA 10.02. | 21h • CBE & YUCA Köln",
           "daten": {
-            "datum": "2018-01-20",
-            "uhrzeit": "22:00",
+            "datum": "2018-02-10",
+            "uhrzeit": "21:00",
             "tag": "Samstag"
           },
-          "gastgeber": "Lichtblick",
+          "gastgeber": "RADIO SABOR Köln",
           "teilnehmerzahl": {
-            "teilgenommen": "732",
-            "interessiert": "5882"
+            "teilgenommen": "347",
+            "interessiert": "1369"
           },
-          "eintritt": "18"
+          "eintritt": "12"
         }
       },
       {
-        "id": "24",
+        "id": "110",
         "location": {
-          "gaststaette": "Artheater",
-          "lat": "50.9531961",
-          "long": "6.9184983"
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
         },
         "veranstaltung": {
-          "name": "Obsession X Sturm&Klang present Hybris +Techno Floor",
+          "name": "SpokenWordClub - Season Opening 2018",
           "daten": {
-            "datum": "2018-01-26",
-            "uhrzeit": "23:00",
+            "datum": "2018-02-16",
+            "uhrzeit": "20:30",
             "tag": "Freitag"
           },
-          "gastgeber": "Obsession CGN",
+          "gastgeber": "Spoken Word Club",
           "teilnehmerzahl": {
-            "teilgenommen": "155",
-            "interessiert": "619"
+            "teilgenommen": "94",
+            "interessiert": "216"
           },
-          "eintritt": "8"
+          "eintritt": "20"
         }
       },
       {
-        "id": "25",
+        "id": "111",
         "location": {
-          "gaststaette": "Artheater",
-          "lat": "50.9531961",
-          "long": "6.9184983"
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
         },
         "veranstaltung": {
-          "name": "HEEN & Sophia Wahnschaffe Live im Artheater",
+          "name": "ONE MORE TIME • Die Hits von 2000-2010",
           "daten": {
-            "datum": "2018-01-27",
-            "uhrzeit": "20:00",
-            "tag": "Samstag"
-          },
-          "gastgeber": "HEEN",
-          "teilnehmerzahl": {
-            "teilgenommen": "42",
-            "interessiert": "88"
-          },
-          "eintritt": "5"
-        }
-      },
-      {
-        "id": "26",
-        "location": {
-          "gaststaette": "Artheater",
-          "lat": "50.9531961",
-          "long": "6.9184983"
-        },
-        "veranstaltung": {
-          "name": "Hasenbau x Artheater w/Julian Jeweil (Drumcode)",
-          "daten": {
-            "datum": "2018-01-27",
+            "datum": "2018-02-17",
             "uhrzeit": "23:00",
             "tag": "Samstag"
           },
-          "gastgeber": "Hasenbau",
+          "gastgeber": "Club Bahnhof Ehrenfeld",
           "teilnehmerzahl": {
-            "teilgenommen": "421",
-            "interessiert": "1725"
+            "teilgenommen": "105",
+            "interessiert": "676"
           },
           "eintritt": "15"
         }
       },
       {
-        "id": "27",
+        "id": "112",
         "location": {
-          "gaststaette": "Helios37",
-          "lat": "50.9333",
-          "long": "6.9500000000000455"
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
         },
         "veranstaltung": {
-          "name": "Underground Freitag",
+          "name": "ONE MORE TIME • Die Hits von 2000-2010",
           "daten": {
-            "datum": "2018-01-05",
+            "datum": "2018-02-17",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Club Bahnhof Ehrenfeld",
+          "teilnehmerzahl": {
+            "teilgenommen": "105",
+            "interessiert": "676"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "113",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "San Holo • Köln • CBE • Ausverkauft!",
+          "daten": {
+            "datum": "2018-02-23",
+            "uhrzeit": "18:30",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Club Bahnhof Ehrenfeld",
+          "teilnehmerzahl": {
+            "teilgenommen": "334",
+            "interessiert": "937"
+          },
+          "eintritt": "16"
+        }
+      },
+      {
+        "id": "114",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "BEATZ&BOYZ - No. 45",
+          "daten": {
+            "datum": "2018-02-23",
             "uhrzeit": "23:00",
             "tag": "Freitag"
           },
-          "gastgeber": "Helios37",
+          "gastgeber": "Club Bahnhof Ehrenfeld",
           "teilnehmerzahl": {
-            "teilgenommen": "55",
-            "interessiert": "755"
+            "teilgenommen": "334",
+            "interessiert": "937"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "115",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Don't Tell Dad! Party @Club Bahnhof Ehrenfeld / Köln",
+          "daten": {
+            "datum": "2018-02-24",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Underdog Recordstore",
+          "teilnehmerzahl": {
+            "teilgenommen": "44",
+            "interessiert": "425"
+          },
+          "eintritt": "8"
+        }
+      },
+      {
+        "id": "116",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Haiyti · CBE · Köln (ausverkauft)",
+          "daten": {
+            "datum": "2018-03-02",
+            "uhrzeit": "19:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Der Bomber der Herzen",
+          "teilnehmerzahl": {
+            "teilgenommen": "275",
+            "interessiert": "1125"
+          },
+          "eintritt": "21"
+        }
+      },
+      {
+        "id": "117",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Trashpop im Club Bahnhof Ehrenfeld",
+          "daten": {
+            "datum": "2018-03-02",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Trashpop",
+          "teilnehmerzahl": {
+            "teilgenommen": "160",
+            "interessiert": "661"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "118",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Liebemachen. + HIP HOP Area ft. Junglepussy (USA) live! • CBE •",
+          "daten": {
+            "datum": "2018-03-03",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Club Bahnhof Ehrenfeld",
+          "teilnehmerzahl": {
+            "teilgenommen": "96",
+            "interessiert": "662"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "119",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "SpokenWordClub - die bunteste Show Deutschlands - Episode 2",
+          "daten": {
+            "datum": "2018-03-09",
+            "uhrzeit": "20:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Spoken Word Club",
+          "teilnehmerzahl": {
+            "teilgenommen": "59",
+            "interessiert": "263"
+          },
+          "eintritt": "20"
+        }
+      },
+      {
+        "id": "120",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "ONE MORE TIME • Die Hits von 2000-2010",
+          "daten": {
+            "datum": "2018-03-09",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Club Bahnhof Ehrenfeld",
+          "teilnehmerzahl": {
+            "teilgenommen": "124",
+            "interessiert": "711"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "121",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Hidden Classic Art Battle powered by Snipes",
+          "daten": {
+            "datum": "2018-03-10",
+            "uhrzeit": "13:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Reebok Classic",
+          "teilnehmerzahl": {
+            "teilgenommen": "106",
+            "interessiert": "613"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "122",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Killing Exotism • Sounds against white supremacy ft. RAMZ (UK)",
+          "daten": {
+            "datum": "2018-03-10",
+            "uhrzeit": "20:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Club Bahnhof Ehrenfeld",
+          "teilnehmerzahl": {
+            "teilgenommen": "113",
+            "interessiert": "695"
           },
           "eintritt": "0"
         }
       },
       {
-        "id": "28",
+        "id": "123",
         "location": {
-          "gaststaette": "Helios37",
-          "lat": "50.9333",
-          "long": "6.9500000000000455"
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
         },
         "veranstaltung": {
-          "name": "CON TACTO & DANi VEGAS B-DAY ",
+          "name": "HUSH HUSH • Die Hip-Hop Party im CBE! • ft. RAMZ live (UK)",
           "daten": {
-            "datum": "2018-01-06",
+            "datum": "2018-03-10",
             "uhrzeit": "23:00",
             "tag": "Samstag"
           },
-          "gastgeber": "Pirates of Cologne",
+          "gastgeber": "Club Bahnhof Ehrenfeld",
           "teilnehmerzahl": {
-            "teilgenommen": "102",
-            "interessiert": "273"
+            "teilgenommen": "113",
+            "interessiert": "695"
           },
           "eintritt": "10"
         }
       },
       {
-        "id": "29",
+        "id": "124",
         "location": {
-          "gaststaette": "Helios37",
-          "lat": "50.9333",
-          "long": "6.9500000000000455"
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
         },
         "veranstaltung": {
-          "name": "AERA with Marla Singer",
+          "name": "Hopsin • Köln • CBE",
           "daten": {
-            "datum": "2018-01-12",
-            "uhrzeit": "23:30",
+            "datum": "2018-03-16",
+            "uhrzeit": "19:00",
             "tag": "Freitag"
           },
-          "gastgeber": "Daniel Kötter, Mirco Curtis Mack, Andy Kern",
+          "gastgeber": "Club Bahnhof Ehrenfeld",
           "teilnehmerzahl": {
             "teilgenommen": "107",
-            "interessiert": "393"
+            "interessiert": "262"
+          },
+          "eintritt": "22"
+        }
+      },
+      {
+        "id": "125",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Waka Flocka Flame • Köln • CBE",
+          "daten": {
+            "datum": "2018-03-17",
+            "uhrzeit": "19:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Karsten Jahnke Konzerte",
+          "teilnehmerzahl": {
+            "teilgenommen": "126",
+            "interessiert": "276"
+          },
+          "eintritt": "25"
+        }
+      },
+      {
+        "id": "126",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Money Boy & Hustensaft Jüngling (live) + Afterparty · Köln CBE",
+          "daten": {
+            "datum": "2018-03-23",
+            "uhrzeit": "21:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Karsten Jahnke Konzerte",
+          "teilnehmerzahl": {
+            "teilgenommen": "126",
+            "interessiert": "276"
+          },
+          "eintritt": "20"
+        }
+      },
+      {
+        "id": "127",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "CREWSiN with TDE x GOOD Music x Quality Control • CBE •",
+          "daten": {
+            "datum": "2018-03-23",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Karsten Jahnke Konzerte",
+          "teilnehmerzahl": {
+            "teilgenommen": "126",
+            "interessiert": "276"
+          },
+          "eintritt": "20"
+        }
+      },
+      {
+        "id": "128",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "MC Fitti + Big Mike & Gianni La Bamba • Köln • CBE",
+          "daten": {
+            "datum": "2018-03-24",
+            "uhrzeit": "19:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Club Bahnhof Ehrenfeld",
+          "teilnehmerzahl": {
+            "teilgenommen": "98",
+            "interessiert": "299"
+          },
+          "eintritt": "20"
+        }
+      },
+      {
+        "id": "129",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Ehrenfeld XL - 10 Clubs 1 Nacht 1 Veedel",
+          "daten": {
+            "datum": "2018-03-24",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Ehrenfeld XL",
+          "teilnehmerzahl": {
+            "teilgenommen": "1962",
+            "interessiert": "8763"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "130",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Cirque de l'Afrique Köln - 31.03.2018",
+          "daten": {
+            "datum": "2018-03-31",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Cirque de l'Afrique",
+          "teilnehmerzahl": {
+            "teilgenommen": "90",
+            "interessiert": "414"
           },
           "eintritt": "10"
         }
       },
       {
-        "id": "30",
+        "id": "131",
         "location": {
-          "gaststaette": "Helios37",
-          "lat": "50.9333",
-          "long": "6.9500000000000455"
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
         },
         "veranstaltung": {
-          "name": "9 Jahre Indie Fresse Birthday Bash",
+          "name": "Trashpop im Club Bahnhof Ehrenfeld",
           "daten": {
-            "datum": "2018-01-13",
-            "uhrzeit": "23:30",
+            "datum": "2018-04-06",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Trashpop",
+          "teilnehmerzahl": {
+            "teilgenommen": "107",
+            "interessiert": "927"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "132",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "SpokenWordClub - Saturday Night Special",
+          "daten": {
+            "datum": "2018-04-07",
+            "uhrzeit": "19:30",
             "tag": "Samstag"
           },
-          "gastgeber": "Indie Fresse Party",
+          "gastgeber": "Spoken Word Club",
           "teilnehmerzahl": {
-            "teilgenommen": "96",
-            "interessiert": "493"
+            "teilgenommen": "58",
+            "interessiert": "169"
+          },
+          "eintritt": "20"
+        }
+      },
+      {
+        "id": "133",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Liebemachen. w/ Bombay Bicycle Club (DJ Set) + Hiphop Area • CBE",
+          "daten": {
+            "datum": "2018-04-07",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "liebemachen.",
+          "teilnehmerzahl": {
+            "teilgenommen": "167",
+            "interessiert": "1321"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "134",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Ausverkauft • Freestyle Live Sessions • CBE",
+          "daten": {
+            "datum": "2018-04-13",
+            "uhrzeit": "18:30",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Club Bahnhof Ehrenfeld",
+          "teilnehmerzahl": {
+            "teilgenommen": "199",
+            "interessiert": "1652"
+          },
+          "eintritt": "24"
+        }
+      },
+      {
+        "id": "135",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "ONE MORE TIME • Die Hits von 2000 bis heute!",
+          "daten": {
+            "datum": "2018-04-13",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Club Bahnhof Ehrenfeld",
+          "teilnehmerzahl": {
+            "teilgenommen": "150",
+            "interessiert": "664"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "136",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "HUSH HUSH • Die Hip-Hop Party im CBE! • 14.04.",
+          "daten": {
+            "datum": "2018-04-14",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Club Bahnhof Ehrenfeld",
+          "teilnehmerzahl": {
+            "teilgenommen": "150",
+            "interessiert": "664"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "137",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Herz an Herz ♡ Das Jahrhundertmixtape der 90er",
+          "daten": {
+            "datum": "2018-04-20",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "HERZ an HERZ",
+          "teilnehmerzahl": {
+            "teilgenommen": "80",
+            "interessiert": "612"
           },
           "eintritt": "9"
         }
       },
       {
-        "id": "31",
+        "id": "138",
         "location": {
-          "gaststaette": "Helios37",
-          "lat": "50.9333",
-          "long": "6.9500000000000455"
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
         },
         "veranstaltung": {
-          "name": "Underground Freitag",
+          "name": "BEATZ&BOYZ - No. 47",
           "daten": {
-            "datum": "2018-01-19",
+            "datum": "2018-04-27",
             "uhrzeit": "23:00",
             "tag": "Freitag"
           },
-          "gastgeber": "Helios37",
+          "gastgeber": "BEATZ&BOYZ",
           "teilnehmerzahl": {
-            "teilgenommen": "36",
-            "interessiert": "659"
-          },
-          "eintritt": "0"
-        }
-      },
-      {
-        "id": "32",
-        "location": {
-          "gaststaette": "Helios37",
-          "lat": "50.9333",
-          "long": "6.9500000000000455"
-        },
-        "veranstaltung": {
-          "name": "Festival d'electronique in Ehrenfeld",
-          "daten": {
-            "datum": "2018-01-20",
-            "uhrzeit": "22:00",
-            "tag": "Samstag"
-          },
-          "gastgeber": "Lichtblick",
-          "teilnehmerzahl": {
-            "teilgenommen": "732",
-            "interessiert": "5.882"
-          },
-          "eintritt": "18"
-        }
-      },
-      {
-        "id": "33",
-        "location": {
-          "gaststaette": "Helios37",
-          "lat": "50.9333",
-          "long": "6.9500000000000455"
-        },
-        "veranstaltung": {
-          "name": "YUM YUM l Good Vibes Only at Helios37",
-          "daten": {
-            "datum": "2018-01-26",
-            "uhrzeit": "23:59",
-            "tag": "Freitag"
-          },
-          "gastgeber": "YUM YUM",
-          "teilnehmerzahl": {
-            "teilgenommen": "0",
-            "interessiert": "365"
+            "teilgenommen": "86",
+            "interessiert": "165"
           },
           "eintritt": "10"
         }
       },
       {
-        "id": "34",
+        "id": "139",
         "location": {
-          "gaststaette": "Helios37",
-          "lat": "50.9333",
-          "long": "6.9500000000000455"
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
         },
         "veranstaltung": {
-          "name": "SuSu - Music, Food & Art // Cologne ",
+          "name": "Stefanie Sargnagel (AT) Köln",
           "daten": {
-            "datum": "2018-01-27",
-            "uhrzeit": "19:00",
+            "datum": "2018-04-28",
+            "uhrzeit": "18:30",
             "tag": "Samstag"
           },
-          "gastgeber": "Super Sunday",
+          "gastgeber": "Popanz",
           "teilnehmerzahl": {
-            "teilgenommen": "84",
-            "interessiert": "421"
+            "teilgenommen": "92",
+            "interessiert": "610"
           },
-          "eintritt": "29"
+          "eintritt": "17"
         }
       },
       {
-        "id": "35",
+        "id": "140",
         "location": {
-          "gaststaette": "Helios37",
-          "lat": "50.9333",
-          "long": "6.9500000000000455"
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
         },
         "veranstaltung": {
-          "name": "COSMO Club: SuSu After-Show-Party",
+          "name": "Don't Tell Dad! Party @Club Bahnhof Ehrenfeld / Köln",
           "daten": {
-            "datum": "2018-01-27",
-            "uhrzeit": "19:00",
+            "datum": "2018-04-28",
+            "uhrzeit": "23:00",
             "tag": "Samstag"
           },
-          "gastgeber": "Cosmo",
+          "gastgeber": "Underdog Recordstore",
+          "teilnehmerzahl": {
+            "teilgenommen": "34",
+            "interessiert": "500"
+          },
+          "eintritt": "8"
+        }
+      },
+      {
+        "id": "141",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Trashpop im Club Bahnhof Ehrenfeld",
+          "daten": {
+            "datum": "2018-05-04",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Trashpop",
+          "teilnehmerzahl": {
+            "teilgenommen": "72",
+            "interessiert": "839"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "142",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Liebemachen. im Hasenbau + Hip-Hop Area • CBE",
+          "daten": {
+            "datum": "2018-05-05",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "liebemachen",
+          "teilnehmerzahl": {
+            "teilgenommen": "50",
+            "interessiert": "569"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "143",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Liebemachen. im Hasenbau + Hip-Hop Area • CBE",
+          "daten": {
+            "datum": "2018-05-05",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "liebemachen",
+          "teilnehmerzahl": {
+            "teilgenommen": "50",
+            "interessiert": "569"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "144",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "SpokenWordClub - die bunteste Show Deutschlands - Comedy Special",
+          "daten": {
+            "datum": "2018-05-11",
+            "uhrzeit": "20:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Spoken Word Club",
+          "teilnehmerzahl": {
+            "teilgenommen": "45",
+            "interessiert": "221"
+          },
+          "eintritt": "20"
+        }
+      },
+      {
+        "id": "145",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "ONE MORE TIME • Die Hits von 2000 bis heute!",
+          "daten": {
+            "datum": "2018-05-11",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Club Bahnhof Ehrenfeld",
+          "teilnehmerzahl": {
+            "teilgenommen": "79",
+            "interessiert": "546"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "146",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "8 Jahre CBE & 2 Jahre HUSH HUSH w/ Cut Chemist & Thouxanbanfauni",
+          "daten": {
+            "datum": "2018-05-12",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Club Bahnhof Ehrenfeld",
+          "teilnehmerzahl": {
+            "teilgenommen": "143",
+            "interessiert": "738"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "147",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Herz an Herz ♡ Das Jahrhundertmixtape der 90er",
+          "daten": {
+            "datum": "2018-05-18",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "HERZ an HERZ",
+          "teilnehmerzahl": {
+            "teilgenommen": "59",
+            "interessiert": "512"
+          },
+          "eintritt": "9"
+        }
+      },
+      {
+        "id": "148",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "BEATZ&BOYZ - Neon Edition XXL - CBE & YUCA",
+          "daten": {
+            "datum": "2018-05-25",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "BEATZ&BOYZ",
+          "teilnehmerzahl": {
+            "teilgenommen": "281",
+            "interessiert": "704"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "149",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Don't Tell Dad! Party @Club Bahnhof Ehrenfeld - Köln",
+          "daten": {
+            "datum": "2018-05-26",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Underdog Recordstore",
+          "teilnehmerzahl": {
+            "teilgenommen": "25",
+            "interessiert": "404"
+          },
+          "eintritt": "8"
+        }
+      },
+      {
+        "id": "150",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Trashpop im Club Bahnhof Ehrenfeld",
+          "daten": {
+            "datum": "2018-06-01",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Trashpop",
+          "teilnehmerzahl": {
+            "teilgenommen": "65",
+            "interessiert": "529"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "151",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Liebemachen. im Sommernachtstraum + Hip-Hop Area • CBE Köln",
+          "daten": {
+            "datum": "2018-06-02",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "liebemachen",
+          "teilnehmerzahl": {
+            "teilgenommen": "59",
+            "interessiert": "436"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "152",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "SpokenWordClub - die bunteste Show Deutschlands",
+          "daten": {
+            "datum": "2018-06-08",
+            "uhrzeit": "20:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Spoken World Club",
+          "teilnehmerzahl": {
+            "teilgenommen": "38",
+            "interessiert": "124"
+          },
+          "eintritt": "20"
+        }
+      },
+      {
+        "id": "153",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "ONE MORE TIME • Die Hits von 2000 bis heute!",
+          "daten": {
+            "datum": "2018-06-08",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Club Bahnhof Ehrenfeld",
+          "teilnehmerzahl": {
+            "teilgenommen": "38",
+            "interessiert": "124"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "154",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "HUSH HUSH • Die Hip-Hop Party im CBE! • ft J.I.D & EARTH GANG",
+          "daten": {
+            "datum": "2018-06-09",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Club Bahnhof Ehrenfeld",
+          "teilnehmerzahl": {
+            "teilgenommen": "38",
+            "interessiert": "124"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "155",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "8 Jahre Herz an Herz im Club Bahnhof Ehrenfeld",
+          "daten": {
+            "datum": "2018-06-15",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "HERZ an HERZ",
+          "teilnehmerzahl": {
+            "teilgenommen": "62",
+            "interessiert": "500"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "156",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "RADIO SABOR • LATIN CLUB • SA 16.6. • 22h! • CBE & YUCA • Köln",
+          "daten": {
+            "datum": "2018-06-16",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "RADIO SABOR Köln",
+          "teilnehmerzahl": {
+            "teilgenommen": "285",
+            "interessiert": "1370"
+          },
+          "eintritt": "12"
+        }
+      },
+      {
+        "id": "157",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Goosebumps - 22.06. - CBE Köln",
+          "daten": {
+            "datum": "2018-06-22",
+            "uhrzeit": "23:30",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Goosebumps Event",
+          "teilnehmerzahl": {
+            "teilgenommen": "150",
+            "interessiert": "492"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "158",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Don't Tell Dad! Party @Club Bahnhof Ehrenfeld / Köln",
+          "daten": {
+            "datum": "2018-06-23",
+            "uhrzeit": "23:30",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Underdog Recordstore",
+          "teilnehmerzahl": {
+            "teilgenommen": "27",
+            "interessiert": "421"
+          },
+          "eintritt": "8"
+        }
+      },
+      {
+        "id": "159",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "One Night in Ibiza - Summer Party Pim and Cems UoC",
+          "daten": {
+            "datum": "2018-06-29",
+            "uhrzeit": "22:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "PIM & CEMS Student and Alumni Club Cologne e.V.",
+          "teilnehmerzahl": {
+            "teilgenommen": "160",
+            "interessiert": "243"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "160",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "RADIO SABOR + Bolingo WM Special /w Latin BBQ I Public Viewing",
+          "daten": {
+            "datum": "2018-06-30",
+            "uhrzeit": "14:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "RADIO SABOR Köln",
+          "teilnehmerzahl": {
+            "teilgenommen": "178",
+            "interessiert": "1103"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "161",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Brasil-Belgien & Frankreich-Uruguay | Fußball + Samba",
+          "daten": {
+            "datum": "2018-07-06",
+            "uhrzeit": "16:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Roda de Samba do Alemao",
+          "teilnehmerzahl": {
+            "teilgenommen": "70",
+            "interessiert": "274"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "162",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Trashpop im Club Bahnhof Ehrenfeld",
+          "daten": {
+            "datum": "2018-07-06",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Trashpop",
+          "teilnehmerzahl": {
+            "teilgenommen": "34",
+            "interessiert": "563"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "163",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Liebemachen. (CSD Special) + Hip-Hop Area • CBE Köln",
+          "daten": {
+            "datum": "2018-07-07",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "liebemachen",
           "teilnehmerzahl": {
             "teilgenommen": "53",
-            "interessiert": "401"
+            "interessiert": "723"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "164",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "ONE MORE TIME • Die Hits von 2000 bis heute!",
+          "daten": {
+            "datum": "2018-07-13",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "ONE MORE TIME",
+          "teilnehmerzahl": {
+            "teilgenommen": "64",
+            "interessiert": "406"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "165",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Herz an Herz ♡ Das Jahrhundertmixtape der 90er",
+          "daten": {
+            "datum": "2018-07-20",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "HERZ an HERZ",
+          "teilnehmerzahl": {
+            "teilgenommen": "64",
+            "interessiert": "406"
+          },
+          "eintritt": "9"
+        }
+      },
+      {
+        "id": "166",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Herz an Herz ♡ Das Jahrhundertmixtape der 90er",
+          "daten": {
+            "datum": "2018-07-20",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "HERZ an HERZ",
+          "teilnehmerzahl": {
+            "teilgenommen": "64",
+            "interessiert": "406"
+          },
+          "eintritt": "9"
+        }
+      },
+      {
+        "id": "167",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "RADIO SABOR • LATIN CLUB • SA 21.7. • 22h! • CBE & YUCA • Köln",
+          "daten": {
+            "datum": "2018-07-21",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "RADIO SABOR Köln",
+          "teilnehmerzahl": {
+            "teilgenommen": "211",
+            "interessiert": "877"
+          },
+          "eintritt": "12"
+        }
+      },
+      {
+        "id": "168",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Goosebumps - 27.07. - CBE Köln",
+          "daten": {
+            "datum": "2018-07-27",
+            "uhrzeit": "23:30",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Goosebumps Event",
+          "teilnehmerzahl": {
+            "teilgenommen": "147",
+            "interessiert": "405"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "169",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Afro Caribbean Summer Clash • CBE",
+          "daten": {
+            "datum": "2018-07-28",
+            "uhrzeit": "21:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Club Bahnhof Ehrenfeld",
+          "teilnehmerzahl": {
+            "teilgenommen": "118",
+            "interessiert": "647"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "170",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Trashpop im Club Bahnhof Ehrenfeld",
+          "daten": {
+            "datum": "2018-08-03",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Trash Pop",
+          "teilnehmerzahl": {
+            "teilgenommen": "52",
+            "interessiert": "626"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "171",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Liebemachen. im Weltall • CBE Köln",
+          "daten": {
+            "datum": "2018-08-04",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "liebemachen",
+          "teilnehmerzahl": {
+            "teilgenommen": "30",
+            "interessiert": "608"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "172",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "ONE MORE TIME • Die Hits von 2000 bis heute!",
+          "daten": {
+            "datum": "2018-08-10",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "ONE MORE TIME",
+          "teilnehmerzahl": {
+            "teilgenommen": "77",
+            "interessiert": "506"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "173",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "HUSH HUSH • Die Hip-Hop Party im CBE!",
+          "daten": {
+            "datum": "2018-08-12",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "HUSH HUSH",
+          "teilnehmerzahl": {
+            "teilgenommen": "86",
+            "interessiert": "519"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "174",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Herz an Herz ♡ Das Jahrhundertmixtape der 90er",
+          "daten": {
+            "datum": "2018-08-17",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "HERZ an HERZ",
+          "teilnehmerzahl": {
+            "teilgenommen": "106",
+            "interessiert": "570"
+          },
+          "eintritt": "9"
+        }
+      },
+      {
+        "id": "175",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "TOKA TOKA - the Afro Caribbean Club w/ Lotto Boyzz (UK) live",
+          "daten": {
+            "datum": "2018-08-24",
+            "uhrzeit": "21:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Club Bahnhof Ehrenfeld",
+          "teilnehmerzahl": {
+            "teilgenommen": "106",
+            "interessiert": "570"
+          },
+          "eintritt": "9"
+        }
+      },
+      {
+        "id": "176",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Pre Event w/ Graffiti Workshop & Jamaican BBQ",
+          "daten": {
+            "datum": "2018-08-25",
+            "uhrzeit": "18:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Club Bahnhof Ehrenfeld",
+          "teilnehmerzahl": {
+            "teilgenommen": "19",
+            "interessiert": "69"
           },
           "eintritt": "0"
+        }
+      },
+      {
+        "id": "177",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Hip Hop (R)Evolution ft. Grandmaster Flash / DJ Cem / HUSH HUSH",
+          "daten": {
+            "datum": "2018-08-25",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Club Bahnhof Ehrenfeld",
+          "teilnehmerzahl": {
+            "teilgenommen": "204",
+            "interessiert": "1298"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "178",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Goosebumps - 31.08. - CBE Köln",
+          "daten": {
+            "datum": "2018-08-31",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Goosebumps Events",
+          "teilnehmerzahl": {
+            "teilgenommen": "160",
+            "interessiert": "406"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "179",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Suicideboys Pop-Up *Free Entry* • Cologne by HUSH HUSH",
+          "daten": {
+            "datum": "2018-09-01",
+            "uhrzeit": "15:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Club Bahnhof Ehrenfeld",
+          "teilnehmerzahl": {
+            "teilgenommen": "65",
+            "interessiert": "115"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "180",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Club Las Liebemachen. • CBE Köln",
+          "daten": {
+            "datum": "2018-09-01",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "liebemachen",
+          "teilnehmerzahl": {
+            "teilgenommen": "30",
+            "interessiert": "545"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "181",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "Trashpop im Club Bahnhof Ehrenfeld",
+          "daten": {
+            "datum": "2018-09-07",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Club Bahnhof Ehrenfeld",
+          "teilnehmerzahl": {
+            "teilgenommen": "49",
+            "interessiert": "741"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "182",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "HUSH HUSH • Die Hip-Hop Party im CBE!",
+          "daten": {
+            "datum": "2018-09-08",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "HUSH HUSH",
+          "teilnehmerzahl": {
+            "teilgenommen": "79",
+            "interessiert": "562"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "183",
+        "location": {
+          "gaststaette": "Club Bahnhof Ehrenfeld",
+          "lat": "50.9517153",
+          "long": "6.9161618"
+        },
+        "veranstaltung": {
+          "name": "ONE MORE TIME • Die Hits von 2000 bis heute! - September",
+          "daten": {
+            "datum": "2018-09-14",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "ONE MORE TIME",
+          "teilnehmerzahl": {
+            "teilgenommen": "81",
+            "interessiert": "668"
+          },
+          "eintritt": "10"
         }
       }
     ]

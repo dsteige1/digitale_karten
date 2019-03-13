@@ -43,12 +43,10 @@ require([
             map: map
         });
 
-        var point = [
-            {
-                "name" : "Heinz Gaul",
-                "longitude": 6.911848,
-                "latitude": 50.949979
-            },
+        var point = getClubs();
+
+  /*      var point = [
+
             {
                 "name" : "Club Bahnhof Ehrenfeld",
                 "longitude": 6.916088,
@@ -64,7 +62,7 @@ require([
                 "longitude": 6.918748,
                 "latitude": 50.953241
             }
-        ]
+        ]*/
 
         MarkerLayer = new GraphicsLayer({
             //graphics: [graphic]
@@ -182,11 +180,37 @@ function drawPoint(x,y,n)
     return;
 }
 
-setTimeout(clearGraphics,5000);             //Just for demonstration
 
 function clearGraphics()
 {
         console.log("Timeout.");
         MarkerLayer.removeAll();            //Removes all graphics from Layer
         console.log("MarkerLayer cleared.");
+}
+
+function getClubs(){
+    var result = [];
+    loop1: for (var i = 0; i < data.datenbank.event.length; i++) {
+        var name = data.datenbank.event[i].location.gaststaette;
+        var lat  = data.datenbank.event[i].location.lat;
+        var long = data.datenbank.event[i].location.long;
+        for (var i2 = 0; i2 < result.length; i2++) {
+            if (result[i2] == name) {
+                continue loop1;
+            }
+        }
+        result.push(name, long, lat);
+    }
+
+    var point = [];
+    for (let i = 0;i < result.length; i++){
+        var arr = {
+            "name" : result[i],
+            "longitude": result[i+1],
+            "latitude": result[i+2]
+        };
+        point.push(arr);
+        i = i+2;
+    }
+    return point;
 }

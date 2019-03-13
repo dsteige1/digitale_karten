@@ -17,16 +17,44 @@
     <script data-main="connector.js" src="require.js"></script>
   -->
 
+  <style>
+    article {
+      height:80%;
+      width: 100%;
+    }
+    body, html {
+      height: 100%;
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+    }
+    #viewDiv, #nav {
+      display: flex;
+    }
+
+    #viewDiv {
+
+    }
+    #nav {
+
+    }
+  </style>
 </head>
 
 <body>
-  <div id="viewDiv"></div>
+  <article>
+    <div id="viewDiv"></div>
+    <aside id="nav"></aside>
+  </article>
   <!--
   <span id="layerToggle">
     <input type="checkbox" id="streetsLayer"> Transportation
       <br>
-    <input type="checkbox" id="popLayer"> Population
+    <input type="checkbox" id="popLayer"> Populationf
   </span>
   -->
+  <footer>
+    <p>&copy; 2019 Petersen, Steiger, Tuna</p>
+  </footer>
 </body>
 </html>
