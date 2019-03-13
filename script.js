@@ -116,7 +116,13 @@ require([
 
         //Basemaps
 
-        /*
+
+        var basemapToggle = new BasemapToggle({
+            view: view,
+            secondMap: "satellite"
+        });
+
+
         var basemapGallery = new BasemapGallery({
             view: view,
             source: {
@@ -127,18 +133,15 @@ require([
             }
         });
 
-        var basemapToggle = new BasemapToggle({
-            view: view,
-            secondMap: "satellite"
-        });
-        */
+
 
         // Add to the view
         //view.ui.add(basemapToggle, "bottom-right");
 
         // Add to the view. BUT: If enabled throws error:
         //"TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'."
-        //view.ui.add(basemapGallery, "top-right"); 
+        //view.ui.add(basemapGallery, "top-right");
+
     });
 
 
@@ -182,7 +185,7 @@ function drawPoint(x,y,n)
     return;
 }
 
-setTimeout(clearGraphics,5000);             //Just for demonstration
+//setTimeout(clearGraphics,5000);             //Just for demonstration
 
 function clearGraphics()
 {

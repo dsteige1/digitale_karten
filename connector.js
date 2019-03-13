@@ -1,7 +1,7 @@
 var data = (function () {
     var json = null;
     $.ajax({
-        'async': false,
+        'async': false,         //throws error:
         'global': false,
         'url': 'data/datenbank.json',
         'dataType': "json",
