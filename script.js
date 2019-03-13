@@ -8,9 +8,6 @@ let MarkerLayer;
 require([
         "esri/Map",
         "esri/views/SceneView",
-        "esri/widgets/BasemapToggle",
-        "esri/widgets/BasemapGallery",
-        "esri/layers/TileLayer",
         "esri/layers/GraphicsLayer",
         "esri/Graphic",
         "esri/geometry/Point",
@@ -20,9 +17,6 @@ require([
     function(
         Map,
         SceneView,
-        TileLayer,
-        BasemapToggle,
-        BasemapGallery,
         GraphicsLayer,
         //Graphic,      //disable for outer drawPoint()
         GraphicClass, //enable for outer drawPoint()
@@ -58,73 +52,12 @@ require([
         }
  */
 
-
-
-        /*
-        var point = new Point (
-            {
-                longitude: 6.916088,
-                latitude: 50.951840
-            }
-        );
-        var markerSymbol = new SimpleMarkerSymbol({
-            color: [226, 119, 40],
-            outline: {
-                color: [255, 255, 255],
-                width: 1
-            }
-        });
-        var attributes = {
-            Name: "Ich bin Heinz Gaul",
-            Type: "Club",
-            City: "Ehrenfeld"
-        };
-        var popupTemplate = {
-            title: "{Name}",
-            content: "I am a <strong>{Type}</strong> in the city of <strong>{City}</strong>."
-        };
-        var pointGraphic = new Graphic({
-            geometry: point,
-            symbol: markerSymbol,
-            attributes: attributes,
-            popupTemplate: popupTemplate
-        });
-        view.graphics.add(pointGraphic);
-        */
-
-        //Basemaps
-
-
-        var basemapToggle = new BasemapToggle({
-            view: view,
-            secondMap: "satellite"
-        });
-
-
-        var basemapGallery = new BasemapGallery({
-            view: view,
-            source: {
-                portal: {
-                    url: "http://www.arcgis.com",
-                    useVectorBasemaps: true  // Load vector tile basemaps
-                }
-            }
-        });
-
         var LayerToggle = document.getElementById("MarkerLayerBox");
 
         LayerToggle.addEventListener("change", function () {
             // When the checkbox is checked (true), set the layer's visibility to true
             MarkerLayer.visible = LayerToggle.checked;
         });
-
-        // Add to the view
-        //view.ui.add(basemapToggle, "bottom-right");
-
-        // Add to the view. BUT: If enabled throws error:
-        //"TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'."
-        //view.ui.add(basemapGallery, "top-right");
-
     });
 
 
