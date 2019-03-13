@@ -92,8 +92,13 @@ a {
     border-top-right-radius: .40rem;
 }
 
+
 .nav-tabs .nav-link.active {
     color: white;
     background-color: #69b8d2;
     border-color: #69b8d2;
+}
+
+a:-webkit-any-link {
+color: white;
 }
