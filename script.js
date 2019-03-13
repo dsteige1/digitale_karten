@@ -51,10 +51,12 @@ require([
 
         map.add(MarkerLayer);           //Add Layer to Map
 
+
         for (let i=0; i < point.length; i++){
             //console.log(point[i].longitude);
             drawPoint(point[i].longitude, point[i].latitude, point[i].name);
         }
+
 
         /*
         var point = new Point (
@@ -107,7 +109,12 @@ require([
             }
         });
 
+        var LayerToggle = document.getElementById("MarkerLayerBox");
 
+        LayerToggle.addEventListener("change", function () {
+            // When the checkbox is checked (true), set the layer's visibility to true
+            MarkerLayer.visible = LayerToggle.checked;
+        });
 
         // Add to the view
         //view.ui.add(basemapToggle, "bottom-right");
