@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slider</title>
+
+    <style>
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="connector.js"></script>
+</head>
+<body>
+
+<div id="overview"></div>
+
+<script>
+    var overview = document.getElementById("overview");
+
+
+    var result = [];
+    loop1: for (var i = 0; i < data.datenbank.event.length; i++) {
+        var name = data.datenbank.event[i].location.gaststaette;
+        for (var i2 = 0; i2 < result.length; i2++) {
+            if (result[i2] == name) {
+                continue loop1;
+            }
+        }
+        result.push(name);
+    }
+
+        overview.innerHTML = result.length;
+
+</script>
+</body>
+</html>
