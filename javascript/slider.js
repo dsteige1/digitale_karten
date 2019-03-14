@@ -47,8 +47,13 @@ c.onmousemove = function (e) {
                 + infoEvents[i].location.gaststaette + "</strong><br>"
                 + "Teilnehmer: " + infoEvents[i].veranstaltung.teilnehmerzahl.teilgenommen + "</p>";
         }
-
         infoBox.innerHTML = txt;
+
+        if(infoEvents.length==0){
+            infoBox.style.display = 'none';
+        } else {
+            infoBox.style.display = 'inline';
+        }
     }
 
     slider.onclick = function () {
