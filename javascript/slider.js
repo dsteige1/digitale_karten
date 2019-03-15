@@ -34,36 +34,40 @@ c.onmousemove = function (e) {
     var day = parseInt(x / 2);
     slider.style.cssText = "display: inline; width: 2px; height: 40px; left: " + x + "px; ";
 
+
     if (day != 0)
-    {
-        //date.innerText = dateFromDay(2018, day).toLocaleDateString();
-
-        var infoEvents  = getEventsOfDay(day);
-        txt = "";
-
-        for (let i=0; i < infoEvents.length; i++)
-        {
-            txt += "<p>" + infoEvents[i].veranstaltung.name + " im <strong>"
-                + infoEvents[i].location.gaststaette + "</strong><br>"
-                + "Teilnehmer: " + infoEvents[i].veranstaltung.teilnehmerzahl.teilgenommen + "</p>";
-        }
-        infoBox.innerHTML = txt;
-
-//infobox ausschalten, wenn keine Events vorhanden sind
-        if(infoEvents.length==0){
-            infoBox.style.display = 'none';
-        } else {
-            infoBox.style.display = 'inline';
-        }
+        clearGraphics();
+    point = getEventsOfDay(day);
+    for (let i = 0; i < point.length; i++) {
+        //console.log(point[i].longitude);
+        drawPoint(point[i].location.long,
+            point[i].location.lat,
+            point[i].veranstaltung.name,
+            point[i].veranstaltung.teilnehmerzahl.teilgenommen);
     }
 
     slider.onclick = function () {
-        if (day != 0)
-            clearGraphics();
-        point = getEventsOfDay(day);
-        for (let i=0; i < point.length; i++){
-            //console.log(point[i].longitude);
-            drawPoint(point[i].location.long, point[i].location.lat, point[i].veranstaltung.name, point[i].veranstaltung.teilnehmerzahl.teilgenommen);
+
+        if (day != 0) {
+            //date.innerText = dateFromDay(2018, day).toLocaleDateString();
+
+            var infoEvents = getEventsOfDay(day);
+            txt = "";
+
+            for (let i = 0; i < infoEvents.length; i++) {
+                txt += "<p>" + infoEvents[i].veranstaltung.name + " im <strong>"
+                    + infoEvents[i].location.gaststaette + "</strong><br>"
+                    + "Teilnehmer: " + infoEvents[i].veranstaltung.teilnehmerzahl.teilgenommen + "</p>";
+            }
+            infoBox.innerHTML = txt;
+
+            //infobox ausschalten, wenn keine Events vorhanden sind. Klick auf leeren 'Stroke'.
+            
+            if (infoEvents.length == 0) {
+                infoBox.style.display = 'none';
+            } else {
+                infoBox.style.display = 'inline';
+            }
         }
     };
 };

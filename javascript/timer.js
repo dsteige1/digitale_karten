@@ -1,6 +1,7 @@
 let AnimationCheck  = true;
 let AnimatorToggle  = document.getElementById("animatorBox");
-let infoBox         = document.getElementById('infobox');
+let infoBox         = document.getElementById("infoboxTimer");
+let button          = document.getElementById("animatorButton");
 let fader           = document.getElementById("myRange");
 let speedOut        = document.getElementById("speedOutput");
 let max             = 0;
@@ -13,6 +14,7 @@ setTimeout(Animator, 3000);
 getActualEvents();
 speedOut.innerText = animSpeed / 1000;
 
+/*
 AnimatorToggle.addEventListener("change", function ()
 {
     if (AnimationCheck == true)
@@ -25,6 +27,23 @@ AnimatorToggle.addEventListener("change", function ()
         Animator();
     }
 });
+*/
+
+button.addEventListener("click", function ()
+{
+    if (AnimationCheck == true)
+    {
+        AnimationCheck=false;
+        button.value = "Start Animation";
+    }
+    else if (AnimationCheck == false)
+    {
+        AnimationCheck = true;
+        button.value = "Stop Animation";
+        Animator();
+    }
+});
+
 
 fader.addEventListener("change", function ()
 {
