@@ -2,35 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Slider</title>
-
-    <style>
-    </style>
+    <title>Überblick</title>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="connector.js"></script>
+    <script src="../javascript/connector.js"></script>
+
+    <script>
+
+        //Funktionen um die einzelnen Werte auszugeben
+
+        function getNameOfHosts (){
+            var result = [];
+            loop1: for (var i = 0; i < data.datenbank.event.length; i++) {
+                var name = data.datenbank.event[i].veranstaltung.gastgeber;
+                for (var i2 = 0; i2 < result.length; i2++) {
+                    if (result[i2] == name) {
+                        continue loop1;
+                    }
+                }
+                result.push(name);
+            }
+            return result;
+        }
+
+        function getNameOfClubs (){
+            var result = [];
+            loop1: for (var i = 0; i < data.datenbank.event.length; i++) {
+                var name = data.datenbank.event[i].location.gaststaette;
+                for (var i2 = 0; i2 < result.length; i2++) {
+                    if (result[i2] == name) {
+                        continue loop1;
+                    }
+                }
+                result.push(name);
+            }
+            return result;
+        }
+
+        function getAverageEntryFree (){
+            var arr =  [];
+            for (let i = 0; i < data.datenbank.event.length; i++){
+                var eintritt = parseInt(data.datenbank.event[i].veranstaltung.eintritt);
+
+                if (eintritt != 0 && !isNaN(eintritt)){
+                    arr.push(eintritt);
+                }
+            }
+            var sum, avg;
+            if (arr.length)
+            {
+                sum = arr.reduce(function(a, b) { return a + b; });
+                avg = sum / arr.length;
+            }
+            return avg;
+        }
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+            var overview = document.getElementById("overview");
+            overview.innerHTML = getNameOfClubs().length;
+        });
+
+    </script>
 </head>
 <body>
 
 <div id="overview"></div>
-
-<script>
-    var overview = document.getElementById("overview");
-
-
-    var result = [];
-    loop1: for (var i = 0; i < data.datenbank.event.length; i++) {
-        var name = data.datenbank.event[i].location.gaststaette;
-        for (var i2 = 0; i2 < result.length; i2++) {
-            if (result[i2] == name) {
-                continue loop1;
-            }
-        }
-        result.push(name);
-    }
-
-        overview.innerHTML = result.length;
-
-</script>
 </body>
 </html>

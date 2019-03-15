@@ -49,6 +49,7 @@ c.onmousemove = function (e) {
         }
         infoBox.innerHTML = txt;
 
+//infobox ausschalten, wenn keine Events vorhanden sind
         if(infoEvents.length==0){
             infoBox.style.display = 'none';
         } else {
