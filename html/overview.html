@@ -39,7 +39,7 @@
             return result;
         }
 
-        function getAverageEntryFree (){
+        function getAverageEntryFee (){
             var arr =  [];
             for (let i = 0; i < data.datenbank.event.length; i++){
                 var eintritt = parseInt(data.datenbank.event[i].veranstaltung.eintritt);
@@ -57,16 +57,35 @@
             return avg;
         }
 
+        function getMaxVisitedEvent() {
+            var arr = [];
+            for (let i =0; i < data.datenbank.event.length; i++){
+                var visitors = parseInt(data.datenbank.event[i].veranstaltung.teilnehmerzahl.teilgenommen)+parseInt(data.datenbank.event[i].veranstaltung.teilnehmerzahl.interessiert);
+                var id       = parseInt(data.datenbank.event[i].id)
+                arr.push({"index": i, "id": id, "visitors": visitors})
+            }
+
+            arr = arr.sort(function(a, b) {
+                    return (a["visitors"] > b["visitors"]) ? 1 : ((a["visitors"] < b["visitors"]) ? -1 : 0);
+            });
+
+            var eventIndex = arr[arr.length-1]["index"];
+            //var eventName  = data.datenbank.event[eventIndex].veranstaltung.name;
+
+            return eventIndex;
+        }
 
         document.addEventListener("DOMContentLoaded", function () {
             var overview = document.getElementById("overview");
-            overview.innerHTML = getNameOfClubs().length;
+            overview.innerHTML = "Die Datenbank hat insgesamt " + (data.datenbank.event.length -1) + " Einträge von " + getNameOfClubs().length + " Clubs." +
+                "<br>Der durchschnittliche Eintrittspreis beträgt " + getAverageEntryFee() +"€." +
+                "<p>Das meist besuchte Event ist " + data.datenbank.event[getMaxVisitedEvent()].veranstaltung.name + " im " + data.datenbank.event[getMaxVisitedEvent()].location.gaststaette +"</p>";
+
         });
 
     </script>
 </head>
 <body>
-
 <div id="overview"></div>
 </body>
 </html>
