@@ -104,7 +104,7 @@ function drawPoint(x,y,n,w)
 function clearGraphics() {
 
     MarkerLayer.removeAll();                //Removes all graphics from Layer
-    console.log("MarkerLayer cleared.");
+    //console.log("MarkerLayer cleared.");
 }
 
 function getClubs(){
