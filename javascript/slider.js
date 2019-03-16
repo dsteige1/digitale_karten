@@ -1,9 +1,11 @@
 var date    = document.getElementById('date');
 var slider  = document.getElementsByClassName('canvas_slider')[0];
 var infoBox = document.getElementById('infobox');
-
+let dateBox = document.getElementById("dateBoxSlider");
+let txt     = "";
 var jsonObj1    = filldata();
 var objLength   = Object.keys(jsonObj1).length; //Zählt die Anzahl der Objekte
+let sliderDate;
 
 var c   = document.getElementById('canvas_1');
 var ctx = c.getContext('2d');
@@ -15,6 +17,8 @@ ctx.strokeStyle = "#000000";
 ctx.lineWidth = 2; //Breite der Balken
 
 var objHeight;
+
+dateBox.style.display = 'none';     //Box invisible until hover on slider
 
 for (let i = 1; i <= objLength; i++) {
     objHeight = (jsonObj1[i]*23) % 39; //damit die Balken nicht mehr als 40px hoch sind
@@ -44,7 +48,14 @@ c.onmousemove = function (e) {
             point[i].location.lat,
             point[i].veranstaltung.name,
             point[i].veranstaltung.teilnehmerzahl.teilgenommen);
+
+        sliderDate = new Date(point[i].veranstaltung.daten.datum);  
     }
+
+
+    let datum = sliderDate.toDateString();
+    dateBox.style.display = 'inline';
+    dateBox.innerHTML = datum;
 
     slider.onclick = function () {
 
@@ -54,10 +65,11 @@ c.onmousemove = function (e) {
             var infoEvents = getEventsOfDay(day);
             txt = "";
 
+
             for (let i = 0; i < infoEvents.length; i++) {
-                txt += "<p>" + infoEvents[i].veranstaltung.name + " im <strong>"
-                    + infoEvents[i].location.gaststaette + "</strong><br>"
-                    + "Teilnehmer: " + infoEvents[i].veranstaltung.teilnehmerzahl.teilgenommen + "</p>";
+                txt += "<strong>" + infoEvents[i].veranstaltung.name + "</strong><ul><li>"
+                    + infoEvents[i].location.gaststaette + "</li><li>"
+                    + "Teilnehmende: " + infoEvents[i].veranstaltung.teilnehmerzahl.teilgenommen + "</li></ul>";
             }
             infoBox.innerHTML = txt;
 

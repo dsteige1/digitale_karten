@@ -5,23 +5,22 @@ let graphic;
 let MarkerLayer;
 
 require([
-    "esri/Map",
-    "esri/views/SceneView",
-    "esri/layers/GraphicsLayer",
-    "esri/Graphic",
-    "esri/geometry/Point",
-    "esri/symbols/SimpleMarkerSymbol",
-    "dojo/domReady!"
-],
-    function (
+        "esri/Map",
+        "esri/views/SceneView",
+        "esri/layers/GraphicsLayer",
+        "esri/Graphic",
+        "esri/geometry/Point",
+        "esri/symbols/SimpleMarkerSymbol",
+        "dojo/domReady!"
+    ],
+    function(
         Map,
         SceneView,
         GraphicsLayer,
         //Graphic,      //disable for outer drawPoint()
         GraphicClass, //enable for outer drawPoint()
-        Point,
-        //SimpleMarkerSymbol,
-    ) {
+        Point){
+
         Graphic = GraphicClass;    //enable for outer drawPoint()
 
         map = new Map({
@@ -36,28 +35,25 @@ require([
             map: map
         });
 
-        view.when(function () {
+        view.when(function(){
             view.goTo({
-                center: [6.916664, 50.950237],
+                center: [6.916664,50.950237],
                 zoom: 15,
                 tilt: 0
             })
         });
 
-        //var point = getClubs();
-
-        MarkerLayer = new GraphicsLayer({
-            //graphics: [graphic]
-        })
-
-        map.add(MarkerLayer);           //Add Layer to Map
+        MarkerLayer = new GraphicsLayer()   //Create Layer
+        map.add(MarkerLayer);               //Add Layer to Map
 
         var LayerToggle = document.getElementById("MarkerLayerBox");
 
         LayerToggle.addEventListener("change", function () {
-            // When the checkbox is checked (true), set the layer's visibility to true
             MarkerLayer.visible = LayerToggle.checked;
         });
+
+        drawSomething();        //viewer.js
+
     });
 
 
@@ -91,7 +87,7 @@ function drawPoint(x,y,n,w)
         symbol: s,
         popupTemplate:
         popupTemplate
-    })
+    });
 
     MarkerLayer.graphics.add(graphic);      //Adds graphics (markers) to Layer
     //MarkerLayer.add(graphic);

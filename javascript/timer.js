@@ -1,33 +1,26 @@
 let AnimationCheck = true;
 let AnimatorToggle = document.getElementById("animatorBox");
-let infoBox = document.getElementById("infoboxTimer");
-let button = document.getElementById("animatorButton");
-let fader = document.getElementById("myRange");
-let speedOut = document.getElementById("speedOutput");
-let max = 0;
-let count = 0;
-let events = [];
-let txt = "";
-let animSpeed = 1000;
+let infoBox     = document.getElementById("infoboxTimer");
+let button      = document.getElementById("animatorButton");
+let fader       = document.getElementById("myRange");
+let speedOut    = document.getElementById("speedOutput");
+let dateBox     = document.getElementById("dateDisplay");
+let animSpeed   = 1000;
+let max     = 0;
+let count   = 0;
+let events  = [];
+let txt     = "";
+let txtDate = "";
 
-setTimeout(Animator, 3000);
+dateBox.style.display = 'none';
+infoBox.style.display = 'none';
+setTimeout(function(){ 
+    dateBox.style.display = 'inline';
+    infoBox.style.display = 'inline'; 
+}, 5000)
+setTimeout(Animator, 5000);
 getActualEvents();
 speedOut.innerText = animSpeed / 1000;
-
-/*
-AnimatorToggle.addEventListener("change", function ()
-{
-    if (AnimationCheck == true)
-    {
-        AnimationCheck=false;
-    }
-    else if (AnimationCheck == false)
-    {
-        AnimationCheck = true;
-        Animator();
-    }
-});
-*/
 
 button.addEventListener("click", function () {
     if (AnimationCheck == true) {
@@ -54,7 +47,8 @@ function Animator() {
         if (count != 0)
             clearGraphics();
 
-        txt = "";
+        txt     = "";
+        txtDate = "";
 
         for (let i = 0; i < events[count].length; i++) {
             drawPoint(events[count][i].location.long,
@@ -62,13 +56,19 @@ function Animator() {
                 events[count][i].veranstaltung.name,
                 events[count][i].veranstaltung.teilnehmerzahl.teilgenommen);
 
-            txt += "<p>" + events[count][i].veranstaltung.name + " im <strong>"
-                + events[count][i].location.gaststaette + "</strong><br>"
-                + "Teilnehmende: " + events[count][i].veranstaltung.teilnehmerzahl.teilgenommen
-                + "<br>Datum: " + events[count][i].veranstaltung.daten.datum + "</p>";
+            txt += "<strong><a onclick='centerView(" + i + ")'>" + events[count][i].veranstaltung.name + "</a></strong><ul><li>"
+                + events[count][i].location.gaststaette + "</li><li>"
+                + "Teilnehmende: " + events[count][i].veranstaltung.teilnehmerzahl.teilgenommen + "</li></ul>";
         }
 
-        infoBox.innerHTML = txt;
+        let date = new Date(events[count][0].veranstaltung.daten.datum);
+        let tag = date.toLocaleDateString();
+
+        infoBox.innerHTML   = txt;
+        dateBox.innerHTML   = tag;
+
+        tag = "";
+
 
         if (count < max-1)
             count++
@@ -86,4 +86,11 @@ function getActualEvents() {
             events.push(getEventsOfDay(i));
     }
     max = events.length;
+}
+
+function centerView(i){
+    //view.centerAt(new Point(6.54488, 50.943388));
+    //view.center[events[count][i].location.long, events[count][i].location.long];
+    view.zoom = 16;     
+    console.log("Clicked");
 }

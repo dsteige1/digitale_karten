@@ -9,5 +9,6 @@ var data = (function () {
             data = jsondata;
         }
     });
+    console.log("Data loaded");
     return data;
 })();
