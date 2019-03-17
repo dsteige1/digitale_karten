@@ -354,7 +354,7 @@
         </veranstaltung>
     </event>
     <event>
-        <id>16</id>
+        <id>184</id>
         <location>
             <gaststaette>Heinz Gaul</gaststaette>
             <lat>50.9496813</lat>
@@ -1828,7 +1828,7 @@
         </veranstaltung>
     </event>
     <event>
-        <id>82</id>
+        <id>185</id>
         <location>
             <gaststaette>Heinz Gaul</gaststaette>
             <lat>50.9496813</lat>
@@ -2275,7 +2275,7 @@
             <long>6.9161618</long>
         </location>
         <veranstaltung>
-            <name>Herz and Herz - das Jahrhundertmixtape</name>
+            <name>Herz an Herz - das Jahrhundertmixtape</name>
             <daten>
                 <datum>2018-01-19</datum>
                 <uhrzeit>23:00</uhrzeit>
@@ -2286,7 +2286,7 @@
                 <teilgenommen>74</teilgenommen>
                 <interessiert>381</interessiert>
             </teilnehmerzahl>
-            <eintritt>8</eintritt>
+            <eintritt>9</eintritt>
         </veranstaltung>
     </event>
     <event>
@@ -2303,7 +2303,7 @@
                 <uhrzeit>22:00</uhrzeit>
                 <tag>Samstag</tag>
             </daten>
-            <gastgeber>HERZ an HERZ</gastgeber>
+            <gastgeber>RADIO SABOR Köln</gastgeber>
             <teilnehmerzahl>
                 <teilgenommen>437</teilgenommen>
                 <interessiert>1243</interessiert>
@@ -2467,28 +2467,6 @@
     </event>
     <event>
         <id>111</id>
-        <location>
-            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
-            <lat>50.9517153</lat>
-            <long>6.9161618</long>
-        </location>
-        <veranstaltung>
-            <name>ONE MORE TIME • Die Hits von 2000-2010</name>
-            <daten>
-                <datum>2018-02-17</datum>
-                <uhrzeit>23:00</uhrzeit>
-                <tag>Samstag</tag>
-            </daten>
-            <gastgeber>Club Bahnhof Ehrenfeld</gastgeber>
-            <teilnehmerzahl>
-                <teilgenommen>105</teilgenommen>
-                <interessiert>676</interessiert>
-            </teilnehmerzahl>
-            <eintritt>15</eintritt>
-        </veranstaltung>
-    </event>
-    <event>
-        <id>112</id>
         <location>
             <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
             <lat>50.9517153</lat>
@@ -3170,28 +3148,6 @@
         </veranstaltung>
     </event>
     <event>
-        <id>143</id>
-        <location>
-            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
-            <lat>50.9517153</lat>
-            <long>6.9161618</long>
-        </location>
-        <veranstaltung>
-            <name>Liebemachen. im Hasenbau + Hip-Hop Area • CBE</name>
-            <daten>
-                <datum>2018-05-05</datum>
-                <uhrzeit>23:00</uhrzeit>
-                <tag>Samstag</tag>
-            </daten>
-            <gastgeber>liebemachen</gastgeber>
-            <teilnehmerzahl>
-                <teilgenommen>50</teilgenommen>
-                <interessiert>569</interessiert>
-            </teilnehmerzahl>
-            <eintritt>10</eintritt>
-        </veranstaltung>
-    </event>
-    <event>
         <id>144</id>
         <location>
             <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
@@ -3452,7 +3408,7 @@
                 <teilgenommen>62</teilgenommen>
                 <interessiert>500</interessiert>
             </teilnehmerzahl>
-            <eintritt>10</eintritt>
+            <eintritt>9</eintritt>
         </veranstaltung>
     </event>
     <event>
@@ -3674,28 +3630,6 @@
             </teilnehmerzahl>
             <eintritt>9</eintritt>
         </veranstaltung>
-    </event>
-    <event>
-    <id>166</id>
-    <location>
-        <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
-        <lat>50.9517153</lat>
-        <long>6.9161618</long>
-    </location>
-    <veranstaltung>
-        <name>Herz an Herz ♡ Das Jahrhundertmixtape der 90er</name>
-        <daten>
-            <datum>2018-07-20</datum>
-            <uhrzeit>23:00</uhrzeit>
-            <tag>Freitag</tag>
-        </daten>
-        <gastgeber>HERZ an HERZ</gastgeber>
-        <teilnehmerzahl>
-            <teilgenommen>64</teilgenommen>
-            <interessiert>406</interessiert>
-        </teilnehmerzahl>
-        <eintritt>9</eintritt>
-    </veranstaltung>
     </event>
     <event>
         <id>167</id>
@@ -4050,23 +3984,4116 @@
         </veranstaltung>
     </event>
     <event>
-        <id>183</id>
+    <id>183</id>
+    <location>
+        <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+        <lat>50.9517153</lat>
+        <long>6.9161618</long>
+    </location>
+    <veranstaltung>
+        <name>ONE MORE TIME • Die Hits von 2000 bis heute! - September</name>
+        <daten>
+            <datum>2018-09-14</datum>
+            <uhrzeit>23:00</uhrzeit>
+            <tag>Freitag</tag>
+        </daten>
+        <gastgeber>ONE MORE TIME</gastgeber>
+        <teilnehmerzahl>
+            <teilgenommen>81</teilgenommen>
+            <interessiert>668</interessiert>
+        </teilnehmerzahl>
+        <eintritt>10</eintritt>
+    </veranstaltung>
+    </event>
+    <event>
+        <id>186</id>
         <location>
             <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
             <lat>50.9517153</lat>
             <long>6.9161618</long>
         </location>
         <veranstaltung>
-            <name>ONE MORE TIME • Die Hits von 2000 bis heute! - September</name>
+            <name>RADIO SABOR • LATIN CLUB • SA 15.9. • 22h! • CBE &amp; YUCA • Köln</name>
             <daten>
-                <datum>2018-09-14</datum>
+                <datum>2018-09-15</datum>
+                <uhrzeit>22:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>RADIO SABOR Köln</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>305</teilgenommen>
+                <interessiert>1177</interessiert>
+            </teilnehmerzahl>
+            <eintritt>12</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>187</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>Herz an Herz ♡ Das Jahrhundertmixtape der 90er</name>
+            <daten>
+                <datum>2018-09-21</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>HERZ an HERZ</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>84</teilgenommen>
+                <interessiert>663</interessiert>
+            </teilnehmerzahl>
+            <eintritt>9</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>188</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>Don't Tell Dad! Party @Club Bahnhof Ehrenfeld</name>
+            <daten>
+                <datum>2018-09-22</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Underdog Recordstore</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>32</teilgenommen>
+                <interessiert>596</interessiert>
+            </teilnehmerzahl>
+            <eintritt>8</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>189</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>Goosebumps - 28/09 - CBE Köln</name>
+            <daten>
+                <datum>2018-09-28</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Goosebumps Event</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>126</teilgenommen>
+                <interessiert>433</interessiert>
+            </teilnehmerzahl>
+            <eintritt>13</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>190</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>Mittanzgelegenheit - Herbstglühen im CBE</name>
+            <daten>
+                <datum>2018-09-29</datum>
+                <uhrzeit>22:30</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Mittanzgelegenheit Köln</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>29</teilgenommen>
+                <interessiert>445</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>191</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>Ausverkauft • Kayef - Modus Tour 2018 - Köln</name>
+            <daten>
+                <datum>2018-10-05</datum>
+                <uhrzeit>19:30</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>MSK Meistersinger</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>125</teilgenommen>
+                <interessiert>175</interessiert>
+            </teilnehmerzahl>
+            <eintritt>30</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>192</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>Trashpop im Club Bahnhof Ehrenfeld</name>
+            <daten>
+                <datum>2018-10-05</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Trashpop</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>53</teilgenommen>
+                <interessiert>877</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>193</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>9 Jahre Liebemachen • CBE Köln</name>
+            <daten>
+                <datum>2018-10-06</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>liebemachen</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>68</teilgenommen>
+                <interessiert>737</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>194</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>ONE MORE TIME • Die Hits von 2000 bis heute! - Oktober</name>
+            <daten>
+                <datum>2018-10-12</datum>
                 <uhrzeit>23:00</uhrzeit>
                 <tag>Freitag</tag>
             </daten>
             <gastgeber>ONE MORE TIME</gastgeber>
             <teilnehmerzahl>
+                <teilgenommen>97</teilgenommen>
+                <interessiert>642</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>195</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>Col3trane at Club Bahnhof Ehrenfeld (CBE) (October 13, 2018)</name>
+            <daten>
+                <datum>2018-10-13</datum>
+                <uhrzeit>19:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Col3trane</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>10</teilgenommen>
+                <interessiert>12</interessiert>
+            </teilnehmerzahl>
+            <eintritt>20</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>196</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>HUSH HUSH • Die Hip-Hop Party im CBE! with Col3trane Live</name>
+            <daten>
+                <datum>2018-10-13</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>HUSH HUSH</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>123</teilgenommen>
+                <interessiert>845</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>197</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>SOLD OUT Story Party Cologne | True Dating Stories</name>
+            <daten>
+                <datum>2018-10-19</datum>
+                <uhrzeit>19:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Rachman Blake</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>161</teilgenommen>
+                <interessiert>1851</interessiert>
+            </teilnehmerzahl>
+            <eintritt>40</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>198</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>Herz an Herz ♡ Das Jahrhundertmixtape der 90er</name>
+            <daten>
+                <datum>2018-10-19</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>HERZ an HERZ</gastgeber>
+            <teilnehmerzahl>
                 <teilgenommen>81</teilgenommen>
-                <interessiert>668</interessiert>
+                <interessiert>725</interessiert>
+            </teilnehmerzahl>
+            <eintritt>9</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>199</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>RADIO SABOR • LATIN CLUB • SA 20.10. • 22h! • CBE &amp; YUCA • Köln</name>
+            <daten>
+                <datum>2018-10-20</datum>
+                <uhrzeit>22:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>RADIO SABOR Köln</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>325</teilgenommen>
+                <interessiert>1353</interessiert>
+            </teilnehmerzahl>
+            <eintritt>12</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>200</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>Simon Stäblein - Heul doch!</name>
+            <daten>
+                <datum>2018-10-26</datum>
+                <uhrzeit>19:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Simon Stäblein</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>32</teilgenommen>
+                <interessiert>78</interessiert>
+            </teilnehmerzahl>
+            <eintritt>25</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>201</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>Goosebumps - 26.10. - CBE Köln</name>
+            <daten>
+                <datum>2018-10-26</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Goosebumps Event</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>125</teilgenommen>
+                <interessiert>375</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>202</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>Road to wXw Broken Rules: wXwNOW Feature Event in Köln</name>
+            <daten>
+                <datum>2018-10-27</datum>
+                <uhrzeit>18:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Westside Xtreme Wrestling</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>35</teilgenommen>
+                <interessiert>36</interessiert>
+            </teilnehmerzahl>
+            <eintritt>24</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>203</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>Road to wXw Broken Rules: wXwNOW Feature Event in Köln</name>
+            <daten>
+                <datum>2018-10-27</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Underdgog Recordstore</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>48</teilgenommen>
+                <interessiert>636</interessiert>
+            </teilnehmerzahl>
+            <eintritt>8</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>204</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>Trashpop im Club Bahnhof Ehrenfeld</name>
+            <daten>
+                <datum>2018-11-02</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Trashpop</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>56</teilgenommen>
+                <interessiert>663</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>205</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>KeinKultur-Festival 2018 + Afterparty</name>
+            <daten>
+                <datum>2018-11-03</datum>
+                <uhrzeit>17:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Keinkultur Festival</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>289</teilgenommen>
+                <interessiert>1009</interessiert>
+            </teilnehmerzahl>
+            <eintritt>21</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>206</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>Liebemachen. vom Suchen und Finden + Hip-Hop Area • CBE Köln</name>
+            <daten>
+                <datum>2018-11-03</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>liebemachen</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>63</teilgenommen>
+                <interessiert>889</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>207</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>ONE MORE TIME • Die Hits von 2000 bis heute! - November</name>
+            <daten>
+                <datum>2018-11-09</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>ONE MORE TIME</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>52</teilgenommen>
+                <interessiert>682</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>208</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>Kölsch im Club Festivälchen | #reinfeiern 10.11.</name>
+            <daten>
+                <datum>2018-11-10</datum>
+                <uhrzeit>20:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Kölsch im Club</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>20</teilgenommen>
+                <interessiert>16</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>209</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>Herz an Herz ♡ Das Jahrhundertmixtape der 90er</name>
+            <daten>
+                <datum>2018-11-16</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>HERZ an HERZ</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>71</teilgenommen>
+                <interessiert>722</interessiert>
+            </teilnehmerzahl>
+            <eintritt>9</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>210</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>RADIO SABOR • LATIN CLUB • SA 17.11. • 22h! • CBE &amp; YUCA • Köln</name>
+            <daten>
+                <datum>2018-11-17</datum>
+                <uhrzeit>22:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>RADIO SABOR Köln</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>269</teilgenommen>
+                <interessiert>972</interessiert>
+            </teilnehmerzahl>
+            <eintritt>12</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>211</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>Charlie Winston | Köln, Club Bahnhof Ehrenfeld</name>
+            <daten>
+                <datum>2018-11-23</datum>
+                <uhrzeit>20:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>MCT Agentur</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>38</teilgenommen>
+                <interessiert>81</interessiert>
+            </teilnehmerzahl>
+            <eintritt>30</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>212</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>Jay Critch Live at Goosebumps - 23.11. - CBE Köln</name>
+            <daten>
+                <datum>2018-11-23</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Goosebumps Event</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>116</teilgenommen>
+                <interessiert>228</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>213</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>Road to wXw 18th Anniversary: wXwNOW Feature Event in Köln</name>
+            <daten>
+                <datum>2018-11-24</datum>
+                <uhrzeit>18:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Westside Xtreme Wrestling</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>31</teilgenommen>
+                <interessiert>39</interessiert>
+            </teilnehmerzahl>
+            <eintritt>25</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>214</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>10 Jahre DON'T TELL DAD! Party @Club Bahnhof Ehrenfeld</name>
+            <daten>
+                <datum>2018-11-24</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Underdog Recordstore</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>50</teilgenommen>
+                <interessiert>401</interessiert>
+            </teilnehmerzahl>
+            <eintritt>8</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>215</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>Lions Head • Köln</name>
+            <daten>
+                <datum>2018-11-30</datum>
+                <uhrzeit>19:30</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Lions Head</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>60</teilgenommen>
+                <interessiert>54</interessiert>
+            </teilnehmerzahl>
+            <eintritt>30</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>216</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>Liebemachen. + Neu: Hip-Hop Area • CBE Köln</name>
+            <daten>
+                <datum>2018-12-01</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>liebemachen</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>53</teilgenommen>
+                <interessiert>778</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>217</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>The Gardener &amp; The Tree · Köln - Ausverkauft!</name>
+            <daten>
+                <datum>2018-12-07</datum>
+                <uhrzeit>20:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Gastspielreisen</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>111</teilgenommen>
+                <interessiert>100</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>218</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>Trashpop im Club Bahnhof Ehrenfeld</name>
+            <daten>
+                <datum>2018-12-07</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Trashpop</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>42</teilgenommen>
+                <interessiert>826</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>219</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>HUSH HUSH • Die Hip-Hop Party im CBE</name>
+            <daten>
+                <datum>2018-12-08</datum>
+                <uhrzeit>22:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>HUSH HUSH</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>123</teilgenommen>
+                <interessiert>662</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>220</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>ONE MORE TIME • Die Hits von 2000 bis heute! - Dezember</name>
+            <daten>
+                <datum>2018-12-14</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>ONE MORE TIME</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>76</teilgenommen>
+                <interessiert>714</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>221</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>RADIO SABOR • LATIN CLUB • SA 15.12. • 22h! • CBE &amp; YUCA • Köln</name>
+            <daten>
+                <datum>2018-12-15</datum>
+                <uhrzeit>22:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>RADIO SABOR Köln</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>278</teilgenommen>
+                <interessiert>918</interessiert>
+            </teilnehmerzahl>
+            <eintritt>12</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>222</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>Herz an Herz ♡ Das Jahrhundertmixtape der 90er</name>
+            <daten>
+                <datum>2018-12-21</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>HERZ an HERZ</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>74</teilgenommen>
+                <interessiert>573</interessiert>
+            </teilnehmerzahl>
+            <eintritt>9</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>223</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>Don't Tell Dad! - The Christmas Edition @Club Bahnhof Ehrenfeld</name>
+            <daten>
+                <datum>2018-12-22</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Underdog Recordstore</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>26</teilgenommen>
+                <interessiert>272</interessiert>
+            </teilnehmerzahl>
+            <eintritt>8</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>224</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>Goosebumps - 28.12. - CBE Köln</name>
+            <daten>
+                <datum>2018-12-28</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Goosebumps Event</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>105</teilgenommen>
+                <interessiert>328</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>225</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>MEMORIA LIVE IM CBE</name>
+            <daten>
+                <datum>2018-12-29</datum>
+                <uhrzeit>18:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>MEMORIA</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>188</teilgenommen>
+                <interessiert>652</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>226</id>
+        <location>
+            <gaststaette>Club Bahnhof Ehrenfeld</gaststaette>
+            <lat>50.9517153</lat>
+            <long>6.9161618</long>
+        </location>
+        <veranstaltung>
+            <name>8.0 - In the air tonight + Oldschool Floor / CBE</name>
+            <daten>
+                <datum>2018-12-29</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>8.0</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>75</teilgenommen>
+                <interessiert>866</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>227</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Zwischenmiete Club Edition Resident Night #2</name>
+            <daten>
+                <datum>2018-01-05</datum>
+                <uhrzeit>23:59</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Zwischenmiete</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>30</teilgenommen>
+                <interessiert>112</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>228</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>BergWacht mit Alessandro Diga (Manual Music/BergWacht)</name>
+            <daten>
+                <datum>2018-01-06</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>BergWacht</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>73</teilgenommen>
+                <interessiert>334</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>229</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Karl Bartos: Der Klang der Maschine/Moderation: Klaus Fiehe</name>
+            <daten>
+                <datum>2018-01-12</datum>
+                <uhrzeit>20:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Trocadero</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>97</teilgenommen>
+                <interessiert>210</interessiert>
+            </teilnehmerzahl>
+            <eintritt>14</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>230</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Animado at Artheater w/Wehbba</name>
+            <daten>
+                <datum>2018-01-12</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>ANIMADO</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>206</teilgenommen>
+                <interessiert>755</interessiert>
+            </teilnehmerzahl>
+            <eintritt>11</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>231</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>BACKSTAGE DiARiES</name>
+            <daten>
+                <datum>2018-01-13</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>BACKSTAGE DiARiES</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>155</teilgenommen>
+                <interessiert>594</interessiert>
+            </teilnehmerzahl>
+            <eintritt>8</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>232</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Woken w/ KNOBS &amp; Lukas Freudenberger</name>
+            <daten>
+                <datum>2018-01-19</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Technopuls.</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>112</teilgenommen>
+                <interessiert>418</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>233</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Festival d'electronique in Ehrenfeld</name>
+            <daten>
+                <datum>2018-01-20</datum>
+                <uhrzeit>22:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Lichtblick</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>732</teilgenommen>
+                <interessiert>5882</interessiert>
+            </teilnehmerzahl>
+            <eintritt>18</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>234</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Obsession X Sturm&amp;Klang present Hybris +Techno Floor</name>
+            <daten>
+                <datum>2018-01-26</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Obsession CGN</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>155</teilgenommen>
+                <interessiert>619</interessiert>
+            </teilnehmerzahl>
+            <eintritt>8</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>235</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>HEEN &amp; Sophia Wahnschaffe Live im Artheater</name>
+            <daten>
+                <datum>2018-01-27</datum>
+                <uhrzeit>20:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>HEEN</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>42</teilgenommen>
+                <interessiert>88</interessiert>
+            </teilnehmerzahl>
+            <eintritt>5</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>236</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Hasenbau x Artheater w/Julian Jeweil (Drumcode)</name>
+            <daten>
+                <datum>2018-01-27</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Hasenbau</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>421</teilgenommen>
+                <interessiert>1725</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>237</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>5 Years Sector Cologne│Tommy Four Seven│Schwefelgelb - Live│etc.</name>
+            <daten>
+                <datum>2018-02-02</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Sector Cologne</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>284</teilgenommen>
+                <interessiert>992</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>238</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>03.02.'18 / Catapulco &amp; Doomspatze</name>
+            <daten>
+                <datum>2018-02-03</datum>
+                <uhrzeit>19:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Noisegroupie</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>78</teilgenommen>
+                <interessiert>133</interessiert>
+            </teilnehmerzahl>
+            <eintritt>12</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>239</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Tag X with Cleric - 4h Set</name>
+            <daten>
+                <datum>2018-02-03</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Minimalistenrudel/Tag X</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>229</teilgenommen>
+                <interessiert>1024</interessiert>
+            </teilnehmerzahl>
+            <eintritt>13</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>240</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Carnival d'electronique im Artheater &amp; Helios37</name>
+            <daten>
+                <datum>2018-02-09</datum>
+                <uhrzeit>22:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Lichtblick</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>181</teilgenommen>
+                <interessiert>1582</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>241</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Karneval - Tag X &amp; BergWacht - Kobosil &amp; Microtrauma</name>
+            <daten>
+                <datum>2018-02-10</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Minimalistenrudel / Tag X</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>352</teilgenommen>
+                <interessiert>1750</interessiert>
+            </teilnehmerzahl>
+            <eintritt>13</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>242</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Abschlusskonzert Nick Reinartz</name>
+            <daten>
+                <datum>2018-02-16</datum>
+                <uhrzeit>19:30</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Oakum Brass Connection</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>69</teilgenommen>
+                <interessiert>186</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>243</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Brutalism w/ Acierate &amp; Tham</name>
+            <daten>
+                <datum>2018-02-16</datum>
+                <uhrzeit>23:30</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Brutalism</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>64</teilgenommen>
+                <interessiert>284</interessiert>
+            </teilnehmerzahl>
+            <eintritt>13</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>244</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Herrengedeck - Die Show // Köln</name>
+            <daten>
+                <datum>2018-02-17</datum>
+                <uhrzeit>18:30</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Herrengedeck - Der Podcast</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>51</teilgenommen>
+                <interessiert>89</interessiert>
+            </teilnehmerzahl>
+            <eintritt>24</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>245</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>BACKSTAGE DiARiES</name>
+            <daten>
+                <datum>2018-02-17</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>BACKSTAGE DiARIiES</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>122</teilgenommen>
+                <interessiert>474</interessiert>
+            </teilnehmerzahl>
+            <eintritt>8</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>246</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Algiers | Köln - ausverkauft</name>
+            <daten>
+                <datum>2018-02-23</datum>
+                <uhrzeit>20:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Konzertbüro Schoneberg</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>79</teilgenommen>
+                <interessiert>174</interessiert>
+            </teilnehmerzahl>
+            <eintritt>25</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>247</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>HOOVE w/ Truth Be Told</name>
+            <daten>
+                <datum>2018-02-23</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>HOOVE</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>50</teilgenommen>
+                <interessiert>121</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>248</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>HOOVE w/ Truth Be Told</name>
+            <daten>
+                <datum>2018-02-24</datum>
+                <uhrzeit>19:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Popanz</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>25</teilgenommen>
+                <interessiert>140</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>249</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Insomnia 3000 / Wild Winter Dance-Protonica Live / Funktion One</name>
+            <daten>
+                <datum>2018-02-24</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>V.I.B.E.Z. Productions</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>124</teilgenommen>
+                <interessiert>1158</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>250</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Zwischenmiete Club Edition w/ Weisser Rabe, Joseph Disco</name>
+            <daten>
+                <datum>2018-03-02</datum>
+                <uhrzeit>23:55</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Zwischenmiete</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>96</teilgenommen>
+                <interessiert>348</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>251</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Kent Coda_AlbumReleasekonzert/ Bir balık olsam@Artheater_Köln</name>
+            <daten>
+                <datum>2018-03-03</datum>
+                <uhrzeit>19:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Kent Coda</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>130</teilgenommen>
+                <interessiert>358</interessiert>
+            </teilnehmerzahl>
+            <eintritt>14</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>252</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>BergWacht mit Miss Melera (Einmusika / Parquet Rec.)</name>
+            <daten>
+                <datum>2018-03-03</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>BergWacht</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>88</teilgenommen>
+                <interessiert>498</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>253</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Animado XL 9l3l18 im Artheater w/SHLOMI ABER, WESKA, Liho uvm.</name>
+            <daten>
+                <datum>2018-03-09</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>ANIMADO</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>246</teilgenommen>
+                <interessiert>803</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>254</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>BACKSTAGE DiARiES</name>
+            <daten>
+                <datum>2018-03-10</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>BACKSTAGE DiARiES</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>126</teilgenommen>
+                <interessiert>460</interessiert>
+            </teilnehmerzahl>
+            <eintritt>8</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>255</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Insomnia 3000 / Talamasca Live &amp; Dj Set !-+</name>
+            <daten>
+                <datum>2018-03-16</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>V.I.B.E.Z. Productions</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>180</teilgenommen>
+                <interessiert>1374</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>256</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Hasenbau w/Cari Lekebusch (H.Production / Drumcode)</name>
+            <daten>
+                <datum>2018-03-17</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Hasenbau</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>246</teilgenommen>
+                <interessiert>1252</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>257</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Experimente - Das Impro-Labor</name>
+            <daten>
+                <datum>2018-03-23</datum>
+                <uhrzeit>20:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Springmaus Improvisationstheater</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>4</teilgenommen>
+                <interessiert>25</interessiert>
+            </teilnehmerzahl>
+            <eintritt>0</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>258</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Heute: Abstract Cologne w/ Klaudia Gawlas &amp; Torsten Kanzler</name>
+            <daten>
+                <datum>2018-03-23</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>abstract</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>232</teilgenommen>
+                <interessiert>1541</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>259</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Bahamas | Köln</name>
+            <daten>
+                <datum>2018-03-24</datum>
+                <uhrzeit>20:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Konzertbüro Schoneberg</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>35</teilgenommen>
+                <interessiert>46</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>260</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Ehrenfeld XL - 10 Clubs 1 Nacht 1 Veedel</name>
+            <daten>
+                <datum>2018-03-24</datum>
+                <uhrzeit>22:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Ehrenfeld XL</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>1960</teilgenommen>
+                <interessiert>8757</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>261</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>10 Jahre Einmusika</name>
+            <daten>
+                <datum>2018-03-31</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Artheater</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>180</teilgenommen>
+                <interessiert>857</interessiert>
+            </teilnehmerzahl>
+            <eintritt>12,5</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>262</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Lichtblick mit Florian Meindl &amp; Welticke</name>
+            <daten>
+                <datum>2018-04-06</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Lichtblick</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>105</teilgenommen>
+                <interessiert>883</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>263</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Rausgegangen Tour: Und Wieder Oktober + Spiegelblick // Köln</name>
+            <daten>
+                <datum>2018-04-07</datum>
+                <uhrzeit>19:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Rausgegangen</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>61</teilgenommen>
+                <interessiert>15</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>264</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Tag X with Anetha</name>
+            <daten>
+                <datum>2018-04-07</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Minimalistenrudel / Tag X</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>123</teilgenommen>
+                <interessiert>692</interessiert>
+            </teilnehmerzahl>
+            <eintritt>13</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>265</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Will Varley (Xtra Mile Recordings/UK) / Cologne</name>
+            <daten>
+                <datum>2018-04-13</datum>
+                <uhrzeit>19:30</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Getaddicted</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>65</teilgenommen>
+                <interessiert>93</interessiert>
+            </teilnehmerzahl>
+            <eintritt>17</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>266</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Sector│Ressort Imprint Showcase</name>
+            <daten>
+                <datum>2018-04-13</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Sector Cologne</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>70</teilgenommen>
+                <interessiert>346</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>267</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>BACKSTAGE DiARiES</name>
+            <daten>
+                <datum>2018-04-14</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>BACKSTAGE DiARiES</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>102</teilgenommen>
+                <interessiert>523</interessiert>
+            </teilnehmerzahl>
+            <eintritt>8</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>268</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>303 presents Cj Bolland / Thomas P. Heckmann aka Drax uvm.</name>
+            <daten>
+                <datum>2018-04-20</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Artheater</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>213</teilgenommen>
+                <interessiert>1052</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>269</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>BergWacht feat Parquet Recordings Solee LIVE, Boss Axis LIVE uvm</name>
+            <daten>
+                <datum>2018-04-21</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>BergWacht</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>178</teilgenommen>
+                <interessiert>833</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>270</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>HOOVE pres. WE_R HOUSE w/ Cinthie &amp; The Willers Brothers</name>
+            <daten>
+                <datum>2018-04-27</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>HOOVE</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>102</teilgenommen>
+                <interessiert>246</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>271</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>IAMJJ | Köln</name>
+            <daten>
+                <datum>2018-04-28</datum>
+                <uhrzeit>20:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Konzertbüro Schoneberg</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>24</teilgenommen>
+                <interessiert>58</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>272</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Hendroyd´s HOME #2 w/STEAM SHAPE</name>
+            <daten>
+                <datum>2018-04-28</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>ANIMADO</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>100</teilgenommen>
+                <interessiert>294</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>273</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>City Light Thief • Köln • Record Release Show</name>
+            <daten>
+                <datum>2018-05-04</datum>
+                <uhrzeit>19:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>190a</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>101</teilgenommen>
+                <interessiert>212</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>274</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Zwischenmiete Club Edition w/ David Dorad, Benno Blome</name>
+            <daten>
+                <datum>2018-05-04</datum>
+                <uhrzeit>23:59</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Zwischenmiete</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>64</teilgenommen>
+                <interessiert>238</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>275</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Viva Movimiento #6 - Tischtennis-Rundlauf Turnier</name>
+            <daten>
+                <datum>2018-05-05</datum>
+                <uhrzeit>18:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Viva con Agua Köln</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>64</teilgenommen>
+                <interessiert>220</interessiert>
+            </teilnehmerzahl>
+            <eintritt>30</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>276</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>BergWacht mit Mohn, Joschka Tschirley, Fips und Liho</name>
+            <daten>
+                <datum>2018-05-05</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>BergWacht</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>50</teilgenommen>
+                <interessiert>426</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>277</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Hockey Dad I Köln</name>
+            <daten>
+                <datum>2018-05-11</datum>
+                <uhrzeit>19:30</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>prime entertainment</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>20</teilgenommen>
+                <interessiert>40</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>278</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Insomnia 3000 / Hatikwa Live uvm</name>
+            <daten>
+                <datum>2018-05-11</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>V.I.B.E.Z. Productions</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>108</teilgenommen>
+                <interessiert>1241</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>279</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>BACKSTAGE DiARiES inkl ESC -PV</name>
+            <daten>
+                <datum>2018-05-12</datum>
+                <uhrzeit>19:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>BACKSTAGE DiARiES</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>106</teilgenommen>
+                <interessiert>443</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>280</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Cgn Fiercest Queens verdreschen den ESC</name>
+            <daten>
+                <datum>2018-05-12</datum>
+                <uhrzeit>19:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>BACKSTAGE DiARiES</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>106</teilgenommen>
+                <interessiert>443</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>281</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Animado at Artheater w/ Spektre &amp; Sama</name>
+            <daten>
+                <datum>2018-05-18</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>ANIMADO</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>216</teilgenommen>
+                <interessiert>752</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>282</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Two Feet I Köln | Ausverkauft</name>
+            <daten>
+                <datum>2018-05-19</datum>
+                <uhrzeit>19:30</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>prime entertainment</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>123</teilgenommen>
+                <interessiert>422</interessiert>
+            </teilnehmerzahl>
+            <eintritt>30</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>283</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Hasenbau w/Jeroen Search (Figure) &amp; Leon Licht</name>
+            <daten>
+                <datum>2018-05-19</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Hasenbau</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>164</teilgenommen>
+                <interessiert>757</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>284</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Newmen &amp; Len Sander I Köln</name>
+            <daten>
+                <datum>2018-05-25</datum>
+                <uhrzeit>19:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>NEWMEN</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>19</teilgenommen>
+                <interessiert>33</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>285</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>BLN mit Tim Green / SIS / Inigo Kennedy / Psyk / Maral Salmassi</name>
+            <daten>
+                <datum>2018-05-25</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Artheater</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>81</teilgenommen>
+                <interessiert>473</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>286</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Mongusho w/ Britta Arnold (Katermukke Berlin / Happy Camper)</name>
+            <daten>
+                <datum>2018-05-26</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Artheater</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>69</teilgenommen>
+                <interessiert>747</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>287</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Album Release Show - Like Snow - "Beauty &amp; Fear"</name>
+            <daten>
+                <datum>2018-06-01</datum>
+                <uhrzeit>19:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Like Snow</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>67</teilgenommen>
+                <interessiert>119</interessiert>
+            </teilnehmerzahl>
+            <eintritt>20</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>288</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Sector│[aufnahme + wiedergabe]</name>
+            <daten>
+                <datum>2018-06-01</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Sector Cologne</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>81</teilgenommen>
+                <interessiert>410</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>289</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Tag X Rdlbmsn</name>
+            <daten>
+                <datum>2018-06-02</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Minimalistenrudel</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>60</teilgenommen>
+                <interessiert>396</interessiert>
+            </teilnehmerzahl>
+            <eintritt>13</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>290</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Oh Boy - Release Show</name>
+            <daten>
+                <datum>2018-06-08</datum>
+                <uhrzeit>18:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Oh Boy</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>77</teilgenommen>
+                <interessiert>166</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>291</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>NOVA w/ Arjun Vagale (Drumcode) &amp; Patrik Berg x Artheater</name>
+            <daten>
+                <datum>2018-06-08</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>NOVA</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>98</teilgenommen>
+                <interessiert>525</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>292</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>BACKSTAGE DiARiES - Last Before Summerbreak</name>
+            <daten>
+                <datum>2018-06-09</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>BACKSTAGE DiARiES</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>79</teilgenommen>
+                <interessiert>288</interessiert>
+            </teilnehmerzahl>
+            <eintritt>8</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>293</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Brutalism x Lebendig</name>
+            <daten>
+                <datum>2018-06-15</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Brutalism</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>103</teilgenommen>
+                <interessiert>509</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>294</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Hasenbau w/Martha van Straaten &amp; Gru:nton Afterparty</name>
+            <daten>
+                <datum>2018-06-16</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Hasenbau</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>117</teilgenommen>
+                <interessiert>892</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>295</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Hell Ist Anders pres. Björn Torwellen - Level up</name>
+            <daten>
+                <datum>2018-06-22</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>hell ist anders</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>150</teilgenommen>
+                <interessiert>1187</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>296</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Obsession x Apriori w./ Counterstrike (CZ) DNB+Techno</name>
+            <daten>
+                <datum>2018-06-23</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Obsession CGN</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>170</teilgenommen>
+                <interessiert>584</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>297</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Insomnia 3000 / Klopfgeister Live / Summer indoor Closing 2018</name>
+            <daten>
+                <datum>2018-06-29</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>V.I.B.E.Z. Productions</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>125</teilgenommen>
+                <interessiert>1218</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>298</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Technova - Tag X with Dave Clarke at artheater</name>
+            <daten>
+                <datum>2018-06-30</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Artheater</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>142</teilgenommen>
+                <interessiert>842</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>299</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>
+                BEATZ&amp;BOYZ - ColognePride Edition</name>
+            <daten>
+                <datum>2018-07-06</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>BEATZ&amp;BOYZ</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>465</teilgenommen>
+                <interessiert>717</interessiert>
+            </teilnehmerzahl>
+            <eintritt>12</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>300</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>BergWacht Summer-Closing mit Arjuna Schiks LIVE</name>
+            <daten>
+                <datum>2018-07-07</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>BergWacht</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>64</teilgenommen>
+                <interessiert>590</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>301</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>2 Jahre Hasenbau w/Welticke &amp; Franca</name>
+            <daten>
+                <datum>2018-07-13</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Hasenbau</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>152</teilgenommen>
+                <interessiert>729</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>302</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Obsession x Hasenbau x Artheater w/ Gourski, Welticke uvm.</name>
+            <daten>
+                <datum>2018-07-13</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Obsession CGN</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>132</teilgenommen>
+                <interessiert>542</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>303</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Sector│Brutalism</name>
+            <daten>
+                <datum>2018-07-14</datum>
+                <uhrzeit>23:59</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Sector Cologne</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>75</teilgenommen>
+                <interessiert>414</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>304</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>The Spirit of Pydna - Warm Up</name>
+            <daten>
+                <datum>2018-07-20</datum>
+                <uhrzeit>22:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Pydna Alliance - mthrfckng techno sound </gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>132</teilgenommen>
+                <interessiert>428</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>305</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Kinetic · Geile Mukke · Artheater + Alalkih's Geburtstag</name>
+            <daten>
+                <datum>2018-07-21</datum>
+                <uhrzeit>23:55</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Kinetic Music</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>85</teilgenommen>
+                <interessiert>363</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>306</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Zwischenmiete Club Edition Downbeat Spezial w/ Doob &amp; Janoma</name>
+            <daten>
+                <datum>2018-07-27</datum>
+                <uhrzeit>23:59</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Zwischenmiete</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>67</teilgenommen>
+                <interessiert>339</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>307</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>HOOVE w/ Diego Krause</name>
+            <daten>
+                <datum>2018-07-28</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>HOOVE</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>63</teilgenommen>
+                <interessiert>226</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>308</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Tag X with PEARL &amp; Tensal - Falling Ethics Night</name>
+            <daten>
+                <datum>2018-08-04</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Minimalistenrudel / Tag X</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>129</teilgenommen>
+                <interessiert>607</interessiert>
+            </teilnehmerzahl>
+            <eintritt>13</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>309</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Brutalism with Parallx</name>
+            <daten>
+                <datum>2018-08-10</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Brutalism</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>130</teilgenommen>
+                <interessiert>544</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>310</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>BACKSTAGE DiARiES</name>
+            <daten>
+                <datum>2018-08-11</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>BACKSTAGE DiARiES</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>76</teilgenommen>
+                <interessiert>391</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>311</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Cologne Summer Rave: Homegrown Records vs. Dark Enlightenment</name>
+            <daten>
+                <datum>2018-08-17</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Homegrown Records</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>215</teilgenommen>
+                <interessiert>2241</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>312</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Conscious Culture Album Release concert</name>
+            <daten>
+                <datum>2018-08-18</datum>
+                <uhrzeit>20:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Conscious Culture</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>97</teilgenommen>
+                <interessiert>327</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>313</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Kinetic · w/FLUG · Artheater</name>
+            <daten>
+                <datum>2018-08-24</datum>
+                <uhrzeit>23:59</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Kinetic Music</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>83</teilgenommen>
+                <interessiert>371</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>314</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Cologne Club Night 2018 - Kölns größtes Clubhopping</name>
+            <daten>
+                <datum>2018-08-25</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Artheater</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>561</teilgenommen>
+                <interessiert>5964</interessiert>
+            </teilnehmerzahl>
+            <eintritt>13</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>315</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Klüngelclub x Artheater x Klubkomm X Hasenbau X Zwischenmiete</name>
+            <daten>
+                <datum>2018-08-25</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Artheater</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>96</teilgenommen>
+                <interessiert>384</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>316</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Sommer Rave /w Vinicius Honorio (Drumcode)</name>
+            <daten>
+                <datum>2018-08-31</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Lichtblick</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>149</teilgenommen>
+                <interessiert>1301</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>317</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>BergWacht Opening mit Van Did (8day / Kanada)</name>
+            <daten>
+                <datum>2018-09-01</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>BergWacht</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>64</teilgenommen>
+                <interessiert>427</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>318</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Eclipse Cologne Vol. 2</name>
+            <daten>
+                <datum>2018-09-07</datum>
+                <uhrzeit>19:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>THE BLACKWHITECOLORFUL</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>42</teilgenommen>
+                <interessiert>95</interessiert>
+            </teilnehmerzahl>
+            <eintritt>20</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>319</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Sector│Sept - LIVE</name>
+            <daten>
+                <datum>2018-09-07</datum>
+                <uhrzeit>23:59</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Sector Cologne</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>58</teilgenommen>
+                <interessiert>311</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>320</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>BACKSTAGE DiARiES w/Ben Manson. Alex Reitinger. Arantxa Gallardo</name>
+            <daten>
+                <datum>2018-09-08</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>BACKSTAGE DiARiES</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>101</teilgenommen>
+                <interessiert>406</interessiert>
+            </teilnehmerzahl>
+            <eintritt>8</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>321</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>ViLLA NOiSE - Release PARTY - feat. Alpentines</name>
+            <daten>
+                <datum>2018-09-14</datum>
+                <uhrzeit>19:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>ViLLA NOiSE</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>37</teilgenommen>
+                <interessiert>84</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>322</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Frisch Gepresst w/ Frankyeffe - Kevin Witt - Jagger uvm.</name>
+            <daten>
+                <datum>2018-09-14</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Techno Lieben &amp; Leben</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>267</teilgenommen>
+                <interessiert>617</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>323</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>2 Years Modern Musement w/ Oliver Deutschmann</name>
+            <daten>
+                <datum>2018-09-15</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Modern Musement</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>95</teilgenommen>
+                <interessiert>389</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>324</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Animado XL w/STEPHAN HINZ live &amp; Skober</name>
+            <daten>
+                <datum>2018-09-21</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>ANIMADO</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>244</teilgenommen>
+                <interessiert>1103</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>325</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Herbst Rave w/ Marco Bailey &amp; Tiger Stripes (Drumcode)</name>
+            <daten>
+                <datum>2018-09-22</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Lichtblick</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>142</teilgenommen>
+                <interessiert>983</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>326</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Darwin Deez – Köln, Artheater</name>
+            <daten>
+                <datum>2018-09-28</datum>
+                <uhrzeit>19:30</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>FKP Scorpio</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>122</teilgenommen>
+                <interessiert>520</interessiert>
+            </teilnehmerzahl>
+            <eintritt>20</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>327</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Zwischenmiete Club Edition Birthday Spezial w / Madmotormiquel</name>
+            <daten>
+                <datum>2018-09-28</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Zwischenmiete</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>72</teilgenommen>
+                <interessiert>275</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>328</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Ehrenfeld XL - Jubiläums Ausgabe</name>
+            <daten>
+                <datum>2018-09-29</datum>
+                <uhrzeit>22:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Ehrenfeld XL</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>1904</teilgenommen>
+                <interessiert>10712</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>329</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>HOOVE w/ Youandewan</name>
+            <daten>
+                <datum>2018-10-05</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>HOOVE</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>49</teilgenommen>
+                <interessiert>165</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>330</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Britta I Köln</name>
+            <daten>
+                <datum>2018-10-06</datum>
+                <uhrzeit>19:30</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>prime entertainment</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>38</teilgenommen>
+                <interessiert>105</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>331</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>10 Years Tag X with Dax J - Pfirter - Vlaysin Live</name>
+            <daten>
+                <datum>2018-10-06</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Minimalistenrudel / Tag X</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>591</teilgenommen>
+                <interessiert>2179</interessiert>
+            </teilnehmerzahl>
+            <eintritt>13</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>332</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Experimente - Das Impro Labor</name>
+            <daten>
+                <datum>2018-10-12</datum>
+                <uhrzeit>20:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Springmaus Improvisationstheater</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>4</teilgenommen>
+                <interessiert>15</interessiert>
+            </teilnehmerzahl>
+            <eintritt>0</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>333</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Hasenbau m/Pig&amp;Dan (Drumcode | Elevate)</name>
+            <daten>
+                <datum>2018-10-12</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Hasenbau</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>209</teilgenommen>
+                <interessiert>1269</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>334</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>The Magic Gang – Köln, Artheater</name>
+            <daten>
+                <datum>2018-10-13</datum>
+                <uhrzeit>18:30</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>FKP Scorpio</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>23</teilgenommen>
+                <interessiert>49</interessiert>
+            </teilnehmerzahl>
+            <eintritt>20</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>335</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>10 Jahre BergWacht mit OXIA, Microtrauma, Raucherecke uvm.</name>
+            <daten>
+                <datum>2018-10-13</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>BergWacht</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>223</teilgenommen>
+                <interessiert>1169</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>336</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Leyya | Köln</name>
+            <daten>
+                <datum>2018-10-19</datum>
+                <uhrzeit>20:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Konzertbüro Schoneberg</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>33</teilgenommen>
+                <interessiert>114</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>337</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>20 Jahre Traum x 20 Jahre Artheater</name>
+            <daten>
+                <datum>2018-10-19</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Lichtblick</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>123</teilgenommen>
+                <interessiert>1313</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>338</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>20 Jahre Traum x 20 Jahre Artheater</name>
+            <daten>
+                <datum>2018-10-20</datum>
+                <uhrzeit>19:30</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>prime entertainment</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>29</teilgenommen>
+                <interessiert>108</interessiert>
+            </teilnehmerzahl>
+            <eintritt>25</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>339</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>BACKSTAGE DiARiES - 11th BirthdayBash !</name>
+            <daten>
+                <datum>2018-10-20</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>BACKSTAGE DiARiES</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>141</teilgenommen>
+                <interessiert>495</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>340</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>20 Jahre artheater - The Love Journey</name>
+            <daten>
+                <datum>2018-10-26</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Artheater</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>104</teilgenommen>
+                <interessiert>441</interessiert>
+            </teilnehmerzahl>
+            <eintritt>8</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>341</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>20 Jahre artheater – The Concert Journey</name>
+            <daten>
+                <datum>2018-10-27</datum>
+                <uhrzeit>18:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Artheater</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>183</teilgenommen>
+                <interessiert>431</interessiert>
+            </teilnehmerzahl>
+            <eintritt>18</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>342</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Getaddicted l Wake The Dead l</name>
+            <daten>
+                <datum>2018-10-27</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Getaddicted</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>320</teilgenommen>
+                <interessiert>733</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>343</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Poetry Slam Deluxe Köln - Artheater 02.11.18</name>
+            <daten>
+                <datum>2018-11-02</datum>
+                <uhrzeit>20:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Köln Comedy Festival</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>39</teilgenommen>
+                <interessiert>557</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>344</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>5 Jahre Elektro Kollektiv mit Tim Green &amp; Paul Nazca</name>
+            <daten>
+                <datum>2018-11-02</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Artheater</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>102</teilgenommen>
+                <interessiert>352</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>345</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Tunng | Köln</name>
+            <daten>
+                <datum>2018-11-03</datum>
+                <uhrzeit>20:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Konzertbüro Schoneberg</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>22</teilgenommen>
+                <interessiert>67</interessiert>
+            </teilnehmerzahl>
+            <eintritt>20</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>346</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>BergWacht mit NØLAH LIVE</name>
+            <daten>
+                <datum>2018-11-03</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>BergWacht</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>65</teilgenommen>
+                <interessiert>526</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>347</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>MT. JOY – Köln, Artheater</name>
+            <daten>
+                <datum>2018-11-09</datum>
+                <uhrzeit>18:30</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>FKP Scorpio</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>6</teilgenommen>
+                <interessiert>27</interessiert>
+            </teilnehmerzahl>
+            <eintritt>20</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>348</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Zwischenmiete Club Edition w / Khainz</name>
+            <daten>
+                <datum>2018-11-09</datum>
+                <uhrzeit>23:59</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Zwischenmiete</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>51</teilgenommen>
+                <interessiert>184</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>349</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>SOLD OUT: SYML &amp; Harrison Storm Live in Cologne, Germany at Artheatre</name>
+            <daten>
+                <datum>2018-11-10</datum>
+                <uhrzeit>19:30</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>SYML</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>41</teilgenommen>
+                <interessiert>84</interessiert>
+            </teilnehmerzahl>
+            <eintritt>18</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>350</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>BACKSTAGE DiARiES</name>
+            <daten>
+                <datum>2018-11-10</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>BACKSTAGE DiARiES</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>72</teilgenommen>
+                <interessiert>370</interessiert>
+            </teilnehmerzahl>
+            <eintritt>8</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>351</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Lambert &amp; Dekker | Köln</name>
+            <daten>
+                <datum>2018-11-16</datum>
+                <uhrzeit>20:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Konzertbüro Schoneberg</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>19</teilgenommen>
+                <interessiert>88</interessiert>
+            </teilnehmerzahl>
+            <eintritt>18</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>352</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>ANIMADO 3 Jahre - Residents and Friends</name>
+            <daten>
+                <datum>2018-11-16</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>ANIMADO</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>218</teilgenommen>
+                <interessiert>600</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>353</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>BirdPen | Köln</name>
+            <daten>
+                <datum>2018-11-17</datum>
+                <uhrzeit>20:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Konzertbüro Schoneberg</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>34</teilgenommen>
+                <interessiert>64</interessiert>
+            </teilnehmerzahl>
+            <eintritt>20</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>354</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Sector │ Teste - Live │ 20 Years Artheater</name>
+            <daten>
+                <datum>2018-11-23</datum>
+                <uhrzeit>23:56</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Sector Cologne</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>66</teilgenommen>
+                <interessiert>298</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>355</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>20 Jahre Artheater - The Electronic Journey</name>
+            <daten>
+                <datum>2018-11-24</datum>
+                <uhrzeit>21:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Artheater</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>220</teilgenommen>
+                <interessiert>1201</interessiert>
+            </teilnehmerzahl>
+            <eintritt>20</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>356</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Sam Fender – Köln, Artheater</name>
+            <daten>
+                <datum>2018-11-30</datum>
+                <uhrzeit>18:30</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>FKP Scorpio</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>61</teilgenommen>
+                <interessiert>103</interessiert>
+            </teilnehmerzahl>
+            <eintritt>20</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>357</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Festival d'electronique in Ehrenfeld</name>
+            <daten>
+                <datum>2018-11-30</datum>
+                <uhrzeit>22:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Lichtblick</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>759</teilgenommen>
+                <interessiert>8457</interessiert>
+            </teilnehmerzahl>
+            <eintritt>18</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>358</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Festival d'electronique in Ehrenfeld</name>
+            <daten>
+                <datum>2018-11-30</datum>
+                <uhrzeit>22:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Lichtblick</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>759</teilgenommen>
+                <interessiert>8457</interessiert>
+            </teilnehmerzahl>
+            <eintritt>18</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>359</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Tag X with Regal</name>
+            <daten>
+                <datum>2018-12-01</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Minimalistenrudel / Tag X</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>209</teilgenommen>
+                <interessiert>1139</interessiert>
+            </teilnehmerzahl>
+            <eintritt>13</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+    <id>360</id>
+    <location>
+        <gaststaette>Artheater</gaststaette>
+        <lat>50.9531961</lat>
+        <long>6.9184983</long>
+    </location>
+    <veranstaltung>
+        <name>Hinds // Köln</name>
+        <daten>
+            <datum>2018-12-07</datum>
+            <uhrzeit>20:00</uhrzeit>
+            <tag>Freitag</tag>
+        </daten>
+        <gastgeber>Karsten Jahnke Konzerte</gastgeber>
+        <teilnehmerzahl>
+            <teilgenommen>54</teilgenommen>
+            <interessiert>307</interessiert>
+        </teilnehmerzahl>
+        <eintritt>20</eintritt>
+    </veranstaltung>
+    </event>
+    <event>
+        <id>361</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>303 presents 999999999 (live)</name>
+            <daten>
+                <datum>2018-12-07</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>3Ø3</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>287</teilgenommen>
+                <interessiert>1235</interessiert>
+            </teilnehmerzahl>
+            <eintritt>13</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>362</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Maischwärmer für Calais</name>
+            <daten>
+                <datum>2018-12-08</datum>
+                <uhrzeit>19:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Maischwärmer Festival</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>60</teilgenommen>
+                <interessiert>228</interessiert>
+            </teilnehmerzahl>
+            <eintritt>10</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>363</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>BACKSTAGE DiARiES</name>
+            <daten>
+                <datum>2018-12-08</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Maischwärmer Festival</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>60</teilgenommen>
+                <interessiert>228</interessiert>
+            </teilnehmerzahl>
+            <eintritt>8</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>364</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Felix Meyer &amp; project île | Artheater Köln</name>
+            <daten>
+                <datum>2018-12-14</datum>
+                <uhrzeit>19:30</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>prime entertainment</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>19</teilgenommen>
+                <interessiert>38</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>365</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Harvey McKay, Alfred Heinrichs, Flug _ 30 Jahre Alex Vilar Diaz</name>
+            <daten>
+                <datum>2018-12-14</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Alexander Vílar Díaz</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>262</teilgenommen>
+                <interessiert>865</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>366</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Aladin El-Mafaalani // Das Integrationsparadox // Köln</name>
+            <daten>
+                <datum>2018-12-15</datum>
+                <uhrzeit>20:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Getaddicted</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>107</teilgenommen>
+                <interessiert>721</interessiert>
+            </teilnehmerzahl>
+            <eintritt>8</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>367</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>BergWacht mit Spada (Traum/Suara)</name>
+            <daten>
+                <datum>2018-12-15</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>BergWacht</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>56</teilgenommen>
+                <interessiert>379</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>368</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Paula + Linus / DIE GROßE Jahresabschluss-Gala</name>
+            <daten>
+                <datum>2018-12-21</datum>
+                <uhrzeit>20:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>GLORIA THEATER</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>86</teilgenommen>
+                <interessiert>319</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>369</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>MM w/ Inland (A-TON/Counterchange)</name>
+            <daten>
+                <datum>2018-12-21</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Modern Musement</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>61</teilgenommen>
+                <interessiert>281</interessiert>
+            </teilnehmerzahl>
+            <eintritt>13</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>370</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Hasenbau w/Reset Robot (Drumcode) Weihnachtsspezial</name>
+            <daten>
+                <datum>2018-12-28</datum>
+                <uhrzeit>23:00</uhrzeit>
+                <tag>Freitag</tag>
+            </daten>
+            <gastgeber>Hasenbau</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>117</teilgenommen>
+                <interessiert>637</interessiert>
+            </teilnehmerzahl>
+            <eintritt>15</eintritt>
+        </veranstaltung>
+    </event>
+    <event>
+        <id>371</id>
+        <location>
+            <gaststaette>Artheater</gaststaette>
+            <lat>50.9531961</lat>
+            <long>6.9184983</long>
+        </location>
+        <veranstaltung>
+            <name>Sector │ Residents &amp; Friends │ Pre-Silvester Rave</name>
+            <daten>
+                <datum>2018-12-29</datum>
+                <uhrzeit>23:59</uhrzeit>
+                <tag>Samstag</tag>
+            </daten>
+            <gastgeber>Sector Cologne</gastgeber>
+            <teilnehmerzahl>
+                <teilgenommen>86</teilgenommen>
+                <interessiert>264</interessiert>
             </teilnehmerzahl>
             <eintritt>10</eintritt>
         </veranstaltung>
