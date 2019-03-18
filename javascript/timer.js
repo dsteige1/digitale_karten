@@ -17,8 +17,8 @@ infoBox.style.display = 'none';
 setTimeout(function(){ 
     dateBox.style.display = 'inline';
     infoBox.style.display = 'inline'; 
-}, 5000);
-setTimeout(Animator, 5000);
+}, 3000);
+setTimeout(Animator, 3000);
 getActualEvents();
 speedOut.innerText = animSpeed / 1000;
 
