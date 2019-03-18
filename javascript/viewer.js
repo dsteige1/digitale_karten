@@ -8,5 +8,5 @@ function drawSomething()
             events[i].veranstaltung.name,
             events[i].veranstaltung.teilnehmerzahl.teilgenommen);
         console.log("drawing");
-    };
+    }
 }

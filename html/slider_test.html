@@ -61,17 +61,17 @@
             x = e.clientX - r.left;
         var day = parseInt(x / 2);
         slider.style.cssText = "display: inline; width: 2px; height: 40px; left: " + x + "px; ";
-        if (day != 0)
+        if (day !== 0)
             date.innerText = dateFromDay(2018, day).toLocaleDateString();
         slider.onclick = function () {
-            if (day != 0)
+            if (day !== 0)
                 location.href = '#' + day;
         }; //öffnet link.
     };
 
     document.getElementById('slider').onmouseleave = function () {
         slider.style.cssText = "display: none;";
-    }
+    };
 
     function getDayOfYear(date){
         var now = date;

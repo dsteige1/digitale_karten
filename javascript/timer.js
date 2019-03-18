@@ -17,17 +17,17 @@ infoBox.style.display = 'none';
 setTimeout(function(){ 
     dateBox.style.display = 'inline';
     infoBox.style.display = 'inline'; 
-}, 5000)
+}, 5000);
 setTimeout(Animator, 5000);
 getActualEvents();
 speedOut.innerText = animSpeed / 1000;
 
 button.addEventListener("click", function () {
-    if (AnimationCheck == true) {
+    if (AnimationCheck === true) {
         AnimationCheck = false;
         button.value = "Start Animation";
     }
-    else if (AnimationCheck == false) {
+    else if (AnimationCheck === false) {
         AnimationCheck = true;
         button.value = "Stop Animation";
         Animator();
@@ -40,7 +40,7 @@ fader.addEventListener("change", function () {
     console.log("to " + animSpeed + " msecs.");
     speedOut.innerText = animSpeed / 1000;
     
-})
+});
 
 function Animator() {
     if (AnimationCheck == true) {
@@ -71,13 +71,12 @@ function Animator() {
 
 
         if (count < max-1)
-            count++
+            count++;
         else
             count = 0;
 
         setTimeout(Animator, animSpeed);
     }
-    else return;
 }
 
 function getActualEvents() {

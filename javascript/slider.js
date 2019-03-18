@@ -39,7 +39,7 @@ c.onmousemove = function (e) {
     slider.style.cssText = "display: inline; width: 2px; height: 40px; left: " + x + "px; ";
 
 
-    if (day != 0)
+    if (day !== 0)
         clearGraphics();
     point = getEventsOfDay(day);
     for (let i = 0; i < point.length; i++) {
@@ -59,7 +59,7 @@ c.onmousemove = function (e) {
 
     slider.onclick = function () {
 
-        if (day != 0) {
+        if (day !== 0) {
             //date.innerText = dateFromDay(2018, day).toLocaleDateString();
 
             var infoEvents = getEventsOfDay(day);
@@ -75,7 +75,7 @@ c.onmousemove = function (e) {
 
             //infobox ausschalten, wenn keine Events vorhanden sind. Klick auf leeren 'Stroke'.
             
-            if (infoEvents.length == 0) {
+            if (infoEvents.length === 0) {
                 infoBox.style.display = 'none';
             } else {
                 infoBox.style.display = 'inline';
@@ -86,7 +86,7 @@ c.onmousemove = function (e) {
 
 document.getElementById('slider').onmouseleave = function () {
     slider.style.cssText = "display: none;";
-}
+};
 
 function filldata() {
     var json = {};

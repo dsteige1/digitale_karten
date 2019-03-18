@@ -48,7 +48,7 @@ require([
 
         MarkerLayer = new GraphicsLayer({
             //graphics: [graphic]
-        })
+        });
 
         map.add(MarkerLayer);           //Add Layer to Map
 
@@ -69,7 +69,7 @@ function drawPoint(x,y,n,w)
         type: "point",
         longitude   : x,
         latitude    : y,
-    }
+    };
 
     let s = {
         type    : "simple-marker",
@@ -79,7 +79,7 @@ function drawPoint(x,y,n,w)
             width: 1
         },
         size    : w/10              //Divided by 10, otherwhise marker would be too big.
-    }
+    };
 
     var popupTemplate = {
         title: n,
@@ -91,14 +91,12 @@ function drawPoint(x,y,n,w)
         symbol: s,
         popupTemplate:
         popupTemplate
-    })
+    });
 
     MarkerLayer.graphics.add(graphic);      //Adds graphics (markers) to Layer
     //MarkerLayer.add(graphic);
 
     //view.graphics.add(graphic);           //Would add graphics directly to the view (we don't want that)
-
-    return;
 }
 
 function clearGraphics() {
@@ -114,7 +112,7 @@ function getClubs(){
         var lat  = data.datenbank.event[i].location.lat;
         var long = data.datenbank.event[i].location.long;
         for (var i2 = 0; i2 < result.length; i2++) {
-            if (result[i2] == name) {
+            if (result[i2] === name) {
                 continue loop1;
             }
         }
@@ -150,11 +148,11 @@ function dateFromDay(year, day){
 
 function getEventsOfDay (day) {
 
-    var date = dateFromDay(2018, day)
+    var date = dateFromDay(2018, day);
     var result = [];
     for (let i = 0; i < data.datenbank.event.length; i++){
         var date2 = new Date(data.datenbank.event[i].veranstaltung.daten.datum);
-        if (date.toDateString() == date2.toDateString()){
+        if (date.toDateString() === date2.toDateString()){
             result.push(data.datenbank.event[i]);
         }
     }

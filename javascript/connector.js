@@ -1,5 +1,4 @@
 var data = (function () {
-    var json = null;
     $.ajax({
         'async': false,         //throws error:
         'global': false,

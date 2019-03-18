@@ -30,7 +30,7 @@
             loop1: for (var i = 0; i < data.datenbank.event.length; i++) {
                 var name = data.datenbank.event[i].veranstaltung.gastgeber;
                 for (var i2 = 0; i2 < result.length; i2++) {
-                    if (result[i2] == name) {
+                    if (result[i2] === name) {
                         continue loop1;
                     }
                 }
@@ -44,7 +44,7 @@
             loop1: for (var i = 0; i < data.datenbank.event.length; i++) {
                 var name = data.datenbank.event[i].location.gaststaette;
                 for (var i2 = 0; i2 < result.length; i2++) {
-                    if (result[i2] == name) {
+                    if (result[i2] === name) {
                         continue loop1;
                     }
                 }
@@ -58,7 +58,7 @@
             for (let i = 0; i < data.datenbank.event.length; i++) {
                 var eintritt = parseInt(data.datenbank.event[i].veranstaltung.eintritt);
 
-                if (eintritt != 0 && !isNaN(eintritt)) {
+                if (eintritt !== 0 && !isNaN(eintritt)) {
                     arr.push(eintritt);
                 }
             }
@@ -74,7 +74,7 @@
             var arr = [];
             for (let i = 0; i < data.datenbank.event.length; i++) {
                 var visitors = parseInt(data.datenbank.event[i].veranstaltung.teilnehmerzahl.teilgenommen) + parseInt(data.datenbank.event[i].veranstaltung.teilnehmerzahl.interessiert);
-                var id = parseInt(data.datenbank.event[i].id)
+                var id = parseInt(data.datenbank.event[i].id);
                 arr.push({ "index": i, "id": id, "visitors": visitors })
             }
 
