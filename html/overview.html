@@ -19,84 +19,8 @@
         crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="../javascript/connector.js"></script>
+    <script src="../javascript/DataOverview.js"></script>
     <link rel="stylesheet" href="../css/style.css">
-
-    <script>
-
-        //Funktionen um die einzelnen Werte auszugeben
-
-        function getNameOfHosts() {
-            var result = [];
-            loop1: for (var i = 0; i < data.datenbank.event.length; i++) {
-                var name = data.datenbank.event[i].veranstaltung.gastgeber;
-                for (var i2 = 0; i2 < result.length; i2++) {
-                    if (result[i2] === name) {
-                        continue loop1;
-                    }
-                }
-                result.push(name);
-            }
-            return result;
-        }
-
-        function getNameOfClubs() {
-            var result = [];
-            loop1: for (var i = 0; i < data.datenbank.event.length; i++) {
-                var name = data.datenbank.event[i].location.gaststaette;
-                for (var i2 = 0; i2 < result.length; i2++) {
-                    if (result[i2] === name) {
-                        continue loop1;
-                    }
-                }
-                result.push(name);
-            }
-            return result;
-        }
-
-        function getAverageEntryFee() {
-            var arr = [];
-            for (let i = 0; i < data.datenbank.event.length; i++) {
-                var eintritt = parseInt(data.datenbank.event[i].veranstaltung.eintritt);
-
-                if (eintritt !== 0 && !isNaN(eintritt)) {
-                    arr.push(eintritt);
-                }
-            }
-            var sum, avg;
-            if (arr.length) {
-                sum = arr.reduce(function (a, b) { return a + b; });
-                avg = sum / arr.length;
-            }
-            return avg;
-        }
-
-        function getMaxVisitedEvent() {
-            var arr = [];
-            for (let i = 0; i < data.datenbank.event.length; i++) {
-                var visitors = parseInt(data.datenbank.event[i].veranstaltung.teilnehmerzahl.teilgenommen) + parseInt(data.datenbank.event[i].veranstaltung.teilnehmerzahl.interessiert);
-                var id = parseInt(data.datenbank.event[i].id);
-                arr.push({ "index": i, "id": id, "visitors": visitors })
-            }
-
-            arr = arr.sort(function (a, b) {
-                return (a["visitors"] > b["visitors"]) ? 1 : ((a["visitors"] < b["visitors"]) ? -1 : 0);
-            });
-
-            var eventIndex = arr[arr.length - 1]["index"];
-            //var eventName  = data.datenbank.event[eventIndex].veranstaltung.name;
-
-            return eventIndex;
-        }
-
-        document.addEventListener("DOMContentLoaded", function () {
-            var overview = document.getElementById("overview");
-            overview.innerHTML = "Die Datenbank hat insgesamt " + (data.datenbank.event.length - 1) + " Einträge von " + getNameOfClubs().length + " Clubs." +
-                "<br>Der durchschnittliche Eintrittspreis beträgt " + getAverageEntryFee() + "€." +
-                "<p>Das meistbesuchte Event ist " + data.datenbank.event[getMaxVisitedEvent()].veranstaltung.name + " im " + data.datenbank.event[getMaxVisitedEvent()].location.gaststaette + "</p>";
-
-        });
-
-    </script>
 </head>
 
 <body>
@@ -125,6 +49,18 @@
         </ul>
     </nav>
     <div id="overview"></div>
+    <div id="dropdown">
+        <select name="dd_data" id="dd_data" size="1">
+            <option value="choose" selected disabled hidden>Club wählen</option>
+        </select>
+        <select name="dd_date" id="dd_date" size="1" style="display:none">
+            <option value="choose" selected disabled hidden>Datum wählen</option>
+        </select>
+        <select name="dd_event" id="dd_event" size="1" style="display:none">
+            <option value="choose" selected disabled hidden>Event wählen</option>
+        </select>
+        <div id="dd_details"></div>
+    </div>
 </body>
 
 </html>
