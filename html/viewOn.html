@@ -26,6 +26,21 @@
     <script src="../javascript/scriptViewOn.js" type="text/javascript"></script>
     <script src="../javascript/viewer.js"></script>
 
+    <style>
+
+        #bla {
+            position: relative;
+            vertical-align: bottom;
+        }
+
+        .canvas_slider {
+            vertical-align: bottom;
+            position: absolute;
+            z-index: 10 !important;
+            background-color: #ec4637 !important;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -53,7 +68,7 @@
             </li>
         </ul>
     </nav>
-    <div id="viewDiv">
+    <!--<div id="viewDiv">
         <span id="layerToggle">
             <input type="checkbox" id="MarkerLayerBox" checked> Clubs anzeigen
             <br>
@@ -62,5 +77,11 @@
             <strong>Infos</strong> erscheinen <strong>hier</strong>
         </span>
     </div>
+    -->
+    <div id="bla">
+        <canvas id="canvas"></canvas>
+        <div class="canvas_slider_viewOn"></div>
+    </div>
+    <div id="details"></div>
 </body>
 </html>

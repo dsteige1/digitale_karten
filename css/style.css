@@ -168,7 +168,7 @@ html, body {
     border: none;
     border-radius: 6px 6px 0 0;
     padding: 5px;
-    font-family: "Helvetica Neue";
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: 1px;
 
 }
@@ -274,8 +274,8 @@ a:-webkit-any-link {
 }
 
 #titel {
-    font-family: "Helvetica Neue";
-    font-weight: 330;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
     margin-right: 70px;
     letter-spacing: 1px;
     font-size: 20px;
@@ -317,4 +317,19 @@ input[type='checkbox']:hover{
 input[type='checkbox']:active{
     background-color: black;
     opacity: 1;
+}
+
+canvas {
+    border-top-left-radius: 0;
+    border-top-right-radius:0;
+}
+#canvas {
+    margin: 10px;
+}
+
+.canvas_slider_viewOn {
+    position: absolute;
+    z-index: 10 !important;
+    background-color: #ec4637 !important;
+    bottom:0;
 }
