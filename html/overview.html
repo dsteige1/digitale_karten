@@ -92,7 +92,7 @@
             var overview = document.getElementById("overview");
             overview.innerHTML = "Die Datenbank hat insgesamt " + (data.datenbank.event.length - 1) + " Einträge von " + getNameOfClubs().length + " Clubs." +
                 "<br>Der durchschnittliche Eintrittspreis beträgt " + getAverageEntryFee() + "€." +
-                "<p>Das meist besuchte Event ist " + data.datenbank.event[getMaxVisitedEvent()].veranstaltung.name + " im " + data.datenbank.event[getMaxVisitedEvent()].location.gaststaette + "</p>";
+                "<p>Das meistbesuchte Event ist " + data.datenbank.event[getMaxVisitedEvent()].veranstaltung.name + " im " + data.datenbank.event[getMaxVisitedEvent()].location.gaststaette + "</p>";
 
         });
 
