@@ -4,7 +4,6 @@ html, body {
     height: 100%;
     width: 100%;
     background-color: rgb(14, 14, 14);
-
 }
 
 #viewDiv {
@@ -27,10 +26,28 @@ html, body {
     opacity: 0.5;
     -webkit-transition: .2s;
     transition: opacity .2s;
+    transition: box-shadow .5s;
 }
 
 #layerToggle:hover{
     opacity: 0.8;
+    box-shadow: 5px 10px #888888;
+}
+
+#animatorButton{
+    border-radius: .40rem;
+    margin-bottom: 10px;
+    width: 100%;
+    outline: none;
+    opacity: 0.8;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    transition: box-shadow .2s;
+}
+
+#animatorButton:hover{
+    opacity: 1;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .6);
 }
 
 #infobox {
@@ -48,14 +65,20 @@ html, body {
     font-size: 10pt;
     -webkit-transition: .2s;
     transition: opacity .2s;
+    transition: box-shadow .5s;
 }
 
 #infobox:hover{
     opacity: 0.8;
+    box-shadow: 5px 10px #888888;
+}
+
+#speedText{
+    font-size: 11pt;
 }
 
 #infoboxTimer {
-    top: 320px;
+    top: 330px;
     right: 20px;
     position: absolute;
     width: 200px;
@@ -69,10 +92,12 @@ html, body {
     font-size: 10pt;
     -webkit-transition: .2s;
     transition: opacity .2s;
+    transition: box-shadow .5s;
 }
 
 #infoboxTimer:hover{
     opacity: 0.8;
+    box-shadow: 5px 10px #888888;
 }
 
 #dateDisplay {
@@ -88,10 +113,12 @@ html, body {
     padding: 10px;
     -webkit-transition: .2s;
     transition: opacity .2s;
+    transition: box-shadow .5s;
 }
 
 #dateDisplay:hover{
     opacity: 0.8;
+    box-shadow: 5px 10px #888888;
 }
 
 #dateBoxSlider{
@@ -186,26 +213,31 @@ a:-webkit-any-link {
     position: absolute;
     z-index: 99;
     background-color: white;
-    opacity: 0.5;
     bottom: 0;
     width:  100%;
+    opacity: 0.5;
     -webkit-transition: .2s;
     transition: opacity .2s;
 }
 
-#slider:hover{
+#slider:hover ~ #dateBoxSlider{
+    opacity: 0.8;
+}
+
+#slider:hover {
     opacity: 0.8;
 }
 
 #myRange {
     -webkit-appearance: none;
-  width: 100%;
-  height: 25px;
-  background: #d3d3d3;
-  outline: none;
-  opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
+    width: 100%;
+    height: 25px;
+    border-radius: .40rem;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
 }
 
 #myRange:hover {
@@ -251,4 +283,38 @@ a:-webkit-any-link {
 
 #overview {
     color: white;
+}
+
+input[type='checkbox']{
+    width: 15px !important;
+    height: 15px !important;
+    margin: 0 0 0 0;
+    padding: 0px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    appearance:none;
+    outline: none;
+    box-shadow: none;
+    font-size: 2em;
+    border-radius: .20rem;
+    opacity: 0.5;
+    border-style: solid;
+    border-width: 1px;
+}
+
+input[type='checkbox']:checked{
+    background-color: black;
+}
+
+input[type='checkbox']:hover{
+    background-color: black;
+    opacity: 0.8;
+}
+
+input[type='checkbox']:active{
+    background-color: black;
+    opacity: 1;
 }
