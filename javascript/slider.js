@@ -1,13 +1,13 @@
-var date    = document.getElementById('date');
-var slider  = document.getElementsByClassName('canvas_slider')[0];
+var date = document.getElementById('date');
+var slider = document.getElementsByClassName('canvas_slider')[0];
 var infoBox = document.getElementById('infobox');
 let dateBox = document.getElementById("dateBoxSlider");
-let txt     = "";
-var jsonObj1    = filldata();
-var objLength   = Object.keys(jsonObj1).length; //Zählt die Anzahl der Objekte
+let txt = "";
+var jsonObj1 = filldata();
+var objLength = Object.keys(jsonObj1).length; //Zählt die Anzahl der Objekte
 let sliderDate;
 
-var c   = document.getElementById('canvas_1');
+var c = document.getElementById('canvas_1');
 var ctx = c.getContext('2d');
 
 ctx.translate(0.5, 0.5);
@@ -21,7 +21,7 @@ var objHeight;
 dateBox.style.display = 'none';     //Box invisible until hover on slider
 
 for (let i = 1; i <= objLength; i++) {
-    objHeight = (jsonObj1[i]*23) % 39; //damit die Balken nicht mehr als 40px hoch sind
+    objHeight = (jsonObj1[i] * 23) % 39; //damit die Balken nicht mehr als 40px hoch sind
     ctx.moveTo(ctx.lineWidth * i, c.height);
     ctx.lineTo(ctx.lineWidth * i, c.height - objHeight);
     ctx.stroke();
@@ -49,7 +49,7 @@ c.onmousemove = function (e) {
             point[i].veranstaltung.name,
             point[i].veranstaltung.teilnehmerzahl.teilgenommen);
 
-        sliderDate = new Date(point[i].veranstaltung.daten.datum);  
+        sliderDate = new Date(point[i].veranstaltung.daten.datum);
     }
 
 
@@ -74,7 +74,7 @@ c.onmousemove = function (e) {
             infoBox.innerHTML = txt;
 
             //infobox ausschalten, wenn keine Events vorhanden sind. Klick auf leeren 'Stroke'.
-            
+
             if (infoEvents.length === 0) {
                 infoBox.style.display = 'none';
             } else {
@@ -94,9 +94,9 @@ function filldata() {
         json[i] = 0 /*Math.floor((Math.random() * 150) + 1)*/;
     }
 
-    for (let i = 0; i < data.datenbank.event.length; i++){
+    for (let i = 0; i < data.datenbank.event.length; i++) {
         var datum = new Date(data.datenbank.event[i].veranstaltung.daten.datum);
-        json[getDayOfYear(datum)]+=1;
+        json[getDayOfYear(datum)] += 1;
     }
 
     return json;
