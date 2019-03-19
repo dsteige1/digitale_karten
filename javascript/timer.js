@@ -14,10 +14,12 @@ let txtDate = "";
 
 dateBox.style.display = 'none';
 infoBox.style.display = 'none';
+
 setTimeout(function(){ 
-    dateBox.style.display = 'inline';
-    infoBox.style.display = 'inline'; 
+    dateBox.style.display = 'inline';       //Macht InfoBox und
+    infoBox.style.display = 'inline';       //Datum sichtbar
 }, 3000);
+
 setTimeout(Animator, 3000);
 getActualEvents();
 speedOut.innerText = animSpeed / 1000;
@@ -67,9 +69,6 @@ function Animator() {
         infoBox.innerHTML   = txt;
         dateBox.innerHTML   = tag;
 
-        tag = "";
-
-
         if (count < max-1)
             count++;
         else
@@ -82,8 +81,8 @@ function Animator() {
 function getActualEvents() {
     for (let i = 1; i <= 365; i++) {
         if (getEventsOfDay(i).length != 0)
-            events.push(getEventsOfDay(i));
-    }
+            events.push(getEventsOfDay(i));     //getEventsOfDay() gibt Array raus
+    }                                           //Wird in Array gepusht -> zweidimensional -> Matrix
     max = events.length;
 }
 

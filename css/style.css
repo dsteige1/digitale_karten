@@ -283,6 +283,17 @@ a:-webkit-any-link {
 
 #overview {
     color: white;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+#dd_details{
+    color: white;
+    padding: 20px;
+}
+
+#dropdown {
+    text-align: center;
 }
 
 input[type='checkbox']{
@@ -332,4 +343,12 @@ canvas {
     z-index: 10 !important;
     background-color: #ec4637 !important;
     bottom:0;
+}
+
+.selects{
+    background: white;
+    height: 34px;
+    width: 240px;
+    outline: none;
+    margin: 2px;
 }

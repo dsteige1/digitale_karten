@@ -182,8 +182,8 @@ function reChangeDateFormat(date){
 
 document.addEventListener("DOMContentLoaded", function () {
     var overview = document.getElementById("overview");
-    overview.innerHTML = "Die Datenbank hat insgesamt " + (data.datenbank.event.length - 1) + " Einträge von " + getNameOfClubs().length + " Clubs." +
-        "<br>Der durchschnittliche Eintrittspreis beträgt " + getAverageEntryFee() + "€." +
-        "<p>Das meistbesuchte Event ist " + data.datenbank.event[getMaxVisitedEvent()].veranstaltung.name + " im " + data.datenbank.event[getMaxVisitedEvent()].location.gaststaette + "</p>";
+    overview.innerHTML = "Die Datenbank hat insgesamt <strong>" + (data.datenbank.event.length - 1) + "</strong> Einträge von <strong>" + getNameOfClubs().length + "</strong> Clubs." +
+        "<br>Der durchschnittliche Eintrittspreis beträgt <strong>" + getAverageEntryFee() + "</strong>€." +
+        "<p>Das meistbesuchte Event ist <strong>" + data.datenbank.event[getMaxVisitedEvent()].veranstaltung.name + "</strong> im <strong>" + data.datenbank.event[getMaxVisitedEvent()].location.gaststaette + "</strong></p>";
         addDDList();
 });
