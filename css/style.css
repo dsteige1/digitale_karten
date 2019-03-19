@@ -351,4 +351,10 @@ canvas {
     width: 240px;
     outline: none;
     margin: 2px;
+    -webkit-transition: .2s;
+    transition: box-shadow .3s;
+}
+
+.selects:hover{
+    box-shadow: 0 0 15px #d3d3d3;
 }

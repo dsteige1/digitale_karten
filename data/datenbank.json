@@ -275,7 +275,7 @@
         "veranstaltung": {
           "name": "Art of House w/ Kotelett & Zadak (Katermukke), Heinz Gaul",
           "daten": {
-            "datum": "2018-02-17",
+            "datum": "17.02.2018",
             "uhrzeit": "23:00",
             "tag": "Samstag"
           },
@@ -8095,6 +8095,1942 @@
             "interessiert": "264"
           },
           "eintritt": "10"
+        }
+      },
+      {
+        "id": "372",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Underground Freitag",
+          "daten": {
+            "datum": "2018-01-05",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "55",
+            "interessiert": "755"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "373",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "CON TACTO & DANi VEGAS B-DAY ",
+          "daten": {
+            "datum": "2018-01-06",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Pirates of Cologne",
+          "teilnehmerzahl": {
+            "teilgenommen": "102",
+            "interessiert": "273"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "374",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "AERA with Marla Singer",
+          "daten": {
+            "datum": "2018-01-12",
+            "uhrzeit": "23:30",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Daniel Kötter, Mirco Curtis Mack, Andy Kern",
+          "teilnehmerzahl": {
+            "teilgenommen": "107",
+            "interessiert": "393"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "375",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "9 Jahre Indie Fresse Birthday Bash",
+          "daten": {
+            "datum": "2018-01-13",
+            "uhrzeit": "23:30",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Indie Fresse Party",
+          "teilnehmerzahl": {
+            "teilgenommen": "96",
+            "interessiert": "493"
+          },
+          "eintritt": "9"
+        }
+      },
+      {
+        "id": "376",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Underground Freitag",
+          "daten": {
+            "datum": "2018-01-19",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "36",
+            "interessiert": "659"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "377",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Festival d'electronique in Ehrenfeld",
+          "daten": {
+            "datum": "2018-01-20",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Lichtblick",
+          "teilnehmerzahl": {
+            "teilgenommen": "732",
+            "interessiert": "5.882"
+          },
+          "eintritt": "18"
+        }
+      },
+      {
+        "id": "378",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "YUM YUM l Good Vibes Only at Helios37",
+          "daten": {
+            "datum": "2018-01-26",
+            "uhrzeit": "23:59",
+            "tag": "Freitag"
+          },
+          "gastgeber": "YUM YUM",
+          "teilnehmerzahl": {
+            "teilgenommen": "0",
+            "interessiert": "365"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "34",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "SuSu - Music, Food & Art // Cologne ",
+          "daten": {
+            "datum": "2018-01-27",
+            "uhrzeit": "19:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Super Sunday",
+          "teilnehmerzahl": {
+            "teilgenommen": "84",
+            "interessiert": "421"
+          },
+          "eintritt": "29"
+        }
+      },
+      {
+        "id": "379",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "COSMO Club: SuSu After-Show-Party",
+          "daten": {
+            "datum": "2018-01-27",
+            "uhrzeit": "19:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Cosmo",
+          "teilnehmerzahl": {
+            "teilgenommen": "53",
+            "interessiert": "401"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "380",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Neotopia - mit Holger Hecler (Feines Tier)",
+          "daten": {
+            "datum": "2018-02-02",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Markus Wesen",
+          "teilnehmerzahl": {
+            "teilgenommen": "90",
+            "interessiert": "392"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "381",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Underground Samstag // 03.02.2018// Eintritt frei",
+          "daten": {
+            "datum": "2018-02-03",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "46",
+            "interessiert": "427"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "382",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Carnival d'electronique im Artheater & Helios37",
+          "daten": {
+            "datum": "2018-02-09",
+            "uhrzeit": "22:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Lichtblick",
+          "teilnehmerzahl": {
+            "teilgenommen": "181",
+            "interessiert": "1582"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "383",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Nibirii Carnival w/ Vibe Tribe (Goa / Techno / DnB)",
+          "daten": {
+            "datum": "2018-02-10",
+            "uhrzeit": "15:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Nibirii",
+          "teilnehmerzahl": {
+            "teilgenommen": "463",
+            "interessiert": "2321"
+          },
+          "eintritt": "13"
+        }
+      },
+      {
+        "id": "384",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Underground Samstag // 17.02.2018// Eintritt frei",
+          "daten": {
+            "datum": "2018-02-17",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "25",
+            "interessiert": "259"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "385",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Human Mistake w. Introversion (A R T S) Louis Rausch Køtter OOO",
+          "daten": {
+            "datum": "2018-02-23",
+            "uhrzeit": "23:30",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Human Mistake",
+          "teilnehmerzahl": {
+            "teilgenommen": "42",
+            "interessiert": "231"
+          },
+          "eintritt": "9"
+        }
+      },
+      {
+        "id": "386",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "All Night Long Im Schuhkarton /w Jonathan Lässig (PollerWiesen)",
+          "daten": {
+            "datum": "2018-02-24",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "39",
+            "interessiert": "320"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "387",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Underground Freitag // 02.03.2018 // Eintritt frei",
+          "daten": {
+            "datum": "2018-03-02",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Underdgog Cologne",
+          "teilnehmerzahl": {
+            "teilgenommen": "17",
+            "interessiert": "246"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "388",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Heute: Adulte Dunkeln w/ Niconé, David Hasert, Haiku 575 & A.New",
+          "daten": {
+            "datum": "2018-03-03",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "NICONÉ",
+          "teilnehmerzahl": {
+            "teilgenommen": "57",
+            "interessiert": "375"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "389",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "LivingRoom Cuban Spirit w/ Santé, Yaya, Francisco Allendes, Black Loops",
+          "daten": {
+            "datum": "2018-03-09",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "192",
+            "interessiert": "531"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "390",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Sascha Braemer & Channel X + Gourski ua. • Beats x Bass x Cologne",
+          "daten": {
+            "datum": "2018-03-10",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "BEATS x BASS x Cologne",
+          "teilnehmerzahl": {
+            "teilgenommen": "103",
+            "interessiert": "929"
+          },
+          "eintritt": "12"
+        }
+      },
+      {
+        "id": "391",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Tonight l YUM YUM l Good Vibes Only at Helios37",
+          "daten": {
+            "datum": "2018-03-16",
+            "uhrzeit": "23:59",
+            "tag": "Freitag"
+          },
+          "gastgeber": "YUM YUM",
+          "teilnehmerzahl": {
+            "teilgenommen": "53",
+            "interessiert": "280"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "392",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Underground Samstag // 17.03.2018 //",
+          "daten": {
+            "datum": "2018-03-17",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Underdgog Cologne",
+          "teilnehmerzahl": {
+            "teilgenommen": "20",
+            "interessiert": "250"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "393",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Ehrenfeld XL - 10 Clubs 1 Nacht 1 Veedel",
+          "daten": {
+            "datum": "2018-03-24",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Ehrenfeld XL",
+          "teilnehmerzahl": {
+            "teilgenommen": "1959",
+            "interessiert": "8757"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "394",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Nibirii Easter w Reality Test, Marleen Polakowski (Goa x Techno)",
+          "daten": {
+            "datum": "2018-03-31",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Nibirii",
+          "teilnehmerzahl": {
+            "teilgenommen": "142",
+            "interessiert": "1165"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "395",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Underground Freitag // 06.04.2018 //",
+          "daten": {
+            "datum": "2018-04-06",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "16",
+            "interessiert": "252"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "396",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Pirates of Cologne pres. Raul Mezcolanza",
+          "daten": {
+            "datum": "2018-04-07",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Pirates of Cologne",
+          "teilnehmerzahl": {
+            "teilgenommen": "53",
+            "interessiert": "245"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "397",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Verschiedene Bands, ein Feeling: Brasilianische Musik",
+          "daten": {
+            "datum": "2018-04-14",
+            "uhrzeit": "17:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Brasilianische Kulturmesse - Feira de Cultura Comunitária Brasileira",
+          "teilnehmerzahl": {
+            "teilgenommen": "78",
+            "interessiert": "485"
+          },
+          "eintritt": "12"
+        }
+      },
+      {
+        "id": "398",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Hopping-Party im Helios 37 & Heinz Gaul",
+          "daten": {
+            "datum": "2018-04-14",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Ehrenfeld-Hopping",
+          "teilnehmerzahl": {
+            "teilgenommen": "78",
+            "interessiert": "756"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "399",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Techno Con Carne w/ Alex Stein",
+          "daten": {
+            "datum": "2018-04-20",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Techno Con Carne",
+          "teilnehmerzahl": {
+            "teilgenommen": "95",
+            "interessiert": "693"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "400",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Underground Samstag // 21.04.2018 //",
+          "daten": {
+            "datum": "2018-04-21",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "26",
+            "interessiert": "260"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "401",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Alfred Heinrichs im Helios37 + GOA Area",
+          "daten": {
+            "datum": "2018-04-27",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "147",
+            "interessiert": "1131"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "402",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "COSMO Club: Uproot Andy (NYC)",
+          "daten": {
+            "datum": "2018-04-28",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Cosmo",
+          "teilnehmerzahl": {
+            "teilgenommen": "59",
+            "interessiert": "377"
+          },
+          "eintritt": "5"
+        }
+      },
+      {
+        "id": "403",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Underground Freitag // 04.05// Eintritt frei //",
+          "daten": {
+            "datum": "2018-05-04",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "13",
+            "interessiert": "200"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "404",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "All Night Long Im Schuhkarton /w PhonoVision",
+          "daten": {
+            "datum": "2018-05-05",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "48",
+            "interessiert": "191"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "405",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Kinetic w/Mahssa Dadari · One Year Anniversary · Helios37",
+          "daten": {
+            "datum": "2018-05-11",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Kinetic Music",
+          "teilnehmerzahl": {
+            "teilgenommen": "149",
+            "interessiert": "342"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "406",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "SIE feat. Kingstone Sound & Panza (Supersonic)",
+          "daten": {
+            "datum": "2018-05-12",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "KingStone",
+          "teilnehmerzahl": {
+            "teilgenommen": "51",
+            "interessiert": "223"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "407",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Dr Das plus special guest: Dj./Mc. Sam B Dekker",
+          "daten": {
+            "datum": "2018-05-18",
+            "uhrzeit": "22:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Live Music Hall",
+          "teilnehmerzahl": {
+            "teilgenommen": "6",
+            "interessiert": "52"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "408",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Gin Wein Bier Gefühl - Das Festival",
+          "daten": {
+            "datum": "2018-05-19",
+            "uhrzeit": "15:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Gin Wein Bier Gefühl",
+          "teilnehmerzahl": {
+            "teilgenommen": "356",
+            "interessiert": "6168"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "409",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "All Night Long Im Schuhkarton /w Audio ID -> Eintritt FREI*",
+          "daten": {
+            "datum": "2018-05-25",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "33",
+            "interessiert": "136"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "410",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Underground Samstag // 26.05// Eintritt frei //",
+          "daten": {
+            "datum": "2018-05-26",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "11",
+            "interessiert": "214"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "411",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Techno Con Carne w/ D-Nox",
+          "daten": {
+            "datum": "2018-06-01",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Techno Con Carne",
+          "teilnehmerzahl": {
+            "teilgenommen": "79",
+            "interessiert": "377"
+          },
+          "eintritt": "5"
+        }
+      },
+      {
+        "id": "412",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "All Night Long Im Schuhkarton w/ Freunde Legen Auf ->Free Entry*",
+          "daten": {
+            "datum": "2018-06-02",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "21",
+            "interessiert": "95"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "413",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "SIE feat. Kingstone Sound",
+          "daten": {
+            "datum": "2018-06-09",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "KingStone",
+          "teilnehmerzahl": {
+            "teilgenommen": "22",
+            "interessiert": "259"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "414",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Lange Nacht der Weine - Wine, Food & Music",
+          "daten": {
+            "datum": "2018-06-16",
+            "uhrzeit": "19:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Lange Nacht der Weine",
+          "teilnehmerzahl": {
+            "teilgenommen": "401",
+            "interessiert": "7020"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "415",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "WM 2018: GER vs. SWE (+MEX vs. KOR)",
+          "daten": {
+            "datum": "2018-06-23",
+            "uhrzeit": "16:30",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "34",
+            "interessiert": "316"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "416",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Nibirii: Anneli, Hedera -live-, Abrakathabra, Jen La at Helios37",
+          "daten": {
+            "datum": "2018-06-23",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Nibirii",
+          "teilnehmerzahl": {
+            "teilgenommen": "153",
+            "interessiert": "1316"
+          },
+          "eintritt": "13"
+        }
+      },
+      {
+        "id": "417",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "MaidaVale",
+          "daten": {
+            "datum": "2018-06-29",
+            "uhrzeit": "18:30",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "15",
+            "interessiert": "62"
+          },
+          "eintritt": "25"
+        }
+      },
+      {
+        "id": "418",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Campus Crown *Sommerparty*",
+          "daten": {
+            "datum": "2018-06-29",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Flunk You Crew",
+          "teilnehmerzahl": {
+            "teilgenommen": "162",
+            "interessiert": "1100"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "419",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Reggaeton City XXL // 2 Clubs // Heinz Gaul & Helios 37",
+          "daten": {
+            "datum": "2018-06-30",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Ponte Loca",
+          "teilnehmerzahl": {
+            "teilgenommen": "306",
+            "interessiert": "2604"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "420",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "My Secret Garden feat. Suspiria - CSD Special 2018",
+          "daten": {
+            "datum": "2018-07-07",
+            "uhrzeit": "22:30",
+            "tag": "Samstag"
+          },
+          "gastgeber": "My Secret Garden Party",
+          "teilnehmerzahl": {
+            "teilgenommen": "161",
+            "interessiert": "595"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "421",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "All Night Long Im Schuhkarton feat. Sub Rosa | Eintritt FREI",
+          "daten": {
+            "datum": "2018-07-20",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "36",
+            "interessiert": "97"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "422",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Oldschool HipHop Blockparty by Kopfnicker",
+          "daten": {
+            "datum": "2018-07-27",
+            "uhrzeit": "21:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Kopfnicker Party",
+          "teilnehmerzahl": {
+            "teilgenommen": "39",
+            "interessiert": "362"
+          },
+          "eintritt": "8"
+        }
+      },
+      {
+        "id": "423",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "VIRUS (Ex-Underground Cologne Party) - Eintritt FREI",
+          "daten": {
+            "datum": "2018-08-03",
+            "uhrzeit": "21:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "0",
+            "interessiert": "594"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "424",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Das Kopfnicker Sommerfest",
+          "daten": {
+            "datum": "2018-08-11",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Kopfnicker Party",
+          "teilnehmerzahl": {
+            "teilgenommen": "23",
+            "interessiert": "188"
+          },
+          "eintritt": "8"
+        }
+      },
+      {
+        "id": "425",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "All Night Long Im Schuhkarton /w Max Jennoschek (Eintritt Frei!)",
+          "daten": {
+            "datum": "2018-08-17",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "25",
+            "interessiert": "119"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "426",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Undergrounds \"The Party Starts Now\" - Eintritt FREI",
+          "daten": {
+            "datum": "2018-08-18",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "14",
+            "interessiert": "252"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "427",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "All Night Long Im Schuhkarton /w PhonoVision [Eintritt Frei]",
+          "daten": {
+            "datum": "2018-08-24",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "33",
+            "interessiert": "145"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "428",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "SIE feat. Carl & Kingstone Sound & DJ Marious",
+          "daten": {
+            "datum": "2018-08-25",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "KingStone",
+          "teilnehmerzahl": {
+            "teilgenommen": "66",
+            "interessiert": "328"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "429",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "All Night Long Im Schuhkarton /w Klangfarbe Antifeind [FREE]",
+          "daten": {
+            "datum": "2018-08-31",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "7",
+            "interessiert": "98"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "430",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Jeck im Sunnesching am Helios",
+          "daten": {
+            "datum": "2018-09-01",
+            "uhrzeit": "20:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Flunk You Crew",
+          "teilnehmerzahl": {
+            "teilgenommen": "115",
+            "interessiert": "1188"
+          },
+          "eintritt": "9"
+        }
+      },
+      {
+        "id": "431",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "COSMO Club: DJ NA (Los Angeles) & Cosmo DJs",
+          "daten": {
+            "datum": "2018-09-08",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Cosmo",
+          "teilnehmerzahl": {
+            "teilgenommen": "29",
+            "interessiert": "198"
+          },
+          "eintritt": "6"
+        }
+      },
+      {
+        "id": "432",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Subkultur 3/8",
+          "daten": {
+            "datum": "2018-09-14",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "subKULTUR",
+          "teilnehmerzahl": {
+            "teilgenommen": "124",
+            "interessiert": "600"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "433",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "RudiRockt Köln & Le Debut Summerclosing im Helios",
+          "daten": {
+            "datum": "2018-09-21",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "rudirockt köln",
+          "teilnehmerzahl": {
+            "teilgenommen": "124",
+            "interessiert": "600"
+          },
+          "eintritt": "8"
+        }
+      },
+      {
+        "id": "434",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "12 Jahre EDP mit King Khan & the Shrines, The Jackets, uvm.",
+          "daten": {
+            "datum": "2018-09-22",
+            "uhrzeit": "19:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Em drügge Pitter",
+          "teilnehmerzahl": {
+            "teilgenommen": "127",
+            "interessiert": "388"
+          },
+          "eintritt": "23"
+        }
+      },
+      {
+        "id": "435",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Massendefekt | Warm Up Show (Ausverkauft)",
+          "daten": {
+            "datum": "2018-09-28",
+            "uhrzeit": "18:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Em drügge Pitter",
+          "teilnehmerzahl": {
+            "teilgenommen": "163",
+            "interessiert": "211"
+          },
+          "eintritt": "25"
+        }
+      },
+      {
+        "id": "436",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Ehrenfeld XL - Jubiläums Ausgabe",
+          "daten": {
+            "datum": "2018-09-29",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Ehrenfeld XL",
+          "teilnehmerzahl": {
+            "teilgenommen": "1904",
+            "interessiert": "10712"
+          },
+          "eintritt": "15"
+        }
+      },
+      {
+        "id": "437",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Pirupa (Drumcode) im Helios37",
+          "daten": {
+            "datum": "2018-10-06",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Origin",
+          "teilnehmerzahl": {
+            "teilgenommen": "80",
+            "interessiert": "313"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "438",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "All night long im Schuhkarton w Don Kirschbaum / Free",
+          "daten": {
+            "datum": "2018-10-12",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "19",
+            "interessiert": "75"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "439",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "The Party Starts Now (Eintritt frei)",
+          "daten": {
+            "datum": "2018-10-20",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "0",
+            "interessiert": "187"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "440",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "2 Jahre STAPEL.BAR & Helios 37 w\\ Team Rhythmusgymnastik",
+          "daten": {
+            "datum": "2018-10-27",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "STAPEL.BAR",
+          "teilnehmerzahl": {
+            "teilgenommen": "121",
+            "interessiert": "1319"
+          },
+          "eintritt": "13"
+        }
+      },
+      {
+        "id": "441",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Satanic Surfers | Support: Vodka Juniors ausverkauft",
+          "daten": {
+            "datum": "2018-11-02",
+            "uhrzeit": "18:30",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "133",
+            "interessiert": "788"
+          },
+          "eintritt": "25"
+        }
+      },
+      {
+        "id": "442",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "SAll Night Long Im Schuhkarton /w Brixton [Eintritt Frei]",
+          "daten": {
+            "datum": "2018-11-03",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "10",
+            "interessiert": "94"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "443",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "A Traitor Like Judas // Köln",
+          "daten": {
+            "datum": "2018-11-09",
+            "uhrzeit": "20:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Concertteam Nrw",
+          "teilnehmerzahl": {
+            "teilgenommen": "11",
+            "interessiert": "16"
+          },
+          "eintritt": "14"
+        }
+      },
+      {
+        "id": "444",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Kingstone is rolling NOV edition - Cologne´s urban boom night",
+          "daten": {
+            "datum": "2018-11-10",
+            "uhrzeit": "23:30",
+            "tag": "Samstag"
+          },
+          "gastgeber": "KingStone",
+          "teilnehmerzahl": {
+            "teilgenommen": "21",
+            "interessiert": "219"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "445",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "The Holy // Köln",
+          "daten": {
+            "datum": "2018-11-16",
+            "uhrzeit": "20:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Karsten Jahnke Konzerte",
+          "teilnehmerzahl": {
+            "teilgenommen": "8",
+            "interessiert": "9"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "446",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "All Night Long Im Schuhkarton /w Freunde Legen Auf. [FREE ENTRY]",
+          "daten": {
+            "datum": "2018-11-16",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "40",
+            "interessiert": "275"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "447",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "HUSH HUSH • Die Hip-Hop Party goes Helios37",
+          "daten": {
+            "datum": "2018-11-17",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "HUSH HUSH",
+          "teilnehmerzahl": {
+            "teilgenommen": "66",
+            "interessiert": "595"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "448",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Power House Band",
+          "daten": {
+            "datum": "2018-11-23",
+            "uhrzeit": "19:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "0",
+            "interessiert": "5"
+          },
+          "eintritt": "5"
+        }
+      },
+      {
+        "id": "449",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Neotopia mit Bondi, Somewhere Else Tomorrow und Wesen&Verfürth",
+          "daten": {
+            "datum": "2018-11-23",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Markus Wesen",
+          "teilnehmerzahl": {
+            "teilgenommen": "58",
+            "interessiert": "179"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "450",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Dub Spencer & Trance Hill vs. Umberto Echo",
+          "daten": {
+            "datum": "2018-11-24",
+            "uhrzeit": "18:30",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "30",
+            "interessiert": "146"
+          },
+          "eintritt": "20"
+        }
+      },
+      {
+        "id": "451",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "TOKA TOKA - afro caribbean club",
+          "daten": {
+            "datum": "2018-11-30",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "RADIO SABOR Köln",
+          "teilnehmerzahl": {
+            "teilgenommen": "52",
+            "interessiert": "643"
+          },
+          "eintritt": "13"
+        }
+      },
+      {
+        "id": "452",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Trash Island pres. Retro Klub #8",
+          "daten": {
+            "datum": "2018-12-01",
+            "uhrzeit": "22:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Trash Island Party",
+          "teilnehmerzahl": {
+            "teilgenommen": "62",
+            "interessiert": "819"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "453",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "VIRUS ////",
+          "daten": {
+            "datum": "2018-12-07",
+            "uhrzeit": "22:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "0",
+            "interessiert": "341"
+          },
+          "eintritt": "0"
+        }
+      },
+      {
+        "id": "454",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Schnaps, Mukke & Geschenke: Katzensprung Weihnachtsparty",
+          "daten": {
+            "datum": "2018-12-08",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "279",
+            "interessiert": "2796"
+          },
+          "eintritt": "13"
+        }
+      },
+      {
+        "id": "455",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Jahresabschluss im Helios37 - DeineVorstadt",
+          "daten": {
+            "datum": "2018-12-21",
+            "uhrzeit": "19:30",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Deine Vorstadt",
+          "teilnehmerzahl": {
+            "teilgenommen": "20",
+            "interessiert": "71"
+          },
+          "eintritt": "12"
+        }
+      },
+      {
+        "id": "456",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "FUNKADELiC - Funk, Soul, Disco im Helios37",
+          "daten": {
+            "datum": "2018-12-21",
+            "uhrzeit": "23:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Helios37",
+          "teilnehmerzahl": {
+            "teilgenommen": "15",
+            "interessiert": "219"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "457",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Hell Nights",
+          "daten": {
+            "datum": "2018-12-28",
+            "uhrzeit": "22:00",
+            "tag": "Freitag"
+          },
+          "gastgeber": "Michael Kämpfer",
+          "teilnehmerzahl": {
+            "teilgenommen": "79",
+            "interessiert": "424"
+          },
+          "eintritt": "10"
+        }
+      },
+      {
+        "id": "458",
+        "location": {
+          "gaststaette": "Helios37",
+          "lat": "50.9333",
+          "long": "6.9500000000000455"
+        },
+        "veranstaltung": {
+          "name": "Hell Nights",
+          "daten": {
+            "datum": "2018-12-29",
+            "uhrzeit": "23:00",
+            "tag": "Samstag"
+          },
+          "gastgeber": "Türkische Delikatessen",
+          "teilnehmerzahl": {
+            "teilgenommen": "88",
+            "interessiert": "298"
+          },
+          "eintritt": "9"
         }
       }
     ]
