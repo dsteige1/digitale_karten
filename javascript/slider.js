@@ -54,6 +54,7 @@ c.onmousemove = function (e) {
 
 
     let datum = sliderDate.toDateString();
+    console.log(datum);
     dateBox.style.display = 'inline';
     dateBox.innerHTML = datum;
 

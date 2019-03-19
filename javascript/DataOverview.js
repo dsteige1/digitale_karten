@@ -90,6 +90,9 @@ function addDDList(){
             let opt = document.createElement("option");
             opt.value = i+1;
             opt.innerHTML=changeDateFormat(dddata[i]);
+            if (dddata[i++] === dddata[i]){
+                dd_date.setAttribute("type", "hidden");
+            }
             dd_date.add(opt);
         }
     }
@@ -101,10 +104,12 @@ function addDDList(){
         removeOptions(dd_event);
         let dddata = getEventsOfDateString(reChangeDateFormat(dd_date[dd_date.value].text));
         for (let i = 0; i < dddata.length; i++){
+            if (data.datenbank.event[dddata[i]["index"]].location.gaststaette == dd_data[dd_data.value].text){
             let opt = document.createElement("option");
             opt.value = dddata[i]["index"];
             opt.innerHTML=dddata[i]["name"];
             dd_event.add(opt);
+            }
         }
     }
 
@@ -129,6 +134,10 @@ function addDDList(){
             "\n " +
             "\nEintritt: " + eintritt +" Euro" +
             "\n ";
+    }
+
+    dd_event.onclick = function () {
+        dd_event.selectedIndex='0';
     }
 }
 
