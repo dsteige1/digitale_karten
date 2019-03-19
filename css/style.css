@@ -6,6 +6,12 @@ html, body {
     background-color: rgb(14, 14, 14);
 }
 
+img {
+    border-radius: .20rem;
+    margin: 3px 0 3px 0;
+}
+
+
 #viewDiv {
     padding: 0;
     margin: auto;
@@ -51,7 +57,7 @@ html, body {
 }
 
 #infobox {
-    top: 220px;
+    top: 250px;
     right: 20px;
     position: absolute;
     width: 200px;
@@ -96,6 +102,29 @@ html, body {
 }
 
 #infoboxTimer:hover{
+    opacity: 0.8;
+    box-shadow: 5px 10px #888888;
+}
+
+#legende{
+    bottom: 100px;
+    left: 0px;
+    position: absolute;
+    width: 200px;
+    max-height: 350px;
+    overflow: auto;
+    z-index: 99;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    opacity: 0.5;
+    font-size: 10pt;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    transition: box-shadow .5s;
+}
+
+#legende:hover{
     opacity: 0.8;
     box-shadow: 5px 10px #888888;
 }
@@ -203,6 +232,21 @@ a {
     color: white;
     background-color: #69b8d2;
     border-color: #69b8d2;
+}
+
+.btn{
+    width: 100%;
+    color: #111111;
+    background: #888888;
+    opacity: 0.8;
+    outline: none;
+    border-style: none;
+}
+
+.btn:hover{
+    opacity: 1;
+    color: #111111;
+    background: #888888;
 }
 
 a:-webkit-any-link {
