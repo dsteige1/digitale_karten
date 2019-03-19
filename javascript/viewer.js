@@ -1,5 +1,5 @@
 
-function drawSomething() 
+function drawSomething()
 {
     for (let i = 0; i < events.length; i++) {
         drawPoint(events[i].location.long,
@@ -27,6 +27,45 @@ function getEntryFeeSortedByDate() {
     return  arr;
 }
 
+function getAverageEntryFeePerDay() {
+    var fee = getEntryFeeSortedByDate();
+
+    var days = [];
+    var arr = [];
+    loop1: for (var i = 0; i < fee.length; i++) {
+        var date = fee[i]["date"];
+        for (var i2 = 0; i2 < days.length; i2++) {
+            if (days[i2] === date) {
+                continue loop1;
+            }
+        }
+        days.push(date);
+    }
+
+    for (let i = 0; i < days.length; i++){
+        var fee2 = getEventEntryfeeOfDay(days[i]);
+        var fee3 = [];
+        for (let j = 0; j < fee2.length; j++){
+            let x = parseInt(fee2[j]["entryfee"]);
+            if (!isNaN(x))
+            fee3.push(x);
+        }
+
+        var sum, avg;
+        if (fee3.length) {
+            sum = fee3.reduce(function (a, b) { return a + b; });
+            avg = sum / fee3.length;
+        }
+
+        arr.push({
+            "date": days[i],
+            "avgfee": avg.toFixed(0)
+        })
+    }
+
+    return arr;
+}
+
 function drawCanvas(){
     //https://developer.mozilla.org/en-US/docs/Web/API/Window/devicePixelRatio
     var canvas = document.getElementById('canvas');
@@ -48,34 +87,35 @@ function drawCanvas(){
     ctx.strokeStyle = "#fff";
     ctx.lineWidth=1;
 
-    var cdata = getEntryFeeSortedByDate();
-    var faktor = 1.5;
+    var cdata = getAverageEntryFeePerDay();
+    var faktor = 2;
     for(let i = 0; i < cdata.length; i++){
-        if (cdata[i++]["date"] !== cdata[i]["date"]) {
-        //if (true){
-        ctx.lineTo(i*faktor-2.2, size/8-cdata[i++]["entryfee"]);
-        ctx.stroke();
+        for (let j = 1; j <= 365; j++){
+            var datum = new Date(cdata[i]["date"]);
+            if(j == getDayOfYear(datum)){
+                ctx.lineTo(j*faktor-(faktor*10), size/8-cdata[i]["avgfee"]);
+                ctx.stroke();
+            }
         }
     }
 
     canvas.onmousemove = function (e) {
         var r = canvas.getBoundingClientRect(),
-            x = e.clientX - r.left;
-        var day = parseInt(x / faktor);
-        slider.style.cssText = "display: inline; width: 2px; height: 80px; left: " + (10+x) + "px;";
+            x = (e.clientX - (r.left)+10);
+        var day = parseInt(x/faktor);
+        slider.style.cssText = "display: inline; width: 2px; height: 80px; left: " + (x) + "px;";
         if (day !== 0)
             var date = dateFromDay(2018, day);
-            console.log(getEventEntryfeeOfDay(date));
-            var events = getEventEntryfeeOfDay(date);
-            let txt = "";
-            if (events.length !=0)
-        for (let i = 0; i < events.length; i++) {
-            let j = events[i]["index"];
-            txt += "<strong>" + data.datenbank.event[j].veranstaltung.name + "</strong><ul><li>"
-                + data.datenbank.event[j].location.gaststaette + "</li><li>"
-                + "Eintritt " + data.datenbank.event[j].veranstaltung.eintritt + "Euro</li><li>"
-                + "Teilnehmende: " + data.datenbank.event[j].veranstaltung.teilnehmerzahl.teilgenommen + "</li></ul>";
-        }
+        var events = getEventEntryfeeOfDay(date);
+        let txt = "";
+        if (events.length !=0)
+            for (let i = 0; i < events.length; i++) {
+                let j = events[i]["index"];
+                txt += "<strong>" + data.datenbank.event[j].veranstaltung.name + "</strong><ul><li>"
+                    + data.datenbank.event[j].location.gaststaette + "</li><li>"
+                    + "Eintritt " + data.datenbank.event[j].veranstaltung.eintritt + "Euro</li><li>"
+                    + "Teilnehmende: " + data.datenbank.event[j].veranstaltung.teilnehmerzahl.teilgenommen + "</li></ul>";
+            }
         var details = document.getElementById("details");
         details.innerHTML = txt;
         slider.onclick = function () {
@@ -94,6 +134,15 @@ function dateFromDay(year, day){
     var date = new Date(year, 0); // initialize a date in `year-01-01`
     return new Date(date.setDate(day)).toISOString().slice(0,10); // add the number of days
 } // Quelle: https://stackoverflow.com/questions/4048688/how-can-i-convert-day-of-year-to-date-in-javascript
+
+function getDayOfYear(date){
+    var now = date;
+    var start = new Date(now.getFullYear(), 0, 0);
+    var diff = (now - start) + ((start.getTimezoneOffset() - now.getTimezoneOffset()) * 60 * 1000);
+    var oneDay = 1000 * 60 * 60 * 24;
+    var day = Math.floor(diff / oneDay);
+    return day;
+}
 
 function getEventEntryfeeOfDay(date) {
     var result = [];

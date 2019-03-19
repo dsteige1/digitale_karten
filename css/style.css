@@ -402,3 +402,21 @@ canvas {
 .selects:hover{
     box-shadow: 0 0 15px #d3d3d3;
 }
+
+/* für den slider auf viewOn.html*/
+
+canvas {
+    border-top-left-radius: 0;
+    border-top-right-radius:0;
+}
+
+#canvas {
+    margin: 10px;
+}
+
+.canvas_slider_viewOn {
+    position: absolute;
+    z-index: 10 !important;
+    background-color: #ec4637 !important;
+    bottom:0;
+}
