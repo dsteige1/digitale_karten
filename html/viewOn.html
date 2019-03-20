@@ -29,15 +29,23 @@
     <style>
 
         #bla {
-            position: relative;
-            vertical-align: bottom;
+            position: absolute;
+            z-index: 99;
+            background-color: white;
+            bottom: 0;
+            width:  620px;
+            opacity: 0.5;
+            -webkit-transition: .2s;
+            transition: opacity .2s;
+            border-radius: 5px;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
         }
 
-        .canvas_slider {
-            vertical-align: bottom;
-            position: absolute;
-            z-index: 10 !important;
-            background-color: #ec4637 !important;
+        #canvas {
+            z-index: 11!important;
         }
     </style>
 
@@ -71,7 +79,7 @@
             </li>
         </ul>
     </nav>
-    <!--<div id="viewDiv">
+    <div id="viewDiv">
         <span id="layerToggle">
             <input type="checkbox" id="MarkerLayerBox" checked> Clubs anzeigen
             <br>
@@ -80,11 +88,11 @@
             <strong>Infos</strong> erscheinen <strong>hier</strong>
         </span>
     </div>
-    -->
     <div id="bla">
         <canvas id="canvas"></canvas>
         <div class="canvas_slider_viewOn"></div>
     </div>
-    <div id="details"></div>
+
+    <div id="details" style="display:none"></div>
 </body>
 </html>

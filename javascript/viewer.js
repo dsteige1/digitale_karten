@@ -73,18 +73,18 @@ function drawCanvas(){
     var ctx = canvas.getContext('2d');
     var size = 600;
     canvas.style.width = size + "px";
-    canvas.style.height = size/8 + "px";
+    canvas.style.height = size/14 + "px";
 
 // Set actual size in memory (scaled to account for extra pixel density).
     var scale = window.devicePixelRatio; // Change to 1 on retina screens to see blurry canvas.
     canvas.width = size * scale;
-    canvas.height = size/8 * scale;
+    canvas.height = size/14 * scale;
 
 // Normalize coordinate system to use css pixels.
     ctx.scale(scale, scale);
 
     ctx.beginPath();
-    ctx.strokeStyle = "#fff";
+    ctx.strokeStyle = "#000";
     ctx.lineWidth=1;
 
     var cdata = getAverageEntryFeePerDay();
@@ -93,7 +93,7 @@ function drawCanvas(){
         for (let j = 1; j <= 365; j++){
             var datum = new Date(cdata[i]["date"]);
             if(j == getDayOfYear(datum)){
-                ctx.lineTo(j*faktor-(faktor*10), size/8-cdata[i]["avgfee"]);
+                ctx.lineTo(j*faktor-(faktor*10), size/14-cdata[i]["avgfee"]);
                 ctx.stroke();
             }
         }
@@ -103,7 +103,7 @@ function drawCanvas(){
         var r = canvas.getBoundingClientRect(),
             x = (e.clientX - (r.left)+10);
         var day = parseInt(x/faktor);
-        slider.style.cssText = "display: inline; width: 2px; height: 80px; left: " + (x) + "px;";
+        slider.style.cssText = "display: inline; width: 2px; height: 69px; left: " + (x) + "px;";
         if (day !== 0)
             var date = dateFromDay(2018, day);
         var events = getEventEntryfeeOfDay(date);
