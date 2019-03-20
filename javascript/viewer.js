@@ -97,13 +97,13 @@ function drawCanvas() {
     ctx.lineWidth = 1;
 
     var cdata = getAverageEntryFeeOfDaysArray();
-    var faktor = 2;
+    var faktor = 1.68;
     for (let i = 0; i < cdata.length; i++) {
         for (let j = 1; j <= 365; j++) {
             var datum = new Date(cdata[i]["date"]);
             if (j == getDayOfYear(datum)) {
                 var y = parseInt(cdata[i]["avgfee"]);
-                ctx.lineTo(j * faktor - (faktor * 10), size / 14 - y);
+                ctx.lineTo(j * faktor - (faktor * 5), size / 14 - y);
                 ctx.stroke();
             }
         }
