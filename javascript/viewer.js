@@ -1,6 +1,4 @@
-
-function drawSomething()
-{
+function drawSomething() {
     for (let i = 0; i < events.length; i++) {
         drawPoint(events[i].location.long,
             events[i].location.lat,
@@ -12,11 +10,11 @@ function drawSomething()
 
 function getEntryFeeSortedByDate() {
     var arr = [];
-    for (let i = 0; i < data.datenbank.event.length; i++){
+    for (let i = 0; i < data.datenbank.event.length; i++) {
         arr.push({
-            "index" : i,
-            "entryfee" : parseInt(data.datenbank.event[i].veranstaltung.eintritt),
-            "date" : data.datenbank.event[i].veranstaltung.daten.datum
+            "index": i,
+            "entryfee": parseInt(data.datenbank.event[i].veranstaltung.eintritt),
+            "date": data.datenbank.event[i].veranstaltung.daten.datum
         });
     }
 
@@ -24,7 +22,7 @@ function getEntryFeeSortedByDate() {
         return (a["date"] > b["date"]) ? 1 : ((a["date"] < b["date"]) ? -1 : 0);
     });
 
-    return  arr;
+    return arr;
 }
 
 function getAverageEntryFeeOfDaysArray() {
@@ -42,18 +40,20 @@ function getAverageEntryFeeOfDaysArray() {
         days.push(date);
     }
 
-    for (let i = 0; i < days.length; i++){
+    for (let i = 0; i < days.length; i++) {
         var fee2 = getEventEntryfeeOfDay(days[i]);
         var fee3 = [];
-        for (let j = 0; j < fee2.length; j++){
+        for (let j = 0; j < fee2.length; j++) {
             let x = parseInt(fee2[j]["entryfee"]);
             if (!isNaN(x))
-            fee3.push(x);
+                fee3.push(x);
         }
 
         var sum, avg;
         if (fee3.length) {
-            sum = fee3.reduce(function (a, b) { return a + b; });
+            sum = fee3.reduce(function (a, b) {
+                return a + b;
+            });
             avg = sum / fee3.length;
         }
 
@@ -68,42 +68,42 @@ function getAverageEntryFeeOfDaysArray() {
 
 function getAverageEntryFeeOfDay(day) {
     var cdata = getAverageEntryFeeOfDaysArray();
-    for (let i = 0; i < cdata.length; i++){
-        if(cdata[i]["date"]==day){
+    for (let i = 0; i < cdata.length; i++) {
+        if (cdata[i]["date"] == day) {
             return cdata[i]["avgfee"];
         }
     }
 }
 
-function drawCanvas(){
+function drawCanvas() {
     //https://developer.mozilla.org/en-US/docs/Web/API/Window/devicePixelRatio
     var canvas = document.getElementById('canvas');
     var slider = document.getElementsByClassName('canvas_slider_viewOn')[0];
     var ctx = canvas.getContext('2d');
     var size = 600;
     canvas.style.width = size + "px";
-    canvas.style.height = size/14 + "px";
+    canvas.style.height = size / 14 + "px";
 
 // Set actual size in memory (scaled to account for extra pixel density).
     var scale = window.devicePixelRatio; // Change to 1 on retina screens to see blurry canvas.
     canvas.width = size * scale;
-    canvas.height = size/14 * scale;
+    canvas.height = size / 14 * scale;
 
 // Normalize coordinate system to use css pixels.
     ctx.scale(scale, scale);
 
     ctx.beginPath();
     ctx.strokeStyle = "#000";
-    ctx.lineWidth=1;
+    ctx.lineWidth = 1;
 
     var cdata = getAverageEntryFeeOfDaysArray();
     var faktor = 2;
-    for(let i = 0; i < cdata.length; i++){
-        for (let j = 1; j <= 365; j++){
+    for (let i = 0; i < cdata.length; i++) {
+        for (let j = 1; j <= 365; j++) {
             var datum = new Date(cdata[i]["date"]);
-            if(j == getDayOfYear(datum)){
+            if (j == getDayOfYear(datum)) {
                 var y = parseInt(cdata[i]["avgfee"]);
-                ctx.lineTo(j*faktor-(faktor*10), size/14-y);
+                ctx.lineTo(j * faktor - (faktor * 10), size / 14 - y);
                 ctx.stroke();
             }
         }
@@ -112,27 +112,27 @@ function drawCanvas(){
     let txt = "";
     canvas.onmousemove = function (e) {
         var r = canvas.getBoundingClientRect(),
-            x = (e.clientX - (r.left)+10);
-        var day = parseInt(x/faktor);
+            x = (e.clientX - (r.left) + 10);
+        var day = parseInt(x / faktor);
         slider.style.cssText = "display: inline; width: 2px; height: 69px; left: " + (x) + "px;";
         if (day !== 0)
             var date = dateFromDay(2018, day);
         var events = getEventEntryfeeOfDay(date);
         slider.onclick = function () {
-            txt="";
+            txt = "";
             if (day !== 0)
-            if (events.length !=0){
-                txt += "<p>Der durchschnittliche Eintrittspreis beträgt: <strong>" + getAverageEntryFeeOfDay(date) + "€</strong></p>";
-                for (let i = 0; i < events.length; i++) {
-                    let j = events[i]["index"];
-                    txt += "<strong>" + data.datenbank.event[j].veranstaltung.name + "</strong><ul><li>"
-                        + data.datenbank.event[j].location.gaststaette + "</li><li>"
-                        + "Eintritt " + data.datenbank.event[j].veranstaltung.eintritt + "€</li><li>"
-                        + "Teilnehmende: " + data.datenbank.event[j].veranstaltung.teilnehmerzahl.teilgenommen + "</li></ul>";
+                if (events.length != 0) {
+                    txt += "<p>Der durchschnittliche Eintrittspreis beträgt: <strong>" + getAverageEntryFeeOfDay(date) + "€</strong></p>";
+                    for (let i = 0; i < events.length; i++) {
+                        let j = events[i]["index"];
+                        txt += "<strong>" + data.datenbank.event[j].veranstaltung.name + "</strong><ul><li>"
+                            + data.datenbank.event[j].location.gaststaette + "</li><li>"
+                            + "Eintritt " + data.datenbank.event[j].veranstaltung.eintritt + "€</li><li>"
+                            + "Teilnehmende: " + data.datenbank.event[j].veranstaltung.teilnehmerzahl.teilgenommen + "</li></ul>";
+                    }
+                } else {
+                    txt = "Keine Veranstaltungen!";
                 }
-            } else {
-                txt = "Keine Veranstaltungen!";
-            }
 
             var details = document.getElementById("infobox");
             details.innerHTML = txt;
@@ -145,12 +145,12 @@ document.addEventListener("DOMContentLoaded", function () {
     drawCanvas();
 });
 
-function dateFromDay(year, day){
+function dateFromDay(year, day) {
     var date = new Date(year, 0); // initialize a date in `year-01-01`
-    return new Date(date.setDate(day)).toISOString().slice(0,10); // add the number of days
+    return new Date(date.setDate(day)).toISOString().slice(0, 10); // add the number of days
 } // Quelle: https://stackoverflow.com/questions/4048688/how-can-i-convert-day-of-year-to-date-in-javascript
 
-function getDayOfYear(date){
+function getDayOfYear(date) {
     var now = date;
     var start = new Date(now.getFullYear(), 0, 0);
     var diff = (now - start) + ((start.getTimezoneOffset() - now.getTimezoneOffset()) * 60 * 1000);
@@ -161,11 +161,11 @@ function getDayOfYear(date){
 
 function getEventEntryfeeOfDay(date) {
     var result = [];
-    for (let i = 0; i < data.datenbank.event.length; i++){
-        if (date == data.datenbank.event[i].veranstaltung.daten.datum){
+    for (let i = 0; i < data.datenbank.event.length; i++) {
+        if (date == data.datenbank.event[i].veranstaltung.daten.datum) {
             result.push({
-                "index" : i,
-                "name" : data.datenbank.event[i].veranstaltung.name,
+                "index": i,
+                "name": data.datenbank.event[i].veranstaltung.name,
                 "entryfee": data.datenbank.event[i].veranstaltung.eintritt
             });
         }
@@ -174,26 +174,21 @@ function getEventEntryfeeOfDay(date) {
 
 }
 
-function printEvent(index) {
-    var details = document.getElementById("details");
+function dateFromDay(year, day){
+    var date = new Date(year, 0); // initialize a date in `year-01-01`
+    return new Date(date.setDate(day)); // add the number of days
+} // Quelle: https://stackoverflow.com/questions/4048688/how-can-i-convert-day-of-year-to-date-in-javascript
 
-    var name = data.datenbank.event[index].veranstaltung.name;
-    var location = data.datenbank.event[index].location.gaststaette;
-    var datum = data.datenbank.event[index].veranstaltung.daten.datum;
-    var uhrzeit = data.datenbank.event[index].veranstaltung.daten.uhrzeit;
-    var gastgeber = data.datenbank.event[index].veranstaltung.gastgeber;
-    var teilnehmerzahl_tg= parseInt(data.datenbank.event[index].veranstaltung.teilnehmerzahl.teilgenommen);
-    var teilnehmerzahl_in= parseInt(data.datenbank.event[index].veranstaltung.teilnehmerzahl.interessiert);
-    var eintritt = data.datenbank.event[index].veranstaltung.eintritt;
-    details.innerText = "Name: " + name +
-        "\nOrt: " + location +
-        "\nVeranstalter: " + gastgeber +
-        "\n " +
-        "\nDatum: " + datum + " um " + uhrzeit + " Uhr" +
-        "\nTeilgenommen: " + teilnehmerzahl_tg +
-        "\nInteressiert: " + teilnehmerzahl_in +
-        "\n " +
-        "\nEintritt: " + eintritt +" Euro" +
-        "\n ";
 
+function getEventsOfDay (day) {
+
+    var date = dateFromDay(2018, day);
+    var result = [];
+    for (let i = 0; i < data.datenbank.event.length; i++){
+        var date2 = new Date(data.datenbank.event[i].veranstaltung.daten.datum);
+        if (date.toDateString() === date2.toDateString()){
+            result.push(data.datenbank.event[i]);
+        }
+    }
+    return result;
 }

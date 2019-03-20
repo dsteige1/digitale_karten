@@ -65,7 +65,6 @@ c.onmousemove = function (e) {
             var infoEvents = getEventsOfDay(day);
             txt = "";
 
-
             for (let i = 0; i < infoEvents.length; i++) {
                 txt += "<strong>" + infoEvents[i].veranstaltung.name + "</strong><ul><li>"
                     + infoEvents[i].location.gaststaette + "</li><li>"
