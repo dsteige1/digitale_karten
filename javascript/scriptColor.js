@@ -65,22 +65,59 @@ require([
 
 //Function to add Markers to the Layer
 
-function drawPoint(x,y,n,w)
-{
+function drawPoint(x, y, n, w) {
     let p = {
         type: "point",
-        longitude   : x,
-        latitude    : y,
+        longitude: x,
+        latitude: y,
     };
 
+    let dataColor;
+
+    if (paxRadio.checked) {
+        switch (true) {
+            case (w >= 0 && w <= 100):
+                dataColor = [255, 204, 204, 0.8];
+                break;
+            case (w > 100 && w <= 200):
+                dataColor = [255, 0, 0, 0.8];
+                break;
+            case (w > 200 && w <= 500):
+                dataColor = [153, 0, 0, 0.8]
+                break;
+            case (w > 500):
+                dataColor = [102, 0, 0, 0.8]
+            default:
+                dataColor = [255, 255, 0, 0.8]
+        }
+    }
+
+    if (priceRadio.checked){
+        switch (true) {
+            case (w >= 0 && w <= 5):
+                dataColor = [204, 255, 204, 0.8];
+                break;
+            case (w > 5 && w <= 7):
+                dataColor = [102, 255, 102, 0.8];
+                break;
+            case (w > 7 && w <= 10):
+                dataColor = [0, 204, 0, 0.8]
+                break;
+            case (w > 10):
+                dataColor = [0, 153, 0, 0.8]
+            default:
+                dataColor = [255, 255, 0, 0.8]
+        }
+    }
+
     let s = {
-        type    : "simple-marker",
-        color   : [255,0,0,0.5],
+        type: "simple-marker",
+        color: dataColor,
         outline: {
-            color: [0, 255, 0],
-            width: 1
+            color: [0, 0, 0],
+            width: 0.5
         },
-        size    : w/10              //Divided by 10, otherwhise marker would be too big.
+        size: 20
     };
 
     var popupTemplate = {
@@ -92,7 +129,7 @@ function drawPoint(x,y,n,w)
         geometry: p,
         symbol: s,
         popupTemplate:
-        popupTemplate
+            popupTemplate
     });
 
     MarkerLayer.graphics.add(graphic);      //Adds graphics (markers) to Layer
@@ -107,11 +144,11 @@ function clearGraphics() {
     //console.log("MarkerLayer cleared.");
 }
 
-function getClubs(){
+function getClubs() {
     var result = [];
     loop1: for (var i = 0; i < data.datenbank.event.length; i++) {
         var name = data.datenbank.event[i].location.gaststaette;
-        var lat  = data.datenbank.event[i].location.lat;
+        var lat = data.datenbank.event[i].location.lat;
         var long = data.datenbank.event[i].location.long;
         for (var i2 = 0; i2 < result.length; i2++) {
             if (result[i2] === name) {
@@ -122,19 +159,19 @@ function getClubs(){
     }
 
     var point = [];
-    for (let i = 0;i < result.length; i++){
+    for (let i = 0; i < result.length; i++) {
         var arr = {
-            "name" : result[i],
-            "longitude": result[i+1],
-            "latitude": result[i+2]
+            "name": result[i],
+            "longitude": result[i + 1],
+            "latitude": result[i + 2]
         };
         point.push(arr);
-        i = i+2;
+        i = i + 2;
     }
     return point;
 }
 
-function getDayOfYear(date){
+function getDayOfYear(date) {
     var now = date;
     var start = new Date(now.getFullYear(), 0, 0);
     var diff = (now - start) + ((start.getTimezoneOffset() - now.getTimezoneOffset()) * 60 * 1000);
@@ -143,18 +180,18 @@ function getDayOfYear(date){
     return day;
 } //Quelle: https://stackoverflow.com/questions/8619879/javascript-calculate-the-day-of-the-year-1-366
 
-function dateFromDay(year, day){
+function dateFromDay(year, day) {
     var date = new Date(year, 0); // initialize a date in `year-01-01`
     return new Date(date.setDate(day)); // add the number of days
 } // Quelle: https://stackoverflow.com/questions/4048688/how-can-i-convert-day-of-year-to-date-in-javascript
 
-function getEventsOfDay (day) {
+function getEventsOfDay(day) {
 
     var date = dateFromDay(2018, day);
     var result = [];
-    for (let i = 0; i < data.datenbank.event.length; i++){
+    for (let i = 0; i < data.datenbank.event.length; i++) {
         var date2 = new Date(data.datenbank.event[i].veranstaltung.daten.datum);
-        if (date.toDateString() === date2.toDateString()){
+        if (date.toDateString() === date2.toDateString()) {
             result.push(data.datenbank.event[i]);
         }
     }
