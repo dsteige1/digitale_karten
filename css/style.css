@@ -11,7 +11,6 @@ img {
     margin: 3px 0 3px 0;
 }
 
-
 #viewDiv {
     padding: 0;
     margin: auto;
@@ -106,6 +105,29 @@ img {
     box-shadow: 5px 10px #888888;
 }
 
+#infoboxColor{
+    top: 320px;
+    right: 20px;
+    position: absolute;
+    width: 200px;
+    max-height: 350px;
+    overflow: auto;
+    z-index: 99;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    opacity: 0.5;
+    font-size: 10pt;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    transition: box-shadow .5s;
+}
+
+#infoboxColor:hover{
+    opacity: 0.8;
+    box-shadow: 5px 10px #888888;
+}
+
 #legende{
     bottom: 100px;
     left: 0px;
@@ -143,6 +165,30 @@ img {
     -webkit-transition: .2s;
     transition: opacity .2s;
     transition: box-shadow .5s;
+}
+
+#dateDisplay:hover{
+    opacity: 0.8;
+    box-shadow: 5px 10px #888888;
+}
+
+#dateColor {
+    position: absolute;
+    z-index: 50;
+    text-align: center;
+    background-color: white;
+    left: 0px;
+    opacity: 0.5;
+    bottom: 60px;
+    width: 200px;
+    border-radius: 8px;
+    padding: 10px;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+#dateColor:hover {
+    opacity: 0.8;
 }
 
 #dateDisplay:hover{
@@ -199,13 +245,12 @@ img {
     padding: 5px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: 1px;
-
 }
 
 #nav {
     background-color: rgb(14, 14, 14);
-
 }
+
 .nav-item {
     background-color: #5f7889;
     margin-left: 10px;
@@ -300,7 +345,46 @@ a:-webkit-any-link {
 #myRange::-moz-range-thumb {
     background: #222222;
     cursor: pointer;
+}
+
+#colorRange{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 40px;
+    border-radius: .40rem;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    right: 0px;
+}
+
+#colorRange:hover{
+    opacity: 1;
+}
+
+#colorRange:hover ~ #dateColor{
+    opacity: 0.8;
+}
+
+#colorRange::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 40px;
+    background: #222222;
+    cursor: pointer;
   }
+
+#colorRange::-moz-range-thumb {
+    background: #222222;
+    cursor: pointer;
+}
 
 .canvas_slider {
     position: absolute;
