@@ -61,17 +61,17 @@
             <label>
                 <input type="checkbox" id="MarkerLayerBox" checked> Clubs anzeigen
             </label>
-            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#legende">
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#legendeColor1, #legendeColor2">
                 Legende
             </button>
             <br>
             <form action="" id="radioCheck">
                 <label>
-                    <input type="radio" id="radio2" name="color" value="pax" checked> Show Participants
+                    <input type="radio" id="radio2" name="color" value="pax" checked> Teilnehmerzahl
                 </label>
                 <br>
                 <label>
-                    <input type="radio" id="radio1" name="color" value="prices"> Show Prices
+                    <input type="radio" id="radio1" name="color" value="prices"> Eintrittspreis
                 </label>
                 <br>
             </form>
@@ -82,14 +82,71 @@
         <input type="range" min="0" max="104" id="colorRange">
         <span id="dateColor"></span>
 
-        <div id="legende" class="collapse">
-            <img src="../img/" alt="marker" width="50px">
+        <div id="legendeColor1" class="collapse">
+            <h6>Teilnehmerzahl</h6>
+            <canvas id="myCanvas1" width="30" height="20" style="background-color:rgb(243, 216, 216);">
+                Your browser does not support the HTML5 canvas tag.
+            </canvas>
+            &#x2259; 0 bis 100
             <br>
-            Farbe &#x2259; blabla
+            <canvas id="myCanvas2" width="30" height="20" style="background-color:rgb(225, 157, 157);">
+                Your browser does not support the HTML5 canvas tag.
+            </canvas>
+            &#x2259; 100 bis 200
             <br>
-            <img src="../img/" alt="slider" width="50px">
+            <canvas id="myCanvas3" width="30" height="20" style="background-color:rgb(207, 99, 99);">
+                Your browser does not support the HTML5 canvas tag.
+            </canvas>
+            &#x2259; 201 bis 500
             <br>
-            Farbe &#x2259; blabla
+            <canvas id="myCanvas4" width="30" height="20" style="background-color:rgb(176, 54, 54);">
+                Your browser does not support the HTML5 canvas tag.
+            </canvas>
+            &#x2259; 501 bis 1000
+            <br>
+            <canvas id="myCanvas5" width="30" height="20" style="background-color:rgb(117, 36, 36);">
+                Your browser does not support the HTML5 canvas tag.
+            </canvas>
+            &#x2259; 1001 bis 5000
+            <br>
+            <canvas id="myCanvas6" width="30" height="20" style="background-color:rgb(78, 24, 24);">
+                Your browser does not support the HTML5 canvas tag.
+            </canvas>
+            &#x2259; über 5000
+            <br>
+        </div>
+        <div id="legendeColor2" class="collapse">
+            <h6>Eintrittspreis</h6>
+            <canvas id="myCanvas7" width="30" height="20" style="background-color:rgb(255, 255, 255);">
+                Your browser does not support the HTML5 canvas tag.
+            </canvas>
+            &#x2259; Gratis
+            <br>
+            <canvas id="myCanvas8" width="30" height="20" style="background-color:rgb(217, 242, 229);">
+                Your browser does not support the HTML5 canvas tag.
+            </canvas>
+            &#x2259; 1 bis 5 Euro
+            <br>
+            <canvas id="myCanvas9" width="30" height="20" style="background-color:rgb(102, 204, 153);">
+                Your browser does not support the HTML5 canvas tag.
+            </canvas>
+            &#x2259; 6 bis 10 Euro
+            <br>
+            <canvas id="myCanvas10" width="30" height="20" style="background-color:rgb(42, 137, 86);">
+                Your browser does not support the HTML5 canvas tag.
+            </canvas>
+            &#x2259; 11 bis 15 Euro
+            <br>
+            <canvas id="myCanvas11" width="30" height="20" style="background-color:rgb(24, 78, 48);">
+                Your browser does not support the HTML5 canvas tag.
+            </canvas>
+            &#x2259; 16 bis 20 Euro
+            <br>
+            <canvas id="myCanvas12" width="30" height="20" style="background-color:rgb(12, 39, 24);">
+                Your browser does not support the HTML5 canvas tag.
+            </canvas>
+            &#x2259; über 20 Euro
+            <br>
         </div>
     </div>
     <script src="../javascript/color.js"></script>
