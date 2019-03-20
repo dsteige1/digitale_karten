@@ -486,3 +486,49 @@ canvas {
 .selects:hover{
     box-shadow: 0 0 15px #d3d3d3;
 }
+
+#legendeColor1{
+    bottom: 110px;
+    left: 0px;
+    position: absolute;
+    width: 200px;
+    max-height: 350px;
+    overflow: auto;
+    z-index: 99;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    opacity: 0.5;
+    font-size: 10pt;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    transition: box-shadow .5s;
+}
+
+#legendeColor1:hover{
+    opacity: 0.8;
+    box-shadow: 5px 10px #888888;
+}
+
+#legendeColor2{
+    bottom: 110px;
+    left: 0px;
+    position: absolute;
+    width: 200px;
+    max-height: 350px;
+    overflow: auto;
+    z-index: 99;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    opacity: 0.5;
+    font-size: 10pt;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    transition: box-shadow .5s;
+}
+
+#legendeColor2:hover{
+    opacity: 0.8;
+    box-shadow: 5px 10px #888888;
+}
