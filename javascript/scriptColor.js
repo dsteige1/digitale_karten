@@ -77,36 +77,47 @@ function drawPoint(x, y, n, w) {
     if (paxRadio.checked) {
         switch (true) {
             case (w >= 0 && w <= 100):
-                dataColor = [255, 204, 204, 0.8];
+                dataColor = [243, 216, 216];
                 break;
             case (w > 100 && w <= 200):
-                dataColor = [255, 0, 0, 0.8];
+                dataColor = [225, 157, 157];
                 break;
             case (w > 200 && w <= 500):
-                dataColor = [153, 0, 0, 0.8]
+                dataColor = [207, 99, 99];
                 break;
-            case (w > 500):
-                dataColor = [102, 0, 0, 0.8]
-            default:
-                dataColor = [255, 255, 0, 0.8]
+            case (w > 500 && w <= 1000):
+                dataColor = [176, 54, 54];
+                break;
+            case (w > 1000 && w <= 5000):
+                dataColor = [117, 36, 36];
+                break;
+            case ( w > 5000):
+                dataColor = [78, 24, 24];
+                break;
         }
     }
 
     if (priceRadio.checked){
         switch (true) {
-            case (w >= 0 && w <= 5):
-                dataColor = [204, 255, 204, 0.8];
+
+            case (w == 0):
+                dataColor = [255, 255, 255];
                 break;
-            case (w > 5 && w <= 7):
-                dataColor = [102, 255, 102, 0.8];
+            case (w > 0 && w <= 5):
+                dataColor = [217, 242, 229];
                 break;
-            case (w > 7 && w <= 10):
-                dataColor = [0, 204, 0, 0.8]
+            case (w > 5 && w <= 10):
+                dataColor = [102, 204, 153];
                 break;
-            case (w > 10):
-                dataColor = [0, 153, 0, 0.8]
-            default:
-                dataColor = [255, 255, 0, 0.8]
+            case (w > 10 && w <= 15):
+                dataColor = [42, 137, 86];
+                break;
+            case (w > 15 && w <= 20):
+                dataColor = [24, 78, 48];
+                break;
+            case (w > 20):
+                dataColor = [12, 39, 24];
+                break;
         }
     }
 
