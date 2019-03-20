@@ -275,7 +275,7 @@
         <veranstaltung>
             <name>Art of House w/ Kotelett &amp; Zadak (Katermukke), Heinz Gaul</name>
             <daten>
-                <datum>17.02.2018</datum>
+                <datum>2018-02-17</datum>
                 <uhrzeit>23:00</uhrzeit>
                 <tag>Samstag</tag>
             </daten>
@@ -1623,8 +1623,8 @@
             </daten>
             <gastgeber>Ehrenfeld XL</gastgeber>
             <teilnehmerzahl>
-                <teilgenommen>1905</teilgenommen>
-                <interessiert>10719</interessiert>
+                <teilgenommen>1904</teilgenommen>
+                <interessiert>10712</interessiert>
             </teilnehmerzahl>
             <eintritt>15</eintritt>
         </veranstaltung>
@@ -2152,7 +2152,7 @@
             <gastgeber>Heinz Gaul</gastgeber>
             <teilnehmerzahl>
                 <teilgenommen>521</teilgenommen>
-                <interessiert>13776</interessiert>
+                <interessiert>3776</interessiert>
             </teilnehmerzahl>
             <eintritt>15</eintritt>
         </veranstaltung>
@@ -8102,8 +8102,8 @@
         <id>372</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Underground Freitag</name>
@@ -8124,8 +8124,8 @@
         <id>373</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>CON TACTO &amp; DANi VEGAS B-DAY </name>
@@ -8146,8 +8146,8 @@
         <id>374</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>AERA with Marla Singer</name>
@@ -8168,8 +8168,8 @@
         <id>375</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>9 Jahre Indie Fresse Birthday Bash</name>
@@ -8190,8 +8190,8 @@
         <id>376</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Underground Freitag</name>
@@ -8212,8 +8212,8 @@
         <id>377</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Festival d'electronique in Ehrenfeld</name>
@@ -8234,8 +8234,8 @@
         <id>378</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>YUM YUM l Good Vibes Only at Helios37</name>
@@ -8256,8 +8256,8 @@
         <id>34</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>SuSu - Music, Food &amp; Art // Cologne </name>
@@ -8278,8 +8278,8 @@
         <id>379</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>COSMO Club: SuSu After-Show-Party</name>
@@ -8300,8 +8300,8 @@
         <id>380</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Neotopia - mit Holger Hecler (Feines Tier)</name>
@@ -8322,8 +8322,8 @@
         <id>381</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Underground Samstag // 03.02.2018// Eintritt frei</name>
@@ -8344,8 +8344,8 @@
         <id>382</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Carnival d'electronique im Artheater &amp; Helios37</name>
@@ -8366,8 +8366,8 @@
         <id>383</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Nibirii Carnival w/ Vibe Tribe (Goa / Techno / DnB)</name>
@@ -8388,8 +8388,8 @@
         <id>384</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Underground Samstag // 17.02.2018// Eintritt frei</name>
@@ -8410,8 +8410,8 @@
         <id>385</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Human Mistake w. Introversion (A R T S) Louis Rausch Køtter OOO</name>
@@ -8432,8 +8432,8 @@
         <id>386</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>All Night Long Im Schuhkarton /w Jonathan Lässig (PollerWiesen)</name>
@@ -8454,8 +8454,8 @@
         <id>387</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Underground Freitag // 02.03.2018 // Eintritt frei</name>
@@ -8476,8 +8476,8 @@
         <id>388</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Heute: Adulte Dunkeln w/ Niconé, David Hasert, Haiku 575 &amp; A.New</name>
@@ -8498,8 +8498,8 @@
         <id>389</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>LivingRoom Cuban Spirit w/ Santé, Yaya, Francisco Allendes, Black Loops</name>
@@ -8520,8 +8520,8 @@
         <id>390</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Sascha Braemer &amp; Channel X + Gourski ua. • Beats x Bass x Cologne</name>
@@ -8542,8 +8542,8 @@
         <id>391</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Tonight l YUM YUM l Good Vibes Only at Helios37</name>
@@ -8564,8 +8564,8 @@
         <id>392</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Underground Samstag // 17.03.2018 //</name>
@@ -8586,8 +8586,8 @@
         <id>393</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Ehrenfeld XL - 10 Clubs 1 Nacht 1 Veedel</name>
@@ -8608,8 +8608,8 @@
         <id>394</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Nibirii Easter w Reality Test, Marleen Polakowski (Goa x Techno)</name>
@@ -8630,8 +8630,8 @@
         <id>395</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Underground Freitag // 06.04.2018 //</name>
@@ -8652,8 +8652,8 @@
         <id>396</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Pirates of Cologne pres. Raul Mezcolanza</name>
@@ -8674,8 +8674,8 @@
         <id>397</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Verschiedene Bands, ein Feeling: Brasilianische Musik</name>
@@ -8696,8 +8696,8 @@
         <id>398</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Hopping-Party im Helios 37 &amp; Heinz Gaul</name>
@@ -8718,8 +8718,8 @@
         <id>399</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Techno Con Carne w/ Alex Stein</name>
@@ -8740,8 +8740,8 @@
         <id>400</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Underground Samstag // 21.04.2018 //</name>
@@ -8762,8 +8762,8 @@
         <id>401</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Alfred Heinrichs im Helios37 + GOA Area</name>
@@ -8784,8 +8784,8 @@
         <id>402</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>COSMO Club: Uproot Andy (NYC)</name>
@@ -8806,8 +8806,8 @@
         <id>403</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Underground Freitag // 04.05// Eintritt frei //</name>
@@ -8828,8 +8828,8 @@
         <id>404</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>All Night Long Im Schuhkarton /w PhonoVision</name>
@@ -8850,8 +8850,8 @@
         <id>405</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Kinetic w/Mahssa Dadari · One Year Anniversary · Helios37</name>
@@ -8872,8 +8872,8 @@
         <id>406</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>SIE feat. Kingstone Sound &amp; Panza (Supersonic)</name>
@@ -8894,8 +8894,8 @@
         <id>407</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Dr Das plus special guest: Dj./Mc. Sam B Dekker</name>
@@ -8916,8 +8916,8 @@
         <id>408</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Gin Wein Bier Gefühl - Das Festival</name>
@@ -8938,8 +8938,8 @@
         <id>409</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>All Night Long Im Schuhkarton /w Audio ID -> Eintritt FREI*</name>
@@ -8960,8 +8960,8 @@
         <id>410</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Underground Samstag // 26.05// Eintritt frei //</name>
@@ -8982,8 +8982,8 @@
         <id>411</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Techno Con Carne w/ D-Nox</name>
@@ -9004,8 +9004,8 @@
         <id>412</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>All Night Long Im Schuhkarton w/ Freunde Legen Auf ->Free Entry*</name>
@@ -9026,8 +9026,8 @@
         <id>413</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>SIE feat. Kingstone Sound</name>
@@ -9048,8 +9048,8 @@
         <id>414</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Lange Nacht der Weine - Wine, Food &amp; Music</name>
@@ -9070,8 +9070,8 @@
         <id>415</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>WM 2018: GER vs. SWE (+MEX vs. KOR)</name>
@@ -9092,8 +9092,8 @@
         <id>416</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Nibirii: Anneli, Hedera -live-, Abrakathabra, Jen La at Helios37</name>
@@ -9114,8 +9114,8 @@
         <id>417</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>MaidaVale</name>
@@ -9136,8 +9136,8 @@
         <id>418</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Campus Crown *Sommerparty*</name>
@@ -9158,8 +9158,8 @@
         <id>419</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Reggaeton City XXL // 2 Clubs // Heinz Gaul &amp; Helios 37</name>
@@ -9180,8 +9180,8 @@
         <id>420</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>My Secret Garden feat. Suspiria - CSD Special 2018</name>
@@ -9202,8 +9202,8 @@
         <id>421</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>All Night Long Im Schuhkarton feat. Sub Rosa | Eintritt FREI</name>
@@ -9224,8 +9224,8 @@
         <id>422</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Oldschool HipHop Blockparty by Kopfnicker</name>
@@ -9246,8 +9246,8 @@
         <id>423</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>VIRUS (Ex-Underground Cologne Party) - Eintritt FREI</name>
@@ -9268,8 +9268,8 @@
         <id>424</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Das Kopfnicker Sommerfest</name>
@@ -9290,8 +9290,8 @@
         <id>425</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>All Night Long Im Schuhkarton /w Max Jennoschek (Eintritt Frei!)</name>
@@ -9312,8 +9312,8 @@
         <id>426</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Undergrounds "The Party Starts Now" - Eintritt FREI</name>
@@ -9334,8 +9334,8 @@
         <id>427</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>All Night Long Im Schuhkarton /w PhonoVision [Eintritt Frei]</name>
@@ -9356,8 +9356,8 @@
         <id>428</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>SIE feat. Carl &amp; Kingstone Sound &amp; DJ Marious</name>
@@ -9378,8 +9378,8 @@
         <id>429</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>All Night Long Im Schuhkarton /w Klangfarbe Antifeind [FREE]</name>
@@ -9400,8 +9400,8 @@
         <id>430</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Jeck im Sunnesching am Helios</name>
@@ -9422,8 +9422,8 @@
         <id>431</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>COSMO Club: DJ NA (Los Angeles) &amp; Cosmo DJs</name>
@@ -9444,8 +9444,8 @@
         <id>432</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Subkultur 3/8</name>
@@ -9466,8 +9466,8 @@
         <id>433</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>RudiRockt Köln &amp; Le Debut Summerclosing im Helios</name>
@@ -9488,8 +9488,8 @@
         <id>434</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>12 Jahre EDP mit King Khan &amp; the Shrines, The Jackets, uvm.</name>
@@ -9510,8 +9510,8 @@
         <id>435</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Massendefekt | Warm Up Show (Ausverkauft)</name>
@@ -9532,8 +9532,8 @@
         <id>436</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Ehrenfeld XL - Jubiläums Ausgabe</name>
@@ -9554,8 +9554,8 @@
         <id>437</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Pirupa (Drumcode) im Helios37</name>
@@ -9576,8 +9576,8 @@
         <id>438</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>All night long im Schuhkarton w Don Kirschbaum / Free</name>
@@ -9598,8 +9598,8 @@
         <id>439</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>The Party Starts Now (Eintritt frei)</name>
@@ -9620,8 +9620,8 @@
         <id>440</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>2 Jahre STAPEL.BAR &amp; Helios 37 w\ Team Rhythmusgymnastik</name>
@@ -9642,8 +9642,8 @@
         <id>441</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Satanic Surfers | Support: Vodka Juniors ausverkauft</name>
@@ -9664,8 +9664,8 @@
         <id>442</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>SAll Night Long Im Schuhkarton /w Brixton [Eintritt Frei]</name>
@@ -9686,8 +9686,8 @@
         <id>443</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>A Traitor Like Judas // Köln</name>
@@ -9708,8 +9708,8 @@
         <id>444</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Kingstone is rolling NOV edition - Cologne´s urban boom night</name>
@@ -9730,8 +9730,8 @@
         <id>445</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>The Holy // Köln</name>
@@ -9752,8 +9752,8 @@
         <id>446</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>All Night Long Im Schuhkarton /w Freunde Legen Auf. [FREE ENTRY]</name>
@@ -9774,8 +9774,8 @@
         <id>447</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>HUSH HUSH • Die Hip-Hop Party goes Helios37</name>
@@ -9796,8 +9796,8 @@
         <id>448</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Power House Band</name>
@@ -9818,8 +9818,8 @@
         <id>449</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Neotopia mit Bondi, Somewhere Else Tomorrow und Wesen&amp;Verfürth</name>
@@ -9840,8 +9840,8 @@
         <id>450</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Dub Spencer &amp; Trance Hill vs. Umberto Echo</name>
@@ -9862,8 +9862,8 @@
         <id>451</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>TOKA TOKA - afro caribbean club</name>
@@ -9884,8 +9884,8 @@
         <id>452</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Trash Island pres. Retro Klub #8</name>
@@ -9906,8 +9906,8 @@
         <id>453</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>VIRUS ////</name>
@@ -9928,8 +9928,8 @@
         <id>454</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Schnaps, Mukke &amp; Geschenke: Katzensprung Weihnachtsparty</name>
@@ -9950,8 +9950,8 @@
         <id>455</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Jahresabschluss im Helios37 - DeineVorstadt</name>
@@ -9972,8 +9972,8 @@
         <id>456</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>FUNKADELiC - Funk, Soul, Disco im Helios37</name>
@@ -9994,8 +9994,8 @@
         <id>457</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Hell Nights</name>
@@ -10016,8 +10016,8 @@
         <id>458</id>
         <location>
             <gaststaette>Helios37</gaststaette>
-            <lat>50.9333</lat>
-            <long>6.9500000000000455</long>
+            <lat>50.950230</lat>
+            <long>6.913302</long>
         </location>
         <veranstaltung>
             <name>Hell Nights</name>
