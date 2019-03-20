@@ -51,9 +51,6 @@ require([
         LayerToggle.addEventListener("change", function () {
             MarkerLayer.visible = LayerToggle.checked;
         });
-
-        drawSomething();        //viewer.js
-
     });
 
 

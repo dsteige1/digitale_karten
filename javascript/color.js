@@ -3,7 +3,9 @@ let dateBox     = document.getElementById("dateColor");
 let radios      = document.getElementById("radioCheck");
 var priceRadio  = document.getElementById("radio1");
 var paxRadio    = document.getElementById("radio2");
-let infoBox     = document.getElementById("infoboxColor")
+let infoBox     = document.getElementById("infoboxColor");
+let legendPax   = document.getElementById("legendeColor1");
+let legendPrice = document.getElementById("legendeColor2");
 let valueCheck = true;
 let daysEvents = [];
 let txt = "";
@@ -11,6 +13,7 @@ let txt = "";
 getActualEvents();
 colorSlider.max = daysEvents.length - 1;    //Range of Slider dependant on amount of days of database
 dateBox.style.display = 'none';
+legendPrice.style.display = 'none';
 
 colorSlider.addEventListener("input", function () {
 
@@ -54,10 +57,12 @@ colorSlider.addEventListener("input", function () {
 
 radios.addEventListener("change", function () {
     if (priceRadio.checked) {
-        console.log(priceRadio.value);
+        legendPax.style.display = 'none';
+        legendPrice.style.display = 'inline';
     }
     else if (paxRadio.checked) {
-        console.log(paxRadio.value);
+        legendPrice.style.display = 'none';
+        legendPax.style.display = 'inline';
     }
 })
 

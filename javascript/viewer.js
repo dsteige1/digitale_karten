@@ -84,12 +84,12 @@ function drawCanvas() {
     canvas.style.width = size + "px";
     canvas.style.height = size / 14 + "px";
 
-// Set actual size in memory (scaled to account for extra pixel density).
+    // Set actual size in memory (scaled to account for extra pixel density).
     var scale = window.devicePixelRatio; // Change to 1 on retina screens to see blurry canvas.
     canvas.width = size * scale;
     canvas.height = size / 14 * scale;
 
-// Normalize coordinate system to use css pixels.
+    // Normalize coordinate system to use css pixels.
     ctx.scale(scale, scale);
 
     ctx.beginPath();
@@ -118,9 +118,24 @@ function drawCanvas() {
         if (day !== 0)
             var date = dateFromDay(2018, day);
         var events = getEventEntryfeeOfDay(date);
+
+        clearGraphics();
+        let point = getEventsOfDay(day);
+        for (let i = 0; i < point.length; i++) {
+            //console.log(point[i].longitude);
+            drawPoint(point[i].location.long,
+                point[i].location.lat,
+                point[i].veranstaltung.name,
+                point[i].veranstaltung.teilnehmerzahl.teilgenommen);
+
+            //sliderDate = new Date(point[i].veranstaltung.daten.datum);
+        }
+
+
         slider.onclick = function () {
             txt = "";
             if (day !== 0)
+
                 if (events.length != 0) {
                     txt += "<p>Der durchschnittliche Eintrittspreis beträgt: <strong>" + getAverageEntryFeeOfDay(date) + "€</strong></p>";
                     for (let i = 0; i < events.length; i++) {
@@ -174,19 +189,19 @@ function getEventEntryfeeOfDay(date) {
 
 }
 
-function dateFromDay(year, day){
+function dateFromDay(year, day) {
     var date = new Date(year, 0); // initialize a date in `year-01-01`
     return new Date(date.setDate(day)); // add the number of days
 } // Quelle: https://stackoverflow.com/questions/4048688/how-can-i-convert-day-of-year-to-date-in-javascript
 
 
-function getEventsOfDay (day) {
+function getEventsOfDay(day) {
 
     var date = dateFromDay(2018, day);
     var result = [];
-    for (let i = 0; i < data.datenbank.event.length; i++){
+    for (let i = 0; i < data.datenbank.event.length; i++) {
         var date2 = new Date(data.datenbank.event[i].veranstaltung.daten.datum);
-        if (date.toDateString() === date2.toDateString()){
+        if (date.toDateString() === date2.toDateString()) {
             result.push(data.datenbank.event[i]);
         }
     }
