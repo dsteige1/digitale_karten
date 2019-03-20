@@ -27,7 +27,7 @@ function getEntryFeeSortedByDate() {
     return  arr;
 }
 
-function getAverageEntryFeePerDay() {
+function getAverageEntryFeeOfDaysArray() {
     var fee = getEntryFeeSortedByDate();
 
     var days = [];
@@ -66,6 +66,15 @@ function getAverageEntryFeePerDay() {
     return arr;
 }
 
+function getAverageEntryFeeOfDay(day) {
+    var cdata = getAverageEntryFeeOfDaysArray();
+    for (let i = 0; i < cdata.length; i++){
+        if(cdata[i]["date"]==day){
+            return cdata[i]["avgfee"];
+        }
+    }
+}
+
 function drawCanvas(){
     //https://developer.mozilla.org/en-US/docs/Web/API/Window/devicePixelRatio
     var canvas = document.getElementById('canvas');
@@ -87,18 +96,20 @@ function drawCanvas(){
     ctx.strokeStyle = "#000";
     ctx.lineWidth=1;
 
-    var cdata = getAverageEntryFeePerDay();
+    var cdata = getAverageEntryFeeOfDaysArray();
     var faktor = 2;
     for(let i = 0; i < cdata.length; i++){
         for (let j = 1; j <= 365; j++){
             var datum = new Date(cdata[i]["date"]);
             if(j == getDayOfYear(datum)){
-                ctx.lineTo(j*faktor-(faktor*10), size/14-cdata[i]["avgfee"]);
+                var y = parseInt(cdata[i]["avgfee"]);
+                ctx.lineTo(j*faktor-(faktor*10), size/14-y);
                 ctx.stroke();
             }
         }
     }
 
+    let txt = "";
     canvas.onmousemove = function (e) {
         var r = canvas.getBoundingClientRect(),
             x = (e.clientX - (r.left)+10);
@@ -107,20 +118,24 @@ function drawCanvas(){
         if (day !== 0)
             var date = dateFromDay(2018, day);
         var events = getEventEntryfeeOfDay(date);
-        let txt = "";
-        if (events.length !=0)
-            for (let i = 0; i < events.length; i++) {
-                let j = events[i]["index"];
-                txt += "<strong>" + data.datenbank.event[j].veranstaltung.name + "</strong><ul><li>"
-                    + data.datenbank.event[j].location.gaststaette + "</li><li>"
-                    + "Eintritt " + data.datenbank.event[j].veranstaltung.eintritt + "Euro</li><li>"
-                    + "Teilnehmende: " + data.datenbank.event[j].veranstaltung.teilnehmerzahl.teilgenommen + "</li></ul>";
-            }
-        var details = document.getElementById("details");
-        details.innerHTML = txt;
         slider.onclick = function () {
+            txt="";
             if (day !== 0)
-                location.href = '#' + day;
+            if (events.length !=0){
+                txt += "<p>Der durchschnittliche Eintrittspreis beträgt: <strong>" + getAverageEntryFeeOfDay(date) + "€</strong></p>";
+                for (let i = 0; i < events.length; i++) {
+                    let j = events[i]["index"];
+                    txt += "<strong>" + data.datenbank.event[j].veranstaltung.name + "</strong><ul><li>"
+                        + data.datenbank.event[j].location.gaststaette + "</li><li>"
+                        + "Eintritt " + data.datenbank.event[j].veranstaltung.eintritt + "€</li><li>"
+                        + "Teilnehmende: " + data.datenbank.event[j].veranstaltung.teilnehmerzahl.teilgenommen + "</li></ul>";
+                }
+            } else {
+                txt = "Keine Veranstaltungen!";
+            }
+
+            var details = document.getElementById("infobox");
+            details.innerHTML = txt;
         }; //öffnet link.
     };
 }
