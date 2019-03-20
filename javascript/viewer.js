@@ -117,7 +117,8 @@ function drawCanvas() {
         slider.style.cssText = "display: inline; width: 2px; height: 69px; left: " + (x) + "px;";
         if (day !== 0)
             var date = dateFromDay(2018, day);
-        var events = getEventEntryfeeOfDay(date);
+        var date_m = moment(date);
+        var events = getEventEntryfeeOfDay(date_m.format('YYYY-MM-DD'));
 
         clearGraphics();
         let point = getEventsOfDay(day);
@@ -137,7 +138,7 @@ function drawCanvas() {
             if (day !== 0)
 
                 if (events.length != 0) {
-                    txt += "<p>Der durchschnittliche Eintrittspreis beträgt: <strong>" + getAverageEntryFeeOfDay(date) + "€</strong></p>";
+                    txt += "<p>Der durchschnittliche Eintrittspreis beträgt: <strong>" + getAverageEntryFeeOfDay(date_m.format('YYYY-MM-DD')) + "€</strong></p>";
                     for (let i = 0; i < events.length; i++) {
                         let j = events[i]["index"];
                         txt += "<strong>" + data.datenbank.event[j].veranstaltung.name + "</strong><ul><li>"
@@ -159,11 +160,6 @@ function drawCanvas() {
 document.addEventListener("DOMContentLoaded", function () {
     drawCanvas();
 });
-
-function dateFromDay(year, day) {
-    var date = new Date(year, 0); // initialize a date in `year-01-01`
-    return new Date(date.setDate(day)).toISOString().slice(0, 10); // add the number of days
-} // Quelle: https://stackoverflow.com/questions/4048688/how-can-i-convert-day-of-year-to-date-in-javascript
 
 function getDayOfYear(date) {
     var now = date;
@@ -188,12 +184,6 @@ function getEventEntryfeeOfDay(date) {
     return result;
 
 }
-
-function dateFromDay(year, day) {
-    var date = new Date(year, 0); // initialize a date in `year-01-01`
-    return new Date(date.setDate(day)); // add the number of days
-} // Quelle: https://stackoverflow.com/questions/4048688/how-can-i-convert-day-of-year-to-date-in-javascript
-
 
 function getEventsOfDay(day) {
 
