@@ -92,10 +92,98 @@ function drawCanvas() {
     // Normalize coordinate system to use css pixels.
     ctx.scale(scale, scale);
 
+    var daypx = size/365;
+    var month_color= "#f3f3f3"; //Farbe des Monats
+    ctx.strokeStyle = "#949494"; //Farbe der Rahmen
+
+    //Januar
+    ctx.fillStyle = "#dcdfe5";
+    ctx.fillRect(0, 0, daypx*31, 69);
+    ctx.strokeRect(0, -1, daypx*31, 69);
+    ctx.fillStyle = month_color;
+    ctx.font = "50px Arial";
+    ctx.fillText("1", 10, 40);
+    //Februar
+    ctx.fillStyle = "#c5c8cd";
+    ctx.fillRect(daypx*31, 0, daypx*28, 69);
+    ctx.strokeRect(daypx*31, -1, daypx*28, 69);
+    ctx.fillStyle = month_color;
+    ctx.font = "50px Arial";
+    ctx.fillText("2", 60, 40);
+    //März
+    ctx.fillStyle = "#dcdfe5";
+    ctx.fillRect(daypx*59, 0, daypx*31, 69);
+    ctx.strokeRect(daypx*59, -1, daypx*31, 69);
+    ctx.fillStyle = month_color;
+    ctx.font = "50px Arial";
+    ctx.fillText("3", 110, 40);
+    //April
+    ctx.fillStyle = "#c5c8cd";
+    ctx.fillRect(daypx*90, 0, daypx*30, 69);
+    ctx.strokeRect(daypx*90, -1, daypx*30, 69);
+    ctx.fillStyle = month_color;
+    ctx.font = "50px Arial";
+    ctx.fillText("4", 160, 40);
+    //Mai
+    ctx.fillStyle = "#dcdfe5";
+    ctx.fillRect(daypx*120, 0, daypx*31, 69);
+    ctx.strokeRect(daypx*120, -1, daypx*31, 69);
+    ctx.fillStyle = month_color;
+    ctx.font = "50px Arial";
+    ctx.fillText("5", 210, 40);
+    //Juni
+    ctx.fillStyle = "#c5c8cd";
+    ctx.fillRect(daypx*151, 0, daypx*30, 69);
+    ctx.strokeRect(daypx*151, -1, daypx*30, 69);
+    ctx.fillStyle = month_color;
+    ctx.font = "50px Arial";
+    ctx.fillText("6", 260, 40);
+    //Juli
+    ctx.fillStyle = "#dcdfe5";
+    ctx.fillRect(daypx*181, 0, daypx*31, 69);
+    ctx.strokeRect(daypx*181, -1, daypx*31, 69);
+    ctx.fillStyle = month_color;
+    ctx.font = "50px Arial";
+    ctx.fillText("7", 310, 40);
+    //August
+    ctx.fillStyle = "#c5c8cd";
+    ctx.fillRect(daypx*212, 0, daypx*31, 69);
+    ctx.strokeRect(daypx*212, -1, daypx*31, 69);
+    ctx.fillStyle = month_color;
+    ctx.font = "50px Arial";
+    ctx.fillText("8", 360, 40);
+    //September
+    ctx.fillStyle = "#dcdfe5";
+    ctx.fillRect(daypx*243, 0, daypx*30, 69);
+    ctx.strokeRect(daypx*243, -1, daypx*30, 69);
+    ctx.fillStyle = month_color;
+    ctx.font = "50px Arial";
+    ctx.fillText("9", 410, 40);
+    //Oktober
+    ctx.fillStyle = "#c5c8cd";
+    ctx.fillRect(daypx*273, 0, daypx*31, 69);
+    ctx.strokeRect(daypx*273, -1, daypx*31, 69);
+    ctx.fillStyle = month_color;
+    ctx.font = "50px Arial";
+    ctx.fillText("10", 445, 40);
+    //November
+    ctx.fillStyle = "#dcdfe5";
+    ctx.fillRect(daypx*304, 0, daypx*30, 69);
+    ctx.strokeRect(daypx*304, -1, daypx*30, 69);
+    ctx.fillStyle = month_color;
+    ctx.font = "50px Arial";
+    ctx.fillText("11", 500, 40);
+    //Dezember
+    ctx.fillStyle = "#c5c8cd";
+    ctx.fillRect(daypx*334, 0, daypx*31, 69);
+    ctx.strokeRect(daypx*334, -1, daypx*31, 69);
+    ctx.fillStyle = month_color;
+    ctx.font = "50px Arial";
+    ctx.fillText("12", 545, 40);
+
     ctx.beginPath();
     ctx.strokeStyle = "#000";
     ctx.lineWidth = 1;
-
     var cdata = getAverageEntryFeeOfDaysArray();
     var faktor = 1.68;
     for (let i = 0; i < cdata.length; i++) {
@@ -103,7 +191,7 @@ function drawCanvas() {
             var datum = new Date(cdata[i]["date"]);
             if (j == getDayOfYear(datum)) {
                 var y = parseInt(cdata[i]["avgfee"]);
-                ctx.lineTo(j * faktor - (faktor * 5), size / 14 - y);
+                ctx.lineTo(j * faktor - (faktor * 5), size / 14 - y -5);
                 ctx.stroke();
             }
         }
