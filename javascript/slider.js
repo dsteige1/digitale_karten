@@ -60,7 +60,6 @@ c.onmousemove = function (e) {
     slider.onclick = function () {
 
         if (day !== 0) {
-            //date.innerText = dateFromDay(2018, day).toLocaleDateString();
 
             var infoEvents = getEventsOfDay(day);
             txt = "";
@@ -71,8 +70,6 @@ c.onmousemove = function (e) {
                     + "Teilnehmende: " + infoEvents[i].veranstaltung.teilnehmerzahl.teilgenommen + "</li></ul>";
             }
             infoBox.innerHTML = txt;
-
-            //infobox ausschalten, wenn keine Events vorhanden sind. Klick auf leeren 'Stroke'.
 
             if (infoEvents.length === 0) {
                 infoBox.style.display = 'none';
@@ -90,7 +87,7 @@ document.getElementById('slider').onmouseleave = function () {
 function filldata() {
     var json = {};
     for (let i = 1; i <= 365; i++) { //erstellt 365 Objekte mit zufälligen Werten bis eine Datenbank steht.
-        json[i] = 0 /*Math.floor((Math.random() * 150) + 1)*/;
+        json[i] = 0;
     }
 
     for (let i = 0; i < data.datenbank.event.length; i++) {

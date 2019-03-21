@@ -483,7 +483,7 @@ canvas {
     z-index: 11 !important;
 }
 
-#bla {
+#graph_canvas {
     position: absolute;
     z-index: 99;
     background-color: white;
@@ -589,11 +589,11 @@ u {
     overflow: auto;
     z-index: 99;
     background-color: gainsboro;
-    padding: 15px;
+    padding: 15px 50px 15px 50px;
     opacity: 0.7;
     height: 90%;
     width: 70%;
-    text-align: center;
+    text-align: justify;
     margin-left: auto ;
     margin-right: auto ;
     left: 0px;

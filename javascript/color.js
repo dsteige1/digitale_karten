@@ -30,7 +30,7 @@ colorSlider.addEventListener("input", function () {
                 daysEvents[day][i].veranstaltung.name,
                 daysEvents[day][i].veranstaltung.teilnehmerzahl.teilgenommen);
 
-                txt += "<strong>" + daysEvents[day][i].veranstaltung.name + "</strong><ul><li>"
+            txt += "<strong>" + daysEvents[day][i].veranstaltung.name + "</strong><ul><li>"
                 + daysEvents[day][i].location.gaststaette + "</li><li>"
                 + "Teilnehmende: " + daysEvents[day][i].veranstaltung.teilnehmerzahl.teilgenommen + "</li></ul>";
         }
@@ -43,7 +43,7 @@ colorSlider.addEventListener("input", function () {
                 daysEvents[day][i].veranstaltung.name,
                 daysEvents[day][i].veranstaltung.eintritt);
 
-                txt += "<strong>" + daysEvents[day][i].veranstaltung.name + "</strong><ul><li>"
+            txt += "<strong>" + daysEvents[day][i].veranstaltung.name + "</strong><ul><li>"
                 + daysEvents[day][i].location.gaststaette + "</li><li>"
                 + "Eintritt: " + daysEvents[day][i].veranstaltung.eintritt + "&#8364;</li></ul>";
         }

@@ -15,7 +15,7 @@ let txtDate = "";
 dateBox.style.display = 'none';
 infoBox.style.display = 'none';
 
-setTimeout(function(){ 
+setTimeout(function(){
     dateBox.style.display = 'inline';       //Macht InfoBox und
     infoBox.style.display = 'inline';       //Datum sichtbar
 }, 3000);
@@ -41,7 +41,7 @@ fader.addEventListener("change", function () {
     animSpeed = fader.value;
     console.log("to " + animSpeed + " msecs.");
     speedOut.innerText = animSpeed / 1000;
-    
+
 });
 
 function Animator() {
@@ -87,8 +87,6 @@ function getActualEvents() {
 }
 
 function centerView(i){
-    //view.centerAt(new Point(6.54488, 50.943388));
-    //view.center[events[count][i].location.long, events[count][i].location.long];
-    view.zoom = 16;     
+    view.zoom = 16;
     console.log("Clicked");
 }

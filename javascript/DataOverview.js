@@ -59,7 +59,6 @@ function getMaxVisitedEvent() {
     });
 
     var eventIndex = arr[arr.length - 1]["index"];
-    //var eventName  = data.datenbank.event[eventIndex].veranstaltung.name;
 
     return eventIndex;
 }
@@ -105,10 +104,10 @@ function addDDList(){
         let dddata = getEventsOfDateString(reChangeDateFormat(dd_date[dd_date.value].text));
         for (let i = 0; i < dddata.length; i++){
             if (data.datenbank.event[dddata[i]["index"]].location.gaststaette == dd_data[dd_data.value].text){
-            let opt = document.createElement("option");
-            opt.value = dddata[i]["index"];
-            opt.innerHTML=dddata[i]["name"];
-            dd_event.add(opt);
+                let opt = document.createElement("option");
+                opt.value = dddata[i]["index"];
+                opt.innerHTML=dddata[i]["name"];
+                dd_event.add(opt);
             }
         }
     }
@@ -194,5 +193,5 @@ document.addEventListener("DOMContentLoaded", function () {
     overview.innerHTML = "Die Datenbank hat insgesamt <strong>" + (data.datenbank.event.length - 1) + "</strong> Einträge von <strong>" + getNameOfClubs().length + "</strong> Clubs." +
         "<br>Der durchschnittliche Eintrittspreis beträgt <strong>" + getAverageEntryFee() + "</strong>€." +
         "<p>Das meistbesuchte Event ist <strong>" + data.datenbank.event[getMaxVisitedEvent()].veranstaltung.name + "</strong> im <strong>" + data.datenbank.event[getMaxVisitedEvent()].location.gaststaette + "</strong></p>";
-        addDDList();
+    addDDList();
 });

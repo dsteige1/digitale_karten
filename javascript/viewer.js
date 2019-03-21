@@ -217,7 +217,6 @@ function drawCanvas() {
                 point[i].location.lat,
                 point[i].veranstaltung.name,
                 point[i].veranstaltung.teilnehmerzahl.teilgenommen);
-            //sliderDate = new Date(point[i].veranstaltung.daten.datum);
         }
 
         slider.onclick = function () {

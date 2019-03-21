@@ -17,7 +17,6 @@ require([
         Map,
         SceneView,
         GraphicsLayer,
-        //Graphic,      //disable for outer drawPoint()
         GraphicClass, //enable for outer drawPoint()
         Point){
 
@@ -25,7 +24,6 @@ require([
 
         map = new Map({
             basemap: "dark-gray",
-            //layers: [housingLayer]
         });
 
         view = new SceneView({
@@ -68,7 +66,6 @@ function drawPoint(x,y,n,w)
 
     var popupTemplate = {
         title: n,
-        //content: "I am a <strong>{Type}</strong> in the city of <strong>{City}</strong>."
     };
 
     graphic = new Graphic({
@@ -79,16 +76,11 @@ function drawPoint(x,y,n,w)
     });
 
     MarkerLayer.graphics.add(graphic);      //Adds graphics (markers) to Layer
-    //MarkerLayer.add(graphic);
-
-    //view.graphics.add(graphic);           //Would add graphics directly to the view (we don't want that)
-
 }
 
 function clearGraphics() {
 
     MarkerLayer.removeAll();                //Removes all graphics from Layer
-    //console.log("MarkerLayer cleared.");
 }
 
 function getClubs(){
