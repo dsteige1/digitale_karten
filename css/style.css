@@ -106,7 +106,7 @@ img {
 }
 
 #infoboxColor{
-    top: 320px;
+    top: 300px;
     right: 20px;
     position: absolute;
     width: 200px;
@@ -147,6 +147,29 @@ img {
 }
 
 #legende:hover{
+    opacity: 0.8;
+    box-shadow: 5px 10px #888888;
+}
+
+#legendePrice{
+    bottom: 10px;
+    left: 10px;
+    position: absolute;
+    width: 200px;
+    max-height: 350px;
+    overflow: auto;
+    z-index: 99;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    opacity: 0.5;
+    font-size: 10pt;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    transition: box-shadow .5s;
+}
+
+#legendePrice:hover{
     opacity: 0.8;
     box-shadow: 5px 10px #888888;
 }
@@ -325,6 +348,7 @@ a:-webkit-any-link {
     background: #d3d3d3;
     outline: none;
     opacity: 0.7;
+
     -webkit-transition: .2s;
     transition: opacity .2s;
 }
@@ -464,14 +488,36 @@ canvas {
 }
 #canvas {
     margin: 10px;
+    z-index: 11 !important;
+}
+
+#bla {
+    position: absolute;
+    z-index: 99;
+    background-color: white;
+    bottom: 10px;
+    width: 620px;
+    opacity: 0.5;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border-radius: 5px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bla:hover{
+    opacity: 0.8;
 }
 
 .canvas_slider_viewOn {
     position: absolute;
     z-index: 10 !important;
     background-color: #ec4637 !important;
-    bottom:0;
+    bottom: 0;    
 }
+
 
 .selects{
     background: white;
@@ -488,7 +534,7 @@ canvas {
 }
 
 #legendeColor1{
-    bottom: 110px;
+    bottom: 115px;
     left: 0px;
     position: absolute;
     width: 200px;
@@ -511,7 +557,7 @@ canvas {
 }
 
 #legendeColor2{
-    bottom: 110px;
+    bottom: 115px;
     left: 0px;
     position: absolute;
     width: 200px;

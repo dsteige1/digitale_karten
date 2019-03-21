@@ -30,17 +30,9 @@ require([
 
         view = new SceneView({
             container: "viewDiv",
-            //center: [6.916664, 50.950237],
-            //zoom: 15,
+            center: [6.916664, 50.950237],
+            zoom: 15,
             map: map
-        });
-
-        view.when(function(){
-            view.goTo({
-                center: [6.916664,50.950237],
-                zoom: 15,
-                tilt: 0
-            })
         });
 
         MarkerLayer = new GraphicsLayer();   //Create Layer

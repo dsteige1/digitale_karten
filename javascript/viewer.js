@@ -1,3 +1,5 @@
+let dateBox = document.getElementById("dateBoxPrice");
+
 function drawSomething() {
     for (let i = 0; i < events.length; i++) {
         drawPoint(events[i].location.long,
@@ -211,15 +213,12 @@ function drawCanvas() {
         clearGraphics();
         let point = getEventsOfDay(day);
         for (let i = 0; i < point.length; i++) {
-            //console.log(point[i].longitude);
             drawPoint(point[i].location.long,
                 point[i].location.lat,
                 point[i].veranstaltung.name,
                 point[i].veranstaltung.teilnehmerzahl.teilgenommen);
-
             //sliderDate = new Date(point[i].veranstaltung.daten.datum);
         }
-
 
         slider.onclick = function () {
             txt = "";
