@@ -12,17 +12,6 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="../css/style.css">
-	<style>
-		p {
-			color: #ffffff;
-		}
-		.container {
-			margin:  0 10px 0 10px;
-		}
-
-	</style>
-
-
 </head>
 <body>
 <div>
@@ -52,8 +41,9 @@
 		</li>
 	</ul>
 </nav>
-<div class="container">
-<main role="main">
+<div class="container-fluid">
+<div class="jumbotron">
+	<br>
 	<p>Herzlich Willkommen,</p>
 
 	<p>dieses Geoinformationssystem (GIS) wurde im Rahmen des Aufbaumoduls 2 des Instituts für Digital Humanities der Universität zu Köln erstellt.</p>
@@ -61,21 +51,21 @@
 
 	<p>Ziel dieses Projektes ist die Darstellung von Zeit innerhalb von Geoinformationssystemen.
 		Mittels eines Trial and Error Verfahrens wurden sukzessiv vier unterschiedliche Darstellungen entwickelt.
-		Als Grundlage fungiert das Thema "Besucheraufkommen der Gaststätten in Ehrenfeld".
+		Grundlage ist das Thema "Besucheraufkommen der Gaststätten in Ehrenfeld".
 		Dafür wurden die Daten der Freitage und Samstage des gesamten Jahres von vier Gaststätten gesammelt: Heinz Gaul, Club Bahnhof Ehrenfeld, Artheater und Helios 37.
 		Die Datenbank wurde selbstständig erstellt. Die Daten entstammen den zugehörigen Facebook-Veranstaltungen und sind somit nicht akkurat.
 	</p>
 
 	<p>Das GIS wurde mit JavaScript und der ArcGIS-API realisiert. Für das Layout wurde Bootstrap verwendet.</p>
 
-	<p>Für die <a href="balken.html">Balkendarstellung</a> wurde ein Slider erstellt, der die Anzahl der Veranstaltungen (Y-Achse) des jeweiligen Tages (X-Achse) plottet. Mit einem Hover über den Slider werden die Veranstaltungen eingezeichnet.</p>
-	<p>Die <a href="timer.html">Animation</a> zeichnet die einzelnen Veranstaltungen des jeweiligen Tages in regelmäßigem Abstand. Mit einem Regler kann die Geschwindigkeit verändert werden.</p>
-	<p>In der <a href="graph.html">Graphdarstellung</a> wird ebenfalls ein Slider verwendet, doch dieses Mal wurde ein Liniendiagramm erstellt, der den durchschnittlichen Eintrittspreis des Tages in Bezug zur Zeit zeichnet.</p>
-	<p>In unserer <a href="color.html">Farbdarstellung</a> steuern verschiedene Ausprägungen die Intensität der Farben der Punkte auf der Karte. Hier kann man wählen, ob die Anzahl der Teilnehmenden oder der durchschnittliche Eintrittspreis des Tages visualisiert werden soll.</p>
+	<p>Für die <a href="balken.html"><u>Balkendarstellung</u></a> wurde ein Slider erstellt, der die Anzahl der Veranstaltungen (Y-Achse) des jeweiligen Tages (X-Achse) plottet. Mit einem Hover über den Slider werden die Veranstaltungen eingezeichnet.</p>
+	<p>Die <a href="timer.html"><u>Animation</u></a> zeichnet die einzelnen Veranstaltungen des jeweiligen Tages in regelmäßigem Abstand. Mit einem Regler kann die Geschwindigkeit verändert werden.</p>
+	<p>In der <a href="graph.html"><u>Graphdarstellung</u></a> wird ebenfalls ein Slider verwendet, doch dieses Mal wurde ein Liniendiagramm erstellt, der den durchschnittlichen Eintrittspreis des Tages in Bezug zur Zeit zeichnet.</p>
+	<p>In unserer <a href="color.html"><u>Farbdarstellung</u></a> steuern verschiedene Ausprägungen die Intensität der Farben der Punkte auf der Karte. Hier kann man wählen, ob die Anzahl der Teilnehmenden oder der durchschnittliche Eintrittspreis des Tages visualisiert werden soll.</p>
 
 
 	<p>© David Steiger, Alexandra Petersen und Ibrahim Tuna</p>
-	<main>
+</div>
 </div>
 
 </body>

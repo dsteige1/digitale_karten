@@ -77,22 +77,22 @@ function drawPoint(x, y, n, w) {
     if (paxRadio.checked) {
         switch (true) {
             case (w >= 0 && w <= 100):
-                dataColor = [243, 216, 216];
+                dataColor = [243, 216, 216, 0.8];
                 break;
             case (w > 100 && w <= 200):
-                dataColor = [225, 157, 157];
+                dataColor = [225, 157, 157, 0.8];
                 break;
             case (w > 200 && w <= 500):
-                dataColor = [207, 99, 99];
+                dataColor = [207, 99, 99, 0.8];
                 break;
             case (w > 500 && w <= 1000):
-                dataColor = [176, 54, 54];
+                dataColor = [176, 54, 54, 0.8];
                 break;
             case (w > 1000 && w <= 5000):
-                dataColor = [117, 36, 36];
+                dataColor = [117, 36, 36, 0.8];
                 break;
             case ( w > 5000):
-                dataColor = [78, 24, 24];
+                dataColor = [78, 24, 24, 0.8];
                 break;
         }
     }
@@ -101,22 +101,22 @@ function drawPoint(x, y, n, w) {
         switch (true) {
 
             case (w == 0):
-                dataColor = [255, 255, 255];
+                dataColor = [255, 255, 255,0.8];
                 break;
             case (w > 0 && w <= 5):
-                dataColor = [217, 242, 229];
+                dataColor = [217, 242, 229,0.8];
                 break;
             case (w > 5 && w <= 10):
-                dataColor = [102, 204, 153];
+                dataColor = [102, 204, 153,0.8];
                 break;
             case (w > 10 && w <= 15):
-                dataColor = [42, 137, 86];
+                dataColor = [42, 137, 86,0.8];
                 break;
             case (w > 15 && w <= 20):
-                dataColor = [24, 78, 48];
+                dataColor = [24, 78, 48,0.8];
                 break;
             case (w > 20):
-                dataColor = [12, 39, 24];
+                dataColor = [12, 39, 24,0.8];
                 break;
         }
     }
