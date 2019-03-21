@@ -522,7 +522,7 @@ canvas {
 }
 
 .selects:hover{
-    box-shadow: 0 0 15px #d3d3d3;
+    box-shadow: 0 0 15px black;
 }
 
 #legendeColor1{
